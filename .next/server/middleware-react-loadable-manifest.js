@@ -1,0 +1,1 @@
+self.__REACT_LOADABLE_MANIFEST='{"pages\\\\about.js -> ../src/components/Counter":{"id":3579,"files":["static/chunks/579.3c7bd092cf543581.js"]},"pages\\\\index.js -> ../src/components/Counter":{"id":3579,"files":["static/chunks/579.3c7bd092cf543581.js"]}}';
