@@ -72,19 +72,19 @@ const PortfolioMasonry = () => {
                   <div className="overly-text">
                     <h3>
                       <Link href="/portfolio-details">
-                        <a>Marketing Planning</a>
+                        <div>Marketing Planning</div>
                       </Link>
                     </h3>
                     <p>Digital business consulting Agency</p>
                   </div>
                   <div className="overly-btn">
                     <Link href="/portfolio-details">
-                      <a>
+                      <div>
                         <i
                           className="fa fa-angle-double-right"
                           aria-hidden="true"
                         />
-                      </a>
+                      </div>
                     </Link>
                   </div>
                 </div>
@@ -102,19 +102,19 @@ const PortfolioMasonry = () => {
                   <div className="overly-text">
                     <h3>
                       <Link href="/portfolio-details">
-                        <a> Program Management</a>
+                        <div> Program Management</div>
                       </Link>
                     </h3>
                     <p>Digital business consulting Agency</p>
                   </div>
                   <div className="overly-btn">
                     <Link href="/portfolio-details">
-                      <a>
+                      <div>
                         <i
                           className="fa fa-angle-double-right"
                           aria-hidden="true"
                         />
-                      </a>
+                      </div>
                     </Link>
                   </div>
                 </div>
@@ -132,19 +132,19 @@ const PortfolioMasonry = () => {
                   <div className="overly-text">
                     <h3>
                       <Link href="/portfolio-details">
-                        <a>IT Management</a>
+                        <div>IT Management</div>
                       </Link>
                     </h3>
                     <p>Digital business consulting Agency</p>
                   </div>
                   <div className="overly-btn">
                     <Link href="/portfolio-details">
-                      <a>
+                      <div>
                         <i
                           className="fa fa-angle-double-right"
                           aria-hidden="true"
                         />
-                      </a>
+                      </div>
                     </Link>
                   </div>
                 </div>
@@ -162,19 +162,19 @@ const PortfolioMasonry = () => {
                   <div className="overly-text">
                     <h3>
                       <Link href="/portfolio-details">
-                        <a>IT Management</a>
+                        <div>IT Management</div>
                       </Link>
                     </h3>
                     <p>Digital business consulting Agency</p>
                   </div>
                   <div className="overly-btn">
                     <Link href="/portfolio-details">
-                      <a>
+                      <div>
                         <i
                           className="fa fa-angle-double-right"
                           aria-hidden="true"
                         />
-                      </a>
+                      </div>
                     </Link>
                   </div>
                 </div>
@@ -192,19 +192,19 @@ const PortfolioMasonry = () => {
                   <div className="overly-text">
                     <h3>
                       <Link href="/portfolio-details">
-                        <a>IT Management</a>
+                        <div>IT Management</div>
                       </Link>
                     </h3>
                     <p>Digital business consulting Agency</p>
                   </div>
                   <div className="overly-btn">
                     <Link href="/portfolio-details">
-                      <a>
+                      <div>
                         <i
                           className="fa fa-angle-double-right"
                           aria-hidden="true"
                         />
-                      </a>
+                      </div>
                     </Link>
                   </div>
                 </div>
@@ -222,19 +222,19 @@ const PortfolioMasonry = () => {
                   <div className="overly-text">
                     <h3>
                       <Link href="/portfolio-details">
-                        <a>IT Management</a>
+                        <div>IT Management</div>
                       </Link>
                     </h3>
                     <p>Digital business consulting Agency</p>
                   </div>
                   <div className="overly-btn">
                     <Link href="/portfolio-details">
-                      <a>
+                      <div>
                         <i
                           className="fa fa-angle-double-right"
                           aria-hidden="true"
                         />
-                      </a>
+                      </div>
                     </Link>
                   </div>
                 </div>

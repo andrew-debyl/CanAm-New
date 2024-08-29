@@ -12,9 +12,9 @@ export const HeaderStyle1 = () => {
                 <div className="left">
                   <div className="logo-box1">
                     <Link href="/">
-                      <a>
+                      <div>
                         <img src="assets/images/resources/logo6.png" alt="" />
-                      </a>
+                      </div>
                     </Link>
                   </div>
                 </div>
@@ -89,12 +89,12 @@ export const DefaultHeaderStyle = () => {
                 <div className="left">
                   <div className="logo-box3 logo-box3--style2">
                     <Link href="/">
-                      <a>
+                      <div>
                         <img
                           src="assets/images/resources/logo6.png"
                           alt="image"
                         />
-                      </a>
+                      </div>
                     </Link>
                   </div>
                   <a href="#" className="mobile-nav__toggler">

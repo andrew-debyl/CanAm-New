@@ -16,9 +16,9 @@ export const Sticky1 = () => {
                 }}
               ></div>
               <Link href="/">
-                <a>
+                <div>
                   <img src="assets/images/resources/logo6.png" alt="image" />
-                </a>
+                </div>
               </Link>
             </div>
           </div>

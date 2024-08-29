@@ -12,7 +12,7 @@ const Portfolio = () => {
   return (
     <Layout footer={2}>
       <PageBanner pageName="Portfolio Grid" />
-
+{/*Start case-studies-one Top
       <section className="case-studies-one case-studies-one--portfolio-grid">
         <div className="container">
           <div className="section-title">
@@ -27,7 +27,7 @@ const Portfolio = () => {
             </h2>
           </div>
           <div className="row">
-            {/*Start case-studies-one Top*/}
+            
             <div className="case-studies-one--portfolio-grid__top">
               <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12">
                 <div className="case-studies-one--portfolio-grid__menu-box">
@@ -57,10 +57,10 @@ const Portfolio = () => {
                 </div>
               </div>
             </div>
-            {/*End case-studies-one Top*/}
+            
           </div>
           <div className="row filter-layout masonary-layout">
-            {/*Start Case Studies One Single*/}
+            
             <div className="col-xl-4 col-lg-4 col-md-6 filter-item development finance">
               <div className="case-studies-one__single">
                 <div className="case-studies-one__single-img">
@@ -89,8 +89,8 @@ const Portfolio = () => {
                 </div>
               </div>
             </div>
-            {/*End Case Studies One Single*/}
-            {/*Start Case Studies One Single*/}
+            
+            
             <div className="col-xl-4 col-lg-4 col-md-6 filter-item business development banking">
               <div className="case-studies-one__single">
                 <div className="case-studies-one__single-img">
@@ -119,8 +119,8 @@ const Portfolio = () => {
                 </div>
               </div>
             </div>
-            {/*End Case Studies One Single*/}
-            {/*Start Case Studies One Single*/}
+            
+            
             <div className="col-xl-4 col-lg-4 col-md-6 filter-item marketing business finance">
               <div className="case-studies-one__single">
                 <div className="case-studies-one__single-img">
@@ -149,8 +149,7 @@ const Portfolio = () => {
                 </div>
               </div>
             </div>
-            {/*End Case Studies One Single*/}
-            {/*Start Case Studies One Single*/}
+            
             <div className="col-xl-4 col-lg-4 col-md-6 filter-item marketing business finance">
               <div className="case-studies-one__single">
                 <div className="case-studies-one__single-img">
@@ -179,8 +178,7 @@ const Portfolio = () => {
                 </div>
               </div>
             </div>
-            {/*End Case Studies One Single*/}
-            {/*Start Case Studies One Single*/}
+            
             <div className="col-xl-4 col-lg-4 col-md-6 filter-item marketing business finance">
               <div className="case-studies-one__single">
                 <div className="case-studies-one__single-img">
@@ -209,8 +207,7 @@ const Portfolio = () => {
                 </div>
               </div>
             </div>
-            {/*End Case Studies One Single*/}
-            {/*Start Case Studies One Single*/}
+            
             <div className="col-xl-4 col-lg-4 col-md-6 filter-item marketing business finance">
               <div className="case-studies-one__single">
                 <div className="case-studies-one__single-img">
@@ -239,12 +236,11 @@ const Portfolio = () => {
                 </div>
               </div>
             </div>
-            {/*End Case Studies One Single*/}
+            
           </div>
         </div>
       </section>
-      {/*Case Studies One End*/}
-      {/*Partner One Start*/}
+      
       <section className="partner-one partner-one--services">
         <div className="container">
           <div className="section-title text-center">
@@ -288,7 +284,7 @@ const Portfolio = () => {
                   <h2>Team</h2>
                 </div>
                 <div className="row">
-                  {/*Start Single Team One*/}
+                  
                   <div
                     className="col-xl-3 col-lg-3 col-md-6 wow fadeInUp animated animated"
                     data-wow-delay="00ms"
@@ -361,8 +357,7 @@ const Portfolio = () => {
                       </div>
                     </div>
                   </div>
-                  {/*End Single Team One*/}
-                  {/*Start Single Team One*/}
+                  
                   <div
                     className="col-xl-3 col-lg-3 col-md-6 wow fadeInUp animated animated"
                     data-wow-delay="200ms"
@@ -439,8 +434,7 @@ const Portfolio = () => {
                       </div>
                     </div>
                   </div>
-                  {/*End Single Team One*/}
-                  {/*Start Single Team One*/}
+                 
                   <div
                     className="col-xl-3 col-lg-3 col-md-6 wow fadeInUp animated animated"
                     data-wow-delay="400ms"
@@ -517,8 +511,7 @@ const Portfolio = () => {
                       </div>
                     </div>
                   </div>
-                  {/*End Single Team One*/}
-                  {/*Start Single Team One*/}
+                  
                   <div
                     className="col-xl-3 col-lg-3 col-md-6 wow fadeInUp animated animated"
                     data-wow-delay="600ms"
@@ -595,8 +588,7 @@ const Portfolio = () => {
                       </div>
                     </div>
                   </div>
-                  {/*End Single Team One*/}
-                  {/*Start Single Team One*/}
+                  
                   <div
                     className="col-xl-3 col-lg-3 col-md-6 wow fadeInUp animated animated"
                     data-wow-delay="00ms"
@@ -669,8 +661,7 @@ const Portfolio = () => {
                       </div>
                     </div>
                   </div>
-                  {/*End Single Team One*/}
-                  {/*Start Single Team One*/}
+                  
                   <div
                     className="col-xl-3 col-lg-3 col-md-6 wow fadeInUp animated animated"
                     data-wow-delay="200ms"
@@ -743,8 +734,7 @@ const Portfolio = () => {
                       </div>
                     </div>
                   </div>
-                  {/*End Single Team One*/}
-                  {/*Start Single Team One*/}
+                 
                   <div
                     className="col-xl-3 col-lg-3 col-md-6 wow fadeInUp animated animated"
                     data-wow-delay="400ms"
@@ -817,8 +807,7 @@ const Portfolio = () => {
                       </div>
                     </div>
                   </div>
-                  {/*End Single Team One*/}
-                  {/*Start Single Team One*/}
+                  
                   <div
                     className="col-xl-3 col-lg-3 col-md-6 wow fadeInUp animated animated"
                     data-wow-delay="600ms"
@@ -891,7 +880,7 @@ const Portfolio = () => {
                       </div>
                     </div>
                   </div>
-                  {/*End Single Team One*/}
+                  
                   <div className="team-one__button team-one__button-team">
                     <a href="#" className="thm-btn">
                       View All Member{" "}
@@ -906,7 +895,7 @@ const Portfolio = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section>*/}
     </Layout>
   );
 };

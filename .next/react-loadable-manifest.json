@@ -1,14 +1,8 @@
 {
-  "pages\\about.js -> ../src/components/Counter": {
-    "id": 3579,
-    "files": [
-      "static/chunks/579.3c7bd092cf543581.js"
-    ]
-  },
   "pages\\index.js -> ../src/components/Counter": {
-    "id": 3579,
+    "id": "pages\\index.js -> ../src/components/Counter",
     "files": [
-      "static/chunks/579.3c7bd092cf543581.js"
+      "static/chunks/src_components_Counter_js.js"
     ]
   }
 }

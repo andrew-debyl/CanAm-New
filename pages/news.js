@@ -20,20 +20,20 @@ const News = () => {
                   <img src="assets/images/blog/blog-v1-img1.jpg" alt="image" />
                   <div className="overlay-icon">
                     <Link href="/news-details">
-                      <a>
+                      <div>
                         <span className="icon-plus" />
-                      </a>
+                      </div>
                     </Link>
                   </div>
                 </div>
                 <div className="blog-one__single-text-box">
                   <h3 className="blog-one__single-title">
                     <Link href="/news-details">
-                      <a>
+                      <div>
                         Evolving Program Manage
                         <br />
                         Office For Modern
-                      </a>
+                      </div>
                     </Link>
                   </h3>
                   <p className="blog-one__single-text">
@@ -64,20 +64,20 @@ const News = () => {
                   <img src="assets/images/blog/blog-v1-img2.jpg" alt="image" />
                   <div className="overlay-icon">
                     <Link href="/news-details">
-                      <a>
+                      <div>
                         <span className="icon-plus" />
-                      </a>
+                      </div>
                     </Link>
                   </div>
                 </div>
                 <div className="blog-one__single-text-box">
                   <h3 className="blog-one__single-title">
                     <Link href="/news-details">
-                      <a>
+                      <div>
                         Design Decision With Bea
                         <br />
                         Feitler Unstoppable{" "}
-                      </a>
+                      </div>
                     </Link>
                   </h3>
                   <p className="blog-one__single-text">
@@ -108,20 +108,20 @@ const News = () => {
                   <img src="assets/images/blog/blog-v1-img3.jpg" alt="image" />
                   <div className="overlay-icon">
                     <Link href="/news-details">
-                      <a>
+                      <div>
                         <span className="icon-plus" />
-                      </a>
+                      </div>
                     </Link>
                   </div>
                 </div>
                 <div className="blog-one__single-text-box">
                   <h3 className="blog-one__single-title">
                     <Link href="/news-details">
-                      <a>
+                      <div>
                         Pain-Free Workflow Issue
                         <br />
                         Reporting Resolution
-                      </a>
+                      </div>
                     </Link>
                   </h3>
                   <p className="blog-one__single-text">
@@ -152,20 +152,20 @@ const News = () => {
                   <img src="assets/images/blog/blog-v1-img4.jpg" alt="image" />
                   <div className="overlay-icon">
                     <Link href="/news-details">
-                      <a>
+                      <div>
                         <span className="icon-plus" />
-                      </a>
+                      </div>
                     </Link>
                   </div>
                 </div>
                 <div className="blog-one__single-text-box">
                   <h3 className="blog-one__single-title">
                     <Link href="/news-details">
-                      <a>
+                      <div>
                         Data Onboarding Chall
                         <br />
                         For Software Products
-                      </a>
+                      </div>
                     </Link>
                   </h3>
                   <p className="blog-one__single-text">
@@ -196,20 +196,20 @@ const News = () => {
                   <img src="assets/images/blog/blog-v1-img5.jpg" alt="image" />
                   <div className="overlay-icon">
                     <Link href="/news-details">
-                      <a>
+                      <div>
                         <span className="icon-plus" />
-                      </a>
+                      </div>
                     </Link>
                   </div>
                 </div>
                 <div className="blog-one__single-text-box">
                   <h3 className="blog-one__single-title">
                     <Link href="/news-details">
-                      <a>
+                      <div>
                         We Google Analytics Helps
                         <br />
                         Developers Design
-                      </a>
+                      </div>
                     </Link>
                   </h3>
                   <p className="blog-one__single-text">
@@ -240,20 +240,20 @@ const News = () => {
                   <img src="assets/images/blog/blog-v1-img6.jpg" alt="image" />
                   <div className="overlay-icon">
                     <Link href="/news-details">
-                      <a>
+                      <div>
                         <span className="icon-plus" />
-                      </a>
+                      </div>
                     </Link>
                   </div>
                 </div>
                 <div className="blog-one__single-text-box">
                   <h3 className="blog-one__single-title">
                     <Link href="/news-details">
-                      <a>
+                      <div>
                         Information And Inform
                         <br />
                         Architecture Picture
-                      </a>
+                      </div>
                     </Link>
                   </h3>
                   <p className="blog-one__single-text">
@@ -284,19 +284,19 @@ const News = () => {
                   <img src="assets/images/blog/blog-v1-img7.jpg" alt="image" />
                   <div className="overlay-icon">
                     <Link href="/news-details">
-                      <a>
+                      <div>
                         <span className="icon-plus" />
-                      </a>
+                      </div>
                     </Link>
                   </div>
                 </div>
                 <div className="blog-one__single-text-box">
                   <h3 className="blog-one__single-title">
                     <Link href="/news-details">
-                      <a>
+                      <div>
                         Designers Can Help Restaur <br />
                         Move Into Experiences
-                      </a>
+                      </div>
                     </Link>
                   </h3>
                   <p className="blog-one__single-text">
@@ -327,20 +327,20 @@ const News = () => {
                   <img src="assets/images/blog/blog-v1-img8.jpg" alt="image" />
                   <div className="overlay-icon">
                     <Link href="/news-details">
-                      <a>
+                      <div>
                         <span className="icon-plus" />
-                      </a>
+                      </div>
                     </Link>
                   </div>
                 </div>
                 <div className="blog-one__single-text-box">
                   <h3 className="blog-one__single-title">
                     <Link href="/news-details">
-                      <a>
+                      <div>
                         Right Kind Research Study
                         <br />
                         With Diamond Model
-                      </a>
+                      </div>
                     </Link>
                   </h3>
                   <p className="blog-one__single-text">
@@ -371,20 +371,20 @@ const News = () => {
                   <img src="assets/images/blog/blog-v1-img9.jpg" alt="image" />
                   <div className="overlay-icon">
                     <Link href="/news-details">
-                      <a>
+                      <div>
                         <span className="icon-plus" />
-                      </a>
+                      </div>
                     </Link>
                   </div>
                 </div>
                 <div className="blog-one__single-text-box">
                   <h3 className="blog-one__single-title">
                     <Link href="/news-details">
-                      <a>
+                      <div>
                         Pain-Free Workflow Issue
                         <br />
                         Reporting Resolution
-                      </a>
+                      </div>
                     </Link>
                   </h3>
                   <p className="blog-one__single-text">

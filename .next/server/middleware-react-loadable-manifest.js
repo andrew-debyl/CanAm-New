@@ -1,1 +1,1 @@
-self.__REACT_LOADABLE_MANIFEST='{"pages\\\\about.js -> ../src/components/Counter":{"id":3579,"files":["static/chunks/579.3c7bd092cf543581.js"]},"pages\\\\index.js -> ../src/components/Counter":{"id":3579,"files":["static/chunks/579.3c7bd092cf543581.js"]}}';
+self.__REACT_LOADABLE_MANIFEST="{\"pages\\\\index.js -> ../src/components/Counter\":{\"id\":\"pages\\\\index.js -> ../src/components/Counter\",\"files\":[\"static/chunks/src_components_Counter_js.js\"]}}"

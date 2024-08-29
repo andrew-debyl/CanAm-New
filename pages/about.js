@@ -192,13 +192,13 @@ const About = () => {
                   </div>
                   <div className="counter-three__bottom-btn">
                     <Link href="/contact#section1">
-                      <a className="thm-btn">
+                      <div className="thm-btn">
                         Talk to our Team&nbsp;
                         <i
                           className="fa fa-angle-double-right"
                           aria-hidden="true"
                         />
-                      </a>
+                      </div>
                     </Link>
                   </div>
                 </div>

@@ -51,13 +51,13 @@ const Index = () => {
                     data-wow-duration="1500ms"
                   >
                     <Link href="/about">
-                      <a className="thm-btn">
+                      <div className="thm-btn">
                         Find Out More&nbsp;
                         <i
                           className="fa fa-angle-double-right"
                           aria-hidden="true"
                         />
-                      </a>
+                      </div>
                     </Link>
                   </div>
                 </div>
@@ -211,13 +211,13 @@ const Index = () => {
                   </div>
                   <div className="about-one__btn">
                     <Link href="/about">
-                      <a className="thm-btn">
+                      <div className="thm-btn">
                         Learn More{" "}
                         <i
                           className="fa fa-angle-double-right"
                           aria-hidden="true"
                         />
-                      </a>
+                      </div>
                     </Link>
                   </div>
                 </div>
@@ -286,17 +286,17 @@ const Index = () => {
                         <div className="title-holder">
                           <h3>
                             <Link href="/services-details">
-                              <a>Business Consulting</a>
+                              <div>Business Consulting</div>
                             </Link>
                           </h3>
                           <div className="btn">
                             <Link href="/services-details">
-                              <a>
+                              <div>
                                 <i
                                   className="fa fa-angle-double-right"
                                   aria-hidden="true"
                                 />
-                              </a>
+                              </div>
                             </Link>
                           </div>
                         </div>
@@ -304,7 +304,7 @@ const Index = () => {
                           <div className="title">
                             <h3>
                               <Link href="/services-details">
-                                <a>Business Consulting</a>
+                                <div>Business Consulting</div>
                               </Link>
                             </h3>
                             <p>
@@ -314,12 +314,12 @@ const Index = () => {
                             </p>
                             <div className="btn">
                               <Link href="/services-details">
-                                <a>
+                                <div>
                                   <i
                                     className="fa fa-angle-double-right"
                                     aria-hidden="true"
                                   />
-                                </a>
+                                </div>
                               </Link>
                             </div>
                           </div>
@@ -347,17 +347,17 @@ const Index = () => {
                         <div className="title-holder">
                           <h3>
                             <Link href="/services-details">
-                              <a>Technology Services</a>
+                              <div>Technology Services</div>
                             </Link>
                           </h3>
                           <div className="btn">
                             <Link href="/services-details">
-                              <a>
+                              <div>
                                 <i
                                   className="fa fa-angle-double-right"
                                   aria-hidden="true"
                                 />
-                              </a>
+                              </div>
                             </Link>
                           </div>
                         </div>
@@ -375,12 +375,12 @@ const Index = () => {
                             </p>
                             <div className="btn">
                               <Link href="/services-details">
-                                <a>
+                                <div>
                                   <i
                                     className="fa fa-angle-double-right"
                                     aria-hidden="true"
                                   />
-                                </a>
+                                </div>
                               </Link>
                             </div>
                           </div>
@@ -413,12 +413,12 @@ const Index = () => {
                           </h3>
                           <div className="btn">
                             <Link href="/services-details">
-                              <a>
+                              <div>
                                 <i
                                   className="fa fa-angle-double-right"
                                   aria-hidden="true"
                                 />
-                              </a>
+                              </div>
                             </Link>
                           </div>
                         </div>
@@ -436,12 +436,12 @@ const Index = () => {
                             </p>
                             <div className="btn">
                               <Link href="/services-details">
-                                <a>
+                                <div>
                                   <i
                                     className="fa fa-angle-double-right"
                                     aria-hidden="true"
                                   />
-                                </a>
+                                </div>
                               </Link>
                             </div>
                           </div>
@@ -474,12 +474,12 @@ const Index = () => {
                           </h3>
                           <div className="btn">
                             <Link href="/services-details">
-                              <a>
+                              <div>
                                 <i
                                   className="fa fa-angle-double-right"
                                   aria-hidden="true"
                                 />
-                              </a>
+                              </div>
                             </Link>
                           </div>
                         </div>
@@ -497,12 +497,12 @@ const Index = () => {
                             </p>
                             <div className="btn">
                               <Link href="/services-details">
-                                <a>
+                                <div>
                                   <i
                                     className="fa fa-angle-double-right"
                                     aria-hidden="true"
                                   />
-                                </a>
+                                </div>
                               </Link>
                             </div>
                           </div>
@@ -625,13 +625,13 @@ const Index = () => {
                       </h2>
                       <div className="button">
                         <Link href="/company-history">
-                          <a className="thm-btn company-chievement-btn">
+                          <div className="thm-btn company-chievement-btn">
                             Read More
                             <i
                               className="fa fa-angle-double-right"
                               aria-hidden="true"
                             />
-                          </a>
+                          </div>
                         </Link>
                       </div>
                     </div>
@@ -742,13 +742,13 @@ const Index = () => {
                         </ul>
                         <div className="buttons">
                           <Link href="/services-details">
-                            <a className="thm-btn service-one-btn">
+                            <div className="thm-btn service-one-btn">
                               Read More
                               <i
                                 className="fa fa-angle-double-right"
                                 aria-hidden="true"
                               />
-                            </a>
+                            </div>
                           </Link>
                         </div>
                       </div>
@@ -807,13 +807,13 @@ const Index = () => {
                         </ul>
                         <div className="buttons">
                           <Link href="/services-details">
-                            <a className="thm-btn service-one-btn">
+                            <div className="thm-btn service-one-btn">
                               Read More
                               <i
                                 className="fa fa-angle-double-right"
                                 aria-hidden="true"
                               />
-                            </a>
+                            </div>
                           </Link>
                         </div>
                       </div>
@@ -872,13 +872,13 @@ const Index = () => {
                         </ul>
                         <div className="buttons">
                           <Link href="/services-details">
-                            <a className="thm-btn service-one-btn">
+                            <div className="thm-btn service-one-btn">
                               Read More
                               <i
                                 className="fa fa-angle-double-right"
                                 aria-hidden="true"
                               />
-                            </a>
+                            </div>
                           </Link>
                         </div>
                       </div>
@@ -937,13 +937,13 @@ const Index = () => {
                         </ul>
                         <div className="buttons">
                           <Link href="/services-details">
-                            <a className="thm-btn service-one-btn">
+                            <div className="thm-btn service-one-btn">
                               Read More
                               <i
                                 className="fa fa-angle-double-right"
                                 aria-hidden="true"
                               />
-                            </a>
+                            </div>
                           </Link>
                         </div>
                       </div>
@@ -984,13 +984,13 @@ const Index = () => {
                 </div>
                 <div className="cta-one__btn-box text-center">
                   <Link href="/contact">
-                    <a className="thm-btn">
+                    <div className="thm-btn">
                       Get Free Quote{" "}
                       <i
                         className="fa fa-angle-double-right"
                         aria-hidden="true"
                       />
-                    </a>
+                    </div>
                   </Link>
                 </div>
               </div>
@@ -1033,20 +1033,20 @@ const Index = () => {
                   <img src="assets/images/blog/blog-v1-img1.jpg" alt="image" />
                   <div className="overlay-icon">
                     <Link href="/news-details">
-                      <a>
+                      <div>
                         <span className="icon-plus" />
-                      </a>
+                      </div>
                     </Link>
                   </div>
                 </div>
                 <div className="blog-one__single-text-box">
                   <h3 className="blog-one__single-title">
                     <Link href="/news-details">
-                      <a>
+                      <div>
                         Evolving Program Manage
                         <br />
                         Office For Modern
-                      </a>
+                      </div>
                     </Link>
                   </h3>
                   <p className="blog-one__single-text">
@@ -1077,20 +1077,20 @@ const Index = () => {
                   <img src="assets/images/blog/blog-v1-img2.jpg" alt="image" />
                   <div className="overlay-icon">
                     <Link href="/news-details">
-                      <a>
+                      <div>
                         <span className="icon-plus" />
-                      </a>
+                      </div>
                     </Link>
                   </div>
                 </div>
                 <div className="blog-one__single-text-box">
                   <h3 className="blog-one__single-title">
                     <Link href="/news-details">
-                      <a>
+                      <div>
                         Design Decision With Bea
                         <br />
                         Feitler Unstoppable{" "}
-                      </a>
+                      </div>
                     </Link>
                   </h3>
                   <p className="blog-one__single-text">
@@ -1121,20 +1121,20 @@ const Index = () => {
                   <img src="assets/images/blog/blog-v1-img3.jpg" alt="image" />
                   <div className="overlay-icon">
                     <Link href="/news-details">
-                      <a>
+                      <div>
                         <span className="icon-plus" />
-                      </a>
+                      </div>
                     </Link>
                   </div>
                 </div>
                 <div className="blog-one__single-text-box">
                   <h3 className="blog-one__single-title">
                     <Link href="/news-details">
-                      <a>
+                      <div>
                         Pain-Free Workflow Issue
                         <br />
                         Reporting Resolution
-                      </a>
+                      </div>
                     </Link>
                   </h3>
                   <p className="blog-one__single-text">
@@ -1206,13 +1206,13 @@ const Index = () => {
                     </h2>
                     <div className="button">
                       <Link href="/career">
-                        <a className="thm-btn info-one__btn">
+                        <div className="thm-btn info-one__btn">
                           Join Now
                           <i
                             className="fa fa-angle-double-right"
                             aria-hidden="true"
                           />
-                        </a>
+                        </div>
                       </Link>
                     </div>
                   </div>
@@ -1240,13 +1240,13 @@ const Index = () => {
                     </h2>
                     <div className="button">
                       <Link href="/contact">
-                        <a className="thm-btn info-one__btn">
+                        <div className="thm-btn info-one__btn">
                           Get A Quote
                           <i
                             className="fa fa-angle-double-right"
                             aria-hidden="true"
                           />
-                        </a>
+                        </div>
                       </Link>
                     </div>
                   </div>
@@ -1274,13 +1274,13 @@ const Index = () => {
                     </h2>
                     <div className="button">
                       <Link href="/career">
-                        <a className="thm-btn info-one__btn">
+                        <div className="thm-btn info-one__btn">
                           View Jobs
                           <i
                             className="fa fa-angle-double-right"
                             aria-hidden="true"
                           />
-                        </a>
+                        </div>
                       </Link>
                     </div>
                   </div>

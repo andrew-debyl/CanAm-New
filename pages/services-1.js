@@ -53,7 +53,7 @@ const Services = () => {
                   </div>
                   <h4 className="features-three__single-title">
                     <Link href="/services-details">
-                      <a>Business Process</a>
+                      <div>Business Process</div>
                     </Link>
                   </h4>
                   <p className="features-three__single-text">
@@ -62,12 +62,12 @@ const Services = () => {
                   </p>
                   <div className="features-three__single-btn">
                     <Link href="/services-details">
-                      <a>
+                      <div>
                         <i
                           className="fa fa-angle-double-right"
                           aria-hidden="true"
                         />
-                      </a>
+                      </div>
                     </Link>
                   </div>
                 </div>
@@ -102,12 +102,12 @@ const Services = () => {
                   </p>
                   <div className="features-three__single-btn">
                     <Link href="/services-details">
-                      <a>
+                      <div>
                         <i
                           className="fa fa-angle-double-right"
                           aria-hidden="true"
                         />
-                      </a>
+                      </div>
                     </Link>
                   </div>
                 </div>
@@ -142,12 +142,12 @@ const Services = () => {
                   </p>
                   <div className="features-three__single-btn">
                     <Link href="/services-details">
-                      <a>
+                      <div>
                         <i
                           className="fa fa-angle-double-right"
                           aria-hidden="true"
                         />
-                      </a>
+                      </div>
                     </Link>
                   </div>
                 </div>
@@ -182,12 +182,12 @@ const Services = () => {
                   </p>
                   <div className="features-three__single-btn">
                     <Link href="/services-details">
-                      <a>
+                      <div>
                         <i
                           className="fa fa-angle-double-right"
                           aria-hidden="true"
                         />
-                      </a>
+                      </div>
                     </Link>
                   </div>
                 </div>
@@ -222,12 +222,12 @@ const Services = () => {
                   </p>
                   <div className="features-three__single-btn">
                     <Link href="/services-details">
-                      <a>
+                      <div>
                         <i
                           className="fa fa-angle-double-right"
                           aria-hidden="true"
                         />
-                      </a>
+                      </div>
                     </Link>
                   </div>
                 </div>
@@ -262,12 +262,12 @@ const Services = () => {
                   </p>
                   <div className="features-three__single-btn">
                     <Link href="/services-details">
-                      <a>
+                      <div>
                         <i
                           className="fa fa-angle-double-right"
                           aria-hidden="true"
                         />
-                      </a>
+                      </div>
                     </Link>
                   </div>
                 </div>
@@ -302,12 +302,12 @@ const Services = () => {
                   </p>
                   <div className="features-three__single-btn">
                     <Link href="/services-details">
-                      <a>
+                      <div>
                         <i
                           className="fa fa-angle-double-right"
                           aria-hidden="true"
                         />
-                      </a>
+                      </div>
                     </Link>
                   </div>
                 </div>
@@ -342,12 +342,12 @@ const Services = () => {
                   </p>
                   <div className="features-three__single-btn">
                     <Link href="/services-details">
-                      <a>
+                      <div>
                         <i
                           className="fa fa-angle-double-right"
                           aria-hidden="true"
                         />
-                      </a>
+                      </div>
                     </Link>
                   </div>
                 </div>
@@ -386,13 +386,13 @@ const Services = () => {
                 </div>
                 <div className="cta-one__btn-box text-center">
                   <Link href="/contact">
-                    <a className="thm-btn">
+                    <div className="thm-btn">
                       Get Free Quote{" "}
                       <i
                         className="fa fa-angle-double-right"
                         aria-hidden="true"
                       />
-                    </a>
+                    </div>
                   </Link>
                   <div className="video-button">
                     <a

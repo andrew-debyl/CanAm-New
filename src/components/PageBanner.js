@@ -35,7 +35,7 @@ const PageBanner = ({ pageName }) => {
           >
             <li>
               <Link href="/">
-                <a>Home</a>
+                <div>Home</div>
               </Link>
             </li>
             <li>

@@ -10,13 +10,13 @@ const MobileMenu = () => {
         </span>
         <div className="logo-box">
           <Link href="/">
-            <a aria-label="logo image">
+            <div aria-label="logo image">
               <img
                 src="assets/images/resources/logo.png"
                 width={155}
                 alt="image"
               />
-            </a>
+            </div>
           </Link>
         </div>
         {/* /.logo-box */}
