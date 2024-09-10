@@ -1,5 +1,5 @@
 import Link from "next/dist/client/link";
-import { News, Pages, Services, Products } from "./Menu";
+import {Services, Products } from "./Menu";
 
 export const Sticky1 = () => {
   return (
@@ -43,18 +43,6 @@ export const Sticky1 = () => {
                 <a href="#">Services</a>
                 <ul>
                   <Services />
-                </ul>
-              </li>
-              <li className="dropdown">
-                <a href="#">Pages</a>
-                <ul>
-                  <Pages />
-                </ul>
-              </li>
-              <li className="dropdown">
-                <a href="#">News</a>
-                <ul>
-                  <News />
                 </ul>
               </li>
               <li>

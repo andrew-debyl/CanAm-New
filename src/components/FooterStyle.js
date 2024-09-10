@@ -259,17 +259,6 @@ export const FooterStyle2 = () => (
                   </Link>
                 </li>
                 <li>
-                  <Link href="/resources">
-                    <div>
-                      <i
-                        className="fa fa-angle-double-right"
-                        aria-hidden="true"
-                      />
-                      Resources
-                    </div>
-                  </Link>
-                </li>
-                <li>
                   <Link href="/about">
                     <div>
                       <i
@@ -277,6 +266,17 @@ export const FooterStyle2 = () => (
                         aria-hidden="true"
                       />
                       About Us
+                    </div>
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/buying-or-selling">
+                    <div>
+                      <i
+                        className="fa fa-angle-double-right"
+                        aria-hidden="true"
+                      />
+                      Buying/Selling
                     </div>
                   </Link>
                 </li>
@@ -344,17 +344,6 @@ export const FooterStyle2 = () => (
                         aria-hidden="true"
                       />
                       Technical Support
-                    </div>
-                  </Link>
-                </li>
-                <li>
-                  <Link href="/buying-or-selling">
-                    <div>
-                      <i
-                        className="fa fa-angle-double-right"
-                        aria-hidden="true"
-                      />
-                      Buying/Selling
                     </div>
                   </Link>
                 </li>

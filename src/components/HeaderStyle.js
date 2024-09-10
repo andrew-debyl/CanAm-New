@@ -1,5 +1,5 @@
 import Link from "next/dist/client/link";
-import { Contact, News, Pages, Services, Products } from "./Menu";
+import { Contact, Services, Products } from "./Menu";
 
 export const HeaderStyle1 = () => {
   return (
@@ -39,18 +39,6 @@ export const HeaderStyle1 = () => {
                       <a href="#">Services</a>
                       <ul>
                         <Services />
-                      </ul>
-                    </li>
-                    <li className="dropdown">
-                      <a href="#">Pages</a>
-                      <ul>
-                        <Pages />
-                      </ul>
-                    </li>
-                    <li className="dropdown">
-                      <a href="#">News</a>
-                      <ul>
-                        <News />
                       </ul>
                     </li>
                     <Contact />
@@ -117,18 +105,6 @@ export const DefaultHeaderStyle = () => {
                       <a href="#">Services</a>
                       <ul>
                         <Services />
-                      </ul>
-                    </li>
-                    <li className="dropdown">
-                      <a href="#">Pages</a>
-                      <ul>
-                        <Pages />
-                      </ul>
-                    </li>
-                    <li className="dropdown">
-                      <a href="#">News</a>
-                      <ul>
-                        <News />
                       </ul>
                     </li>
                     <Contact />
