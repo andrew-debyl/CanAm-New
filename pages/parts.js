@@ -42,7 +42,7 @@ const Parts = () => {
                 <Link href="/buying-or-selling">
                 <button className="parts-btn" type="submit">
                   <span className="thm-btn">
-                    Interested in selling parts?
+                    Interested in selling parts?&nbsp;
                     <i
                       className="fa fa-angle-double-right"
                       aria-hidden="true"
