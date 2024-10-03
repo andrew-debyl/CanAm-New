@@ -9,6 +9,9 @@ export const Products = () => (
     <li>
       <Link href="/supplies">Supplies</Link>
     </li>
+    <li>
+      <Link href="/equipment">Equipment</Link>
+    </li>
   </Fragment>
 );
 export const Services = () => (
