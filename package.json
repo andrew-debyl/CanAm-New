@@ -15,7 +15,7 @@
     "isotope-layout": "^3.0.6",
     "next": "^14.2.7",
     "react": "^18.2.0",
-    "react-bootstrap": "^1.6.1",
+    "react-bootstrap": "^2.10.5",
     "react-countup": "^6.1.0",
     "react-dom": "^18.2.0",
     "react-visibility-sensor": "^5.1.1",
@@ -25,6 +25,6 @@
   },
   "devDependencies": {
     "eslint": "7.32.0",
-    "eslint-config-next": "12.0.2"
+    "eslint-config-next": "^14.2.14"
   }
 }
