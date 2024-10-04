@@ -1,3 +1,4 @@
+import "bootstrap/dist/css/bootstrap.min.css";
 import { Fragment } from "react";
 import "../styles/globals.css";
 

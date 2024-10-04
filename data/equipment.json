@@ -1,0 +1,241 @@
+[
+    {
+      "id": "1",
+      "name": "Printer",
+      "products": [
+        {
+          "id": "1",
+          "name": "temp",
+          "subName": "temp sub",
+          "desc": "temp desc",
+          "img": "",
+          "features": [
+            {
+              "id": "1",
+              "title": "",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "id": "2",
+          "name": "temp",
+          "subName": "temp sub",
+          "desc": "temp desc",
+          "img": "",
+          "features": [
+            {
+              "id": "1",
+              "title": "",
+              "content": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Copier",
+      "products": [
+        {
+          "id": "1",
+          "name": "Ricoh MP C4504",
+          "subName": "A3 Color Laser Multifunction Copier",
+          "desc": "45ppm, Copy, Fax, Print, Scan, Auto Duplex, Network, WIFI, 4 Trays and Comes with Pre-Installed Postscript 3 Supplement",
+          "img": "/assets/img/products/c4504.png",
+          "features": [
+            {
+              "id": "1",
+              "title": "Standard Features",
+              "content": "Copy, Print, Scan, Auto Duplex, and Network"
+            }
+          ]
+        },
+        {
+          "id": "2",
+          "name": "Ricoh MP C3004",
+          "subName": "A3/A4 Color Laser Multifunction Copier",
+          "desc": "30ppm, Copy, Fax, Print, Scan, Auto Duplex, Network, WIFI, 4 Trays, Stand, Comes with Pre-installed PostScript 3 Supplement",
+          "img": "/assets/img/products/c3004.png",
+          "features": [
+            {
+              "id": "1",
+              "title": "Standard Features",
+              "content": "Copy, WIFI, Fax, Print, Scan, Auto Duplex, and Network"
+            }
+          ]
+        },
+        {
+          "id": "3",
+          "name": "Ricoh MP C5504",
+          "subName": "Tabloid/Ledger-Size Color Laser Multifunction Copier",
+          "desc": "55ppm, Copy, Print, Scan, 2 Trays, Stand",
+          "img": "/assets/img/products/c5504.png",
+          "features": [
+            {
+              "id": "1",
+              "title": "Standard Features",
+              "content": "Copy, Print, Scan, Auto Duplex, and Network"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "name": "Scanner",
+      "products": [
+        {
+          "id": "1",
+          "name": "temp",
+          "subName": "temp sub",
+          "desc": "temp desc",
+          "img": "",
+          "features": [
+            {
+              "id": "1",
+              "title": "",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "id": "2",
+          "name": "temp",
+          "subName": "temp sub",
+          "desc": "temp desc",
+          "img": "",
+          "features": [
+            {
+              "id": "1",
+              "title": "",
+              "content": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "name": "Laptop",
+      "products": [
+        {
+          "id": "1",
+          "name": "temp",
+          "subName": "temp sub",
+          "desc": "temp desc",
+          "img": "",
+          "features": [
+            {
+              "id": "1",
+              "title": "",
+              "content": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "name": "Tablet",
+      "products": [
+        {
+          "id": "1",
+          "name": "temp",
+          "subName": "temp sub",
+          "desc": "temp desc",
+          "img": "",
+          "features": [
+            {
+              "id": "1",
+              "title": "",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "id": "2",
+          "name": "temp",
+          "subName": "temp sub",
+          "desc": "temp desc",
+          "img": "",
+          "features": [
+            {
+              "id": "1",
+              "title": "",
+              "content": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "name": "Desktop",
+      "products": [
+        {
+          "id": "1",
+          "name": "temp",
+          "subName": "temp sub",
+          "desc": "temp desc",
+          "img": "",
+          "features": [
+            {
+              "id": "1",
+              "title": "",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "id": "2",
+          "name": "temp",
+          "subName": "temp sub",
+          "desc": "temp desc",
+          "img": "",
+          "features": [
+            {
+              "id": "1",
+              "title": "",
+              "content": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "name": "Server",
+      "products": [
+        {
+          "id": "1",
+          "name": "temp",
+          "subName": "temp sub",
+          "desc": "temp desc",
+          "img": "",
+          "features": [
+            {
+              "id": "1",
+              "title": "",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "id": "2",
+          "name": "temp",
+          "subName": "temp sub",
+          "desc": "temp desc",
+          "img": "",
+          "features": [
+            {
+              "id": "1",
+              "title": "",
+              "content": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+  

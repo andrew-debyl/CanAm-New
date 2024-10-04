@@ -86,6 +86,7 @@ export const dataFilter = (filterTrigger, filteritems) => {
     li.addEventListener("click", (e) => {
       e.preventDefault();
       let filterAtrr = li.getAttribute("data-filter");
+      console.log(filterAtrr)
       filterAtrr = filterAtrr.split(".")[1];
       let active = li.getAttribute("data-filter");
       filterLi.forEach((li_) => {
