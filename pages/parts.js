@@ -40,15 +40,15 @@ const Parts = () => {
                   order prior to purchase.
                 </p>
                 <Link href="/buying-or-selling">
-                <button className="parts-btn" type="submit">
-                  <span className="thm-btn">
-                    Interested in selling parts?&nbsp;
-                    <i
-                      className="fa fa-angle-double-right"
-                      aria-hidden="true"
-                    />
-                  </span>
-                </button>
+                  <button className="parts-btn" type="submit">
+                    <span className="thm-btn">
+                      Interested in selling parts?&nbsp;
+                      <i
+                        className="fa fa-angle-double-right"
+                        aria-hidden="true"
+                      />
+                    </span>
+                  </button>
                 </Link>
               </div>
             </div>

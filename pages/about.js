@@ -15,7 +15,6 @@ const About = () => {
       <section className="about-one about-one--about">
         <div className="container">
           <div className="row">
-            {/* Start About One Left*/}
             <div className="col-xl-6">
               <div className="about-one__left">
                 <div className="about-one--about__big-title">
@@ -44,8 +43,6 @@ const About = () => {
                 </div>
               </div>
             </div>
-            {/* End About One Left*/}
-            {/* Start About One Right*/}
             <div className="col-xl-6">
               <div className="about-one__right">
                 <div className="section-title">
@@ -78,12 +75,9 @@ const About = () => {
                 </div>
               </div>
             </div>
-            {/* End About One Right*/}
           </div>
         </div>
       </section>
-      {/*About One End*/}
-      {/*Counter Three Start*/}
       <section
         className="counter-one counter-one--counter-three jarallax clearfix"
         data-jarallax
@@ -99,7 +93,6 @@ const About = () => {
             <div className="col-xl-12">
               <div className="counter-one__wrapper clearfix">
                 <div className="row">
-                  {/*Start Counter One Single*/}
                   <div className="col-xl-4 col-lg-4 col-md-12 col-sm-12">
                     <div className="counter-one__single">
                       <div className="counter-one__single-icon">
@@ -122,8 +115,6 @@ const About = () => {
                       </div>
                     </div>
                   </div>
-                  {/*End Counter One Single*/}
-                  {/*Start Counter One Single*/}
                   <div className="col-xl-4 col-lg-4 col-md-12 col-sm-12">
                     <div className="counter-one__single">
                       <div className="counter-one__single-icon">
@@ -146,8 +137,6 @@ const About = () => {
                       </div>
                     </div>
                   </div>
-                  {/*End Counter One Single*/}
-                  {/*Start Counter One Single*/}
                   <div className="col-xl-4 col-lg-4 col-md-12 col-sm-12">
                     <div className="counter-one__single">
                       <div className="counter-one__single-icon">
@@ -170,7 +159,6 @@ const About = () => {
                       </div>
                     </div>
                   </div>
-                  {/*End Counter One Single*/}
                 </div>
               </div>
             </div>
@@ -207,8 +195,6 @@ const About = () => {
           </div>
         </div>
       </section>
-      {/*Counter Three End*/}
-      {/*Why Choose One Start*/}
       <section className="why-choose-one">
         <div className="container">
           <div className="row">
@@ -283,8 +269,6 @@ const About = () => {
           </div>
         </div>
       </section>
-      {/*Why Choose One End*/}
-      {/*Partner One Start*/}
       <section className="partner-one partner-one--about">
         <div className="container">
           <div className="row">

@@ -10,7 +10,6 @@ export const FooterStyle1 = () => (
           }}
         />
         <div className="row">
-          {/*Start Footer Widget Column*/}
           <div
             className="col-xl-2 col-lg-2 col-md-6 wow animated fadeInUp"
             data-wow-delay="0.1s"
@@ -65,8 +64,6 @@ export const FooterStyle1 = () => (
               </ul>
             </div>
           </div>
-          {/*End Footer Widget Column*/}
-          {/*Start Footer Widget Column*/}
           <div
             className="col-xl-3 col-lg-3 col-md-6 wow animated fadeInUp"
             data-wow-delay="0.3s"
@@ -132,8 +129,6 @@ export const FooterStyle1 = () => (
               </ul>
             </div>
           </div>
-          {/*End Footer Widget Column*/}
-          {/*Start Footer Widget Column*/}
           <div
             className="col-xl-3 col-lg-3 col-md-6 wow animated fadeInUp"
             data-wow-delay="0.5s"
@@ -170,8 +165,6 @@ export const FooterStyle1 = () => (
               </form>
             </div>
           </div>
-          {/*End Footer Widget Column*/}
-          {/*Start Footer Widget Column*/}
           <div
             className="col-xl-4 col-lg-4 col-md-6 wow animated fadeInUp"
             data-wow-delay="0.7s"
@@ -208,10 +201,8 @@ export const FooterStyle1 = () => (
               </div>
             </div>
           </div>
-          {/*End Footer Widget Column*/}
         </div>
       </div>
-      {/*Start Footer One Bottom*/}
       <div className="footer-one__bottom">
         <div className="row">
           <div className="col-xl-12">
@@ -223,7 +214,6 @@ export const FooterStyle1 = () => (
           </div>
         </div>
       </div>
-      {/*End Footer One Bottom*/}
     </div>
   </footer>
 );
@@ -239,7 +229,6 @@ export const FooterStyle2 = () => (
     <div className="container">
       <div className="footer-one__top">
         <div className="row">
-          {/*Start Footer Widget Column*/}
           <div
             className="col-xl-3 col-lg-6 col-md-6 col-sm-12 wow animated fadeInUp"
             data-wow-delay="0.1s"
@@ -294,8 +283,6 @@ export const FooterStyle2 = () => (
               </ul>
             </div>
           </div>
-          {/*End Footer Widget Column*/}
-          {/*Start Footer Widget Column*/}
           <div
             className="col-xl-3 col-lg-3 col-md-6 wow animated fadeInUp footer-adjust"
             data-wow-delay="0.3s"
@@ -350,8 +337,6 @@ export const FooterStyle2 = () => (
               </ul>
             </div>
           </div>
-          {/*End Footer Widget Column*/}
-          {/*Start Footer Widget Column*/}
           <div
             className="col-xl-3 col-lg-6 col-md-6 col-sm-12 wow animated fadeInUp"
             data-wow-delay="0.5s"
@@ -359,8 +344,8 @@ export const FooterStyle2 = () => (
             <div className="footer-widget__column footer-widget__newsletter mar-top">
               <h3 className="footer-widget__title">Get in Touch</h3>
               <p className="footer-widget__newsletter-text">
-              Enter your email below, and <br/>
-              we'll follow up with you soon:
+                Enter your email below, and <br />
+                we'll follow up with you soon:
               </p>
               <form
                 onSubmit={(e) => e.preventDefault()}
@@ -388,8 +373,6 @@ export const FooterStyle2 = () => (
               </form>
             </div>
           </div>
-          {/*End Footer Widget Column*/}
-          {/*Start Footer Widget Column*/}
           <div
             className="col-xl-3 col-lg-6 col-md-6 col-sm-12 wow animated fadeInUp"
             data-wow-delay="0.7s"
@@ -398,10 +381,7 @@ export const FooterStyle2 = () => (
               <div className="footer-widget__about-logo">
                 <Link href="/">
                   <div className="footer-widget__about-logo-2">
-                    <img
-                      src="/assets/images/resources/logo.png"
-                      alt="image"
-                    />
+                    <img src="/assets/images/resources/logo.png" alt="image" />
                   </div>
                 </Link>
               </div>
@@ -412,7 +392,7 @@ export const FooterStyle2 = () => (
                       <i className="icon-letter" aria-hidden="true" />
                     </div>
                     <div className="text">
-                    <a href="mailto:info@canamimaging.com">
+                      <a href="mailto:info@canamimaging.com">
                         info@canamimaging.com
                       </a>
                     </div>
@@ -429,24 +409,19 @@ export const FooterStyle2 = () => (
               </div>
             </div>
           </div>
-          {/*End Footer Widget Column*/}
         </div>
       </div>
-      {/*Start Footer One Bottom*/}
       <div className="footer-one__bottom">
         <div className="row">
           <div className="col-xl-12">
             <div className="footer-one__bottom-inner">
               <div className="footer-one__bottom-text text-center">
-                <p>
-                Copyright © 2024 CanAm Imaging Products Inc.
-                </p>
+                <p>Copyright © 2024 CanAm Imaging Products Inc.</p>
               </div>
             </div>
           </div>
         </div>
       </div>
-      {/*End Footer One Bottom*/}
     </div>
   </footer>
 );

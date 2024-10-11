@@ -3,7 +3,6 @@ const MobileMenu = () => {
   return (
     <div className="mobile-nav__wrapper">
       <div className="mobile-nav__overlay mobile-nav__toggler" />
-      {/* /.mobile-nav__overlay */}
       <div className="mobile-nav__content">
         <span className="mobile-nav__close mobile-nav__toggler">
           <i className="fa fa-times" />
@@ -19,9 +18,7 @@ const MobileMenu = () => {
             </div>
           </Link>
         </div>
-        {/* /.logo-box */}
         <div className="mobile-nav__container" />
-        {/* /.mobile-nav__container */}
         <ul className="mobile-nav__contact list-unstyled">
           <li>
             <i className="icon-phone-call" />
@@ -32,7 +29,6 @@ const MobileMenu = () => {
             <a href="tel:666-888-0000">666 888 0000</a>
           </li>
         </ul>
-        {/* /.mobile-nav__contact */}
         <div className="mobile-nav__top">
           <div className="mobile-nav__social">
             <a href="#" className="fab fa-twitter" />
@@ -40,11 +36,8 @@ const MobileMenu = () => {
             <a href="#" className="fab fa-pinterest-p" />
             <a href="#" className="fab fa-instagram" />
           </div>
-          {/* /.mobile-nav__social */}
         </div>
-        {/* /.mobile-nav__top */}
       </div>
-      {/* /.mobile-nav__content */}
     </div>
   );
 };

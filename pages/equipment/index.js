@@ -6,14 +6,12 @@ import equData from "../../data/equipment.json";
 
 const Equipment = () => {
   useEffect(() => {
-    // Dynamically import Bootstrap JS on the client side
     import("bootstrap/dist/js/bootstrap.bundle.min.js");
   }, []);
 
   return (
     <Layout>
       <PageBanner pageName="Equipment" />
-
       <section className="case-studies-one case-studies-one--portfolio-grid">
         <div className="container">
           <div className="section-title">
@@ -124,5 +122,3 @@ const Equipment = () => {
 };
 
 export default Equipment;
-
-//<EquipmentList equName={tab.name}/>

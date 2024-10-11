@@ -1,6 +1,5 @@
 import Layout from "../src/components/Layout";
 import PageBanner from "../src/components/PageBanner";
-import Link from "next/dist/client/link";
 
 const Supplies = () => {
   return (
@@ -20,9 +19,7 @@ const Supplies = () => {
                 </div>
               </div>
             </div>
-            <div
-              className="col-xl-6"
-            >
+            <div className="col-xl-6">
               <div className="team-details-one__right">
                 <div className="team-details-one__right-top-text">
                   <h2>We Meet Your Print and Copy Needs for Less</h2>
@@ -35,8 +32,7 @@ const Supplies = () => {
                     order for supplies, simply fill out and submit this
                     <a className="supplies--red" href="/buying-or-selling">
                       {" "}
-                      form.
-                      {" "}
+                      form.{" "}
                     </a>
                     Our dedicated team will review your request promptly and get
                     back to you within 4 hours to confirm your order and assist

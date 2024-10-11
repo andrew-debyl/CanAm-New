@@ -3,7 +3,6 @@ const Features = () => {
     <section className="features-one features-one--features-five clearfix">
       <div className="container">
         <div className="row">
-          {/*Start Single Features One */}
           <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12">
             <div
               className="features-one__single wow fadeInLeft animated animated"
@@ -27,8 +26,6 @@ const Features = () => {
               </div>
             </div>
           </div>
-          {/*End Single Features One */}
-          {/*Start Single Features One */}
           <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12">
             <div
               className="features-one__single wow fadeInRight animated animated"
@@ -37,10 +34,7 @@ const Features = () => {
             >
               <div className="features-one__single-left">
                 <div className="features-one__single-left-icon">
-                  <img
-                    src="/assets/images/icon/support.png"
-                    alt="image"
-                  />
+                  <img src="/assets/images/icon/support.png" alt="image" />
                 </div>
                 <div className="features-one__single-left-text">
                   <h4>
@@ -52,7 +46,6 @@ const Features = () => {
               </div>
             </div>
           </div>
-          {/*End Single Features One */}
         </div>
       </div>
     </section>

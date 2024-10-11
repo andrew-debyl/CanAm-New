@@ -19,52 +19,52 @@ const BrandSlider = () => {
 
   return (
     <div className="brand-slider-container">
-    <button className="slider-button left" onClick={goToPrevious}>
-      &#10094; {/* Left arrow */}
-    </button>
-    <Swiper
-      {...brandSliderProps}
-      className="partner-one__carousel owl-carousel owl-theme list-unstyled"
-      ref={swiperRef}
-    >
-      <SwiperSlide className="partner-one__single">
-        <div className="partner-one__img">
-          <div>
-            <img src="assets/images/brand/xerox-logo.png" alt="image" />
+      <button className="slider-button left" onClick={goToPrevious}>
+        &#10094;
+      </button>
+      <Swiper
+        {...brandSliderProps}
+        className="partner-one__carousel owl-carousel owl-theme list-unstyled"
+        ref={swiperRef}
+      >
+        <SwiperSlide className="partner-one__single">
+          <div className="partner-one__img">
+            <div>
+              <img src="assets/images/brand/xerox-logo.png" alt="image" />
+            </div>
           </div>
-        </div>
-      </SwiperSlide>
-      <SwiperSlide className="partner-one__single">
-        <div className="partner-one__img">
-          <div>
-            <img src="assets/images/brand/ricoh-logo.png" alt="image" />
+        </SwiperSlide>
+        <SwiperSlide className="partner-one__single">
+          <div className="partner-one__img">
+            <div>
+              <img src="assets/images/brand/ricoh-logo.png" alt="image" />
+            </div>
           </div>
-        </div>
-      </SwiperSlide>
-      <SwiperSlide className="partner-one__single">
-        <div className="partner-one__img">
-          <div>
-            <img src="assets/images/brand/konica-logo.png" alt="image" />
+        </SwiperSlide>
+        <SwiperSlide className="partner-one__single">
+          <div className="partner-one__img">
+            <div>
+              <img src="assets/images/brand/konica-logo.png" alt="image" />
+            </div>
           </div>
-        </div>
-      </SwiperSlide>
-      <SwiperSlide className="partner-one__single">
-        <div className="partner-one__img">
-          <div>
-            <img src="assets/images/brand/kodak-logo.png" alt="image" />
+        </SwiperSlide>
+        <SwiperSlide className="partner-one__single">
+          <div className="partner-one__img">
+            <div>
+              <img src="assets/images/brand/kodak-logo.png" alt="image" />
+            </div>
           </div>
-        </div>
-      </SwiperSlide>
-      <SwiperSlide className="partner-one__single">
-        <div className="partner-one__img">
-          <div>
-            <img src="assets/images/brand/canon-logo.png" alt="image" />
+        </SwiperSlide>
+        <SwiperSlide className="partner-one__single">
+          <div className="partner-one__img">
+            <div>
+              <img src="assets/images/brand/canon-logo.png" alt="image" />
+            </div>
           </div>
-        </div>
-      </SwiperSlide>
-    </Swiper>
-    <button className="slider-button right" onClick={goToNext}>
-        &#10095; {/* Right arrow */}
+        </SwiperSlide>
+      </Swiper>
+      <button className="slider-button right" onClick={goToNext}>
+        &#10095;
       </button>
 
       <style jsx>{`

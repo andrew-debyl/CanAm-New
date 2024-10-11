@@ -1,5 +1,5 @@
 import Link from "next/dist/client/link";
-import {Services, Products } from "./Menu";
+import { Services, Products } from "./Menu";
 
 export const Sticky1 = () => {
   return (

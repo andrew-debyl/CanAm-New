@@ -19,11 +19,9 @@ const News = () => {
   return (
     <Layout footer={2}>
       <PageBanner pageName="Contact Us" />
-      {/*Contact Box Start*/}
       <section className="contact-box">
         <div className="container">
           <div className="row">
-            {/*Start Contact Box Single*/}
             <div
               className="col-xl-4 col-lg-4 wow fadeInUp"
               data-wow-delay="0.1s"
@@ -50,8 +48,6 @@ const News = () => {
                 </div>
               </div>
             </div>
-            {/*End Contact Box Single*/}
-            {/*Start Contact Box Single*/}
             <div
               className="col-xl-4 col-lg-4 wow fadeInUp"
               data-wow-delay="0.3s"
@@ -86,8 +82,6 @@ const News = () => {
                 </div>
               </div>
             </div>
-            {/*End Contact Box Single*/}
-            {/*Start Contact Box Single*/}
             <div
               className="col-xl-4 col-lg-4 wow fadeInUp"
               data-wow-delay="0.5s"
@@ -116,11 +110,9 @@ const News = () => {
                 </div>
               </div>
             </div>
-            {/*End Contact Box Single*/}
           </div>
         </div>
       </section>
-      {/*Contact Box End*/}
       <section className="contact-page-google-map">
         <APIProvider apiKey={apiKey}>
           <Map
@@ -154,8 +146,6 @@ const News = () => {
           </Map>
         </APIProvider>
       </section>
-      {/*Contact Page Google Map End*/}
-      {/*Contact page Start*/}
       <section id="section1" className="contact-page">
         <div className="container">
           <div className="row">

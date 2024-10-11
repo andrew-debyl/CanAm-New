@@ -8,7 +8,6 @@ const TechnicalSupport = () => {
       <section className="services-details">
         <div className="container">
           <div className="row">
-            {/*Start Services Details Sidebar*/}
             <div className="col-xl-4 col-lg-8">
               <div className="services-details__sidebar">
                 <div
@@ -86,8 +85,6 @@ const TechnicalSupport = () => {
                 </div>
               </div>
             </div>
-            {/*End Services Details Sidebar*/}
-            {/*Start Services Details Content*/}
             <div className="col-xl-8">
               <div className="services-details-content">
                 <div className="services-details__text-box1">

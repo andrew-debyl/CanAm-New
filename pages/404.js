@@ -1,3 +1,4 @@
+import Link from "next/link";
 import Layout from "../src/components/Layout";
 import PageBanner from "../src/components/PageBanner";
 
@@ -11,33 +12,24 @@ const Error = () => {
             <div className="col-xl-12">
               <div className="error-page__inner">
                 <div
-                  className="error-page__img wow slideInRight"
-                  data-wow-delay="500ms"
-                  data-wow-duration="2500ms"
-                >
-                  <img
-                    src="assets/images/resources/error-img.png"
-                    alt="image"
-                  />
-                </div>
-                <div
                   className="error-page__content text-center wow slideInUp"
                   data-wow-delay="0ms"
                   data-wow-duration="1500ms"
                 >
-                  <h2>OPPS!</h2>
-                  <h3>This Page Are Can’t Be Found</h3>
+                  <h3>This Page Does Not Exist</h3>
                   <div className="error-page__btn">
-                    <span className="thm-btn">
-                      Go To Home
+                    <Link href="/" className="thm-btn">
+                      Go To Home&nbsp;
                       <i
                         className="fa fa-angle-double-right"
                         aria-hidden="true"
                       />
-                    </span>
+                    </Link>
                   </div>
                 </div>
               </div>
+              <br/>
+              <br/>
             </div>
           </div>
         </div>

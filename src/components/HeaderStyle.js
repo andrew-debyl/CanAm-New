@@ -113,7 +113,12 @@ export const DefaultHeaderStyle = () => {
                 <div className="main-header-four__bottom_right">
                   <div className="main-menu__right">
                     <div className="btn-box">
-                      <a className="thm-btn default-header--btn" href="tel:18667580007">1-866-758-0007</a>
+                      <a
+                        className="thm-btn default-header--btn"
+                        href="tel:18667580007"
+                      >
+                        1-866-758-0007
+                      </a>
                     </div>
                   </div>
                 </div>
