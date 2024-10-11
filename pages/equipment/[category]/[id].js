@@ -1,56 +1,60 @@
-import Layout from "../src/components/Layout";
-import PageBanner from "../src/components/PageBanner";
+import Layout from "../../../src/components/Layout";
+import PageBanner from "../../../src/components/PageBanner";
+import React from "react";
+import { useRouter } from 'next/router';
+import data from "../../../data/equipment.json"
 
-const PortfolioDetails = () => {
+const ProductDetails = () => {
+  const router = useRouter();
+  const { category, id } = router.query;
+
+  if (!category || !id) {
+    return <div></div>;
+  }
+
+  const getProductData = (categoryName, productId) => {
+    const category = data.find(
+      (cat) => cat.name.toLowerCase() === categoryName.toLowerCase()
+    );
+
+    if (category) {
+      const product = category.products.find((prod) => prod.id === productId);
+      return product || null;
+    }
+
+    return null;
+  };
+
+  const productData = getProductData(category, id);
+  console.log(productData)
   return (
     <Layout>
-      <PageBanner pageName="Portfolio Details" />
+      <PageBanner pageName={productData.name} />
       <section className="portfolio-details">
         <div className="container">
           <div className="portfolio-details__gallery">
             <div className="row">
               <div className="col-lg-8">
-                <figure>
-                  <a
-                    href="assets/images/project/portfolio-d-1-1.png"
-                    className="img-popup"
-                  >
-                    <img
-                      src="assets/images/project/portfolio-d-1-1.png"
-                      alt="image"
-                    />
-                  </a>
-                </figure>
+                <img
+                  src=""
+                  alt="image"
+                />
               </div>
               {/* /.col-lg-8 */}
               <div className="col-lg-4">
                 <div className="row">
                   <div className="col-lg-12 col-md-6">
-                    <figure>
-                      <a
-                        href="assets/images/project/portfolio-d-1-2.png"
-                        className="img-popup"
-                      >
-                        <img
-                          src="assets/images/project/portfolio-d-1-2.png"
-                          alt="image"
-                        />
-                      </a>
-                    </figure>
+                    <img
+                      src=""
+                      alt="image"
+                    />
                   </div>
                   {/* /.col-md-6 */}
                   <div className="col-lg-12 col-md-6">
-                    <figure>
-                      <a
-                        href="assets/images/project/portfolio-d-1-3.png"
-                        className="img-popup"
-                      >
-                        <img
-                          src="assets/images/project/portfolio-d-1-3.png"
-                          alt="image"
-                        />
-                      </a>
-                    </figure>
+                    <img
+                      src=""
+                      alt="image"
+                    />
                   </div>
                   {/* /.col-md-6 */}
                 </div>
@@ -141,9 +145,8 @@ const PortfolioDetails = () => {
         </div>
         {/* /.container */}
       </section>
-      
     </Layout>
   );
 };
 
-export default PortfolioDetails;
+export default ProductDetails;

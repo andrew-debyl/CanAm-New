@@ -12,12 +12,12 @@ export const Sticky1 = () => {
                 className="logo-box1_bg"
                 style={{
                   backgroundImage:
-                    "url(assets/images/pattern/logo-box1-bg.png)",
+                    "url(/assets/images/pattern/logo-box1-bg.png)",
                 }}
               ></div>
               <Link href="/">
                 <div>
-                  <img src="assets/images/resources/logo6.png" alt="image" />
+                  <img src="/assets/images/resources/logo6.png" alt="image" />
                 </div>
               </Link>
             </div>

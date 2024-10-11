@@ -6,7 +6,7 @@ export const FooterStyle1 = () => (
         <div
           className="footer-one__bg"
           style={{
-            backgroundImage: "url(assets/images/backgrounds/footer-v1-bg.png)",
+            backgroundImage: "url(/assets/images/backgrounds/footer-v1-bg.png)",
           }}
         />
         <div className="row">
@@ -180,7 +180,7 @@ export const FooterStyle1 = () => (
               <div className="footer-widget__about-logo">
                 <Link href="/">
                   <div>
-                    <img src="assets/images/resources/logo.png" alt="image" />
+                    <img src="/assets/images/resources/logo.png" alt="image" />
                   </div>
                 </Link>
               </div>
@@ -233,7 +233,7 @@ export const FooterStyle2 = () => (
     <div
       className="footer-two__bg"
       style={{
-        backgroundImage: "url(assets/images/backgrounds/footer-v2-bg.png)",
+        backgroundImage: "url(/assets/images/backgrounds/footer-v2-bg.png)",
       }}
     ></div>
     <div className="container">
@@ -399,7 +399,7 @@ export const FooterStyle2 = () => (
                 <Link href="/">
                   <div className="footer-widget__about-logo-2">
                     <img
-                      src="assets/images/resources/logo.png"
+                      src="/assets/images/resources/logo.png"
                       alt="image"
                     />
                   </div>

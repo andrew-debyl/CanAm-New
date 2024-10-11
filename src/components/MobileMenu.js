@@ -12,7 +12,7 @@ const MobileMenu = () => {
           <Link href="/">
             <div aria-label="logo image">
               <img
-                src="assets/images/resources/logo.png"
+                src="/assets/images/resources/logo.png"
                 width={155}
                 alt="image"
               />

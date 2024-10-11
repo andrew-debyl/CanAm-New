@@ -13,7 +13,7 @@ export const HeaderStyle1 = () => {
                   <div className="logo-box1">
                     <Link href="/">
                       <div>
-                        <img src="assets/images/resources/logo6.png" alt="" />
+                        <img src="/assets/images/resources/logo6.png" alt="" />
                       </div>
                     </Link>
                   </div>
@@ -79,7 +79,7 @@ export const DefaultHeaderStyle = () => {
                     <Link href="/">
                       <div>
                         <img
-                          src="assets/images/resources/logo6.png"
+                          src="/assets/images/resources/logo6.png"
                           alt="image"
                         />
                       </div>

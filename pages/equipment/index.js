@@ -94,7 +94,11 @@ const Equipment = () => {
                   aria-labelledby={`${tab.name}-tab`}
                 >
                   {tab.products.map((product) => (
-                    <div className="col-xl-4 col-lg-4 col-md-6 filter-item development finance ">
+                    <Link
+                      key={product.id}
+                      className="col-xl-4 col-lg-4 col-md-6 filter-item development finance"
+                      href={`/equipment/${tab.name}/${product.id}`}
+                    >
                       <div className="case-studies-one__single ">
                         <div className="case-studies-one__single-img">
                           <img
@@ -102,24 +106,12 @@ const Equipment = () => {
                             alt="image"
                           />
                           <div className="overly-text">
-                            <h3>
-                              <Link href="/portfolio-details">
-                                {product.name}
-                              </Link>
-                            </h3>
+                            <h3>{product.name}</h3>
                             <p>{product.subName}</p>
-                          </div>
-                          <div className="overly-btn">
-                            <Link href="/portfolio-details">
-                              <i
-                                className="fa fa-angle-double-right"
-                                aria-hidden="true"
-                              />
-                            </Link>
                           </div>
                         </div>
                       </div>
-                    </div>
+                    </Link>
                   ))}
                 </div>
               ))}

@@ -4,7 +4,7 @@ const PageBanner = ({ pageName }) => {
     <section
       className="page-header clearfix"
       style={{
-        backgroundImage: "url(assets/images/backgrounds/pagebanner.jpg)",
+        backgroundImage: "url(/assets/images/backgrounds/pagebanner.jpg)",
       }}
     >
       <div className="container">

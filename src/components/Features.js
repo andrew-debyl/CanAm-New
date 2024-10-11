@@ -13,7 +13,7 @@ const Features = () => {
               <div className="features-one__single-left">
                 <div className="features-one__single-left-icon">
                   <img
-                    src="assets/images/icon/customer-service.png"
+                    src="/assets/images/icon/customer-service.png"
                     alt="image"
                   />
                 </div>
@@ -38,7 +38,7 @@ const Features = () => {
               <div className="features-one__single-left">
                 <div className="features-one__single-left-icon">
                   <img
-                    src="assets/images/icon/support.png"
+                    src="/assets/images/icon/support.png"
                     alt="image"
                   />
                 </div>
