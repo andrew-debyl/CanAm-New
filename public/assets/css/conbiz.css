@@ -831,7 +831,7 @@ ul {
 
 .main-menu .mobile-nav__toggler {
   font-size: 20px;
-  color: var(--thm-base);
+  color: rgb(221, 31, 38);
   cursor: pointer;
   transition: 500ms;
   margin-right: 0px;
@@ -1628,6 +1628,10 @@ ul {
   cursor: pointer;
 }
 
+.mobile-menu--noclick {
+  cursor: default;
+}
+
 .mobile-nav__content .main-menu__list,
 .mobile-nav__content .main-menu__list ul {
   margin: 0;
@@ -1662,17 +1666,17 @@ ul {
 }
 
 .mobile-nav__content .main-menu__list li a.expanded {
-  color: var(--thm-base);
+  color: rgb(221, 31, 38);
 }
 
 .mobile-nav__content .main-menu__list li a:hover {
-  color: var(--thm-base);
+  color: rgb(221, 31, 38);
 }
 
 .mobile-nav__content .main-menu__list li a button {
   width: 28px;
   height: 28px;
-  background-color: var(--thm-base);
+  background-color: rgb(221, 31, 38);
   border: none;
   outline: none;
   color: #fff;
@@ -1719,25 +1723,6 @@ ul {
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
 
-.mobile-nav__social {
-  display: flex;
-  align-items: center;
-}
-
-.mobile-nav__social a {
-  font-size: 16px;
-  color: var(--thm-base);
-  transition: 500ms;
-}
-
-.mobile-nav__social a + a {
-  margin-left: 30px;
-}
-
-.mobile-nav__social a:hover {
-  color: #ffffff;
-}
-
 .mobile-nav__contact {
   margin-bottom: 0;
   margin-top: 20px;
@@ -1764,14 +1749,14 @@ ul {
 }
 
 .mobile-nav__contact li a:hover {
-  color: var(--thm-base);
+  color: rgb(221, 31, 38);
 }
 
 .mobile-nav__contact li > i {
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  background-color: var(--thm-base);
+  background-color: rgb(221, 31, 38);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -4462,11 +4447,7 @@ ul {
 
 .footer-widget__about-logo-2 {
   display: flex;
-  justify-content: center;
-  background-color: #ffffff;
-  padding: 22px 0px;
-  border-radius: 10px;
-  max-width: 200px;
+  justify-content: left;
 }
 
 .footer-one--footer-two .footer-contact-info ul li .text p {

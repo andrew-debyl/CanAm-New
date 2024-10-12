@@ -4,7 +4,7 @@ import { activeNavMenu, stickyNav } from "../utils";
 import { HeaderStyle1, DefaultHeaderStyle } from "./HeaderStyle";
 import { Sticky1 } from "./SttickyNav";
 
-const Header = ({header}) => {
+const Header = ({header, addClassName}) => {
   const router = useRouter();
   useEffect(() => {
     activeNavMenu(router.pathname);
@@ -14,9 +14,9 @@ const Header = ({header}) => {
   const getHeader = () => {
     switch (header) {
       case 1:
-        return <HeaderStyle1 />;
+        return (<HeaderStyle1 addClassName={addClassName}/>);
       default:
-        return <DefaultHeaderStyle />;
+        return (<DefaultHeaderStyle addClassName={addClassName}/>);
     }
   };
   return (

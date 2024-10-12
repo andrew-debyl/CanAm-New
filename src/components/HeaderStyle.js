@@ -1,7 +1,7 @@
 import Link from "next/dist/client/link";
 import { Contact, Services, Products } from "./Menu";
 
-export const HeaderStyle1 = () => {
+export const HeaderStyle1 = ({addClassName}) => {
   return (
     <header className="main-header clearfix">
       <div className="main-header-one__bottom">
@@ -18,7 +18,7 @@ export const HeaderStyle1 = () => {
                     </Link>
                   </div>
                 </div>
-                <a href="#" className="mobile-nav__toggler">
+                <a href="#" className="mobile-nav__toggler" onClick={()=>addClassName((prevState) => !prevState)}>
                   <i className="fa fa-bars"></i>
                 </a>
                 <div className="middle">
@@ -66,7 +66,7 @@ export const HeaderStyle1 = () => {
   );
 };
 
-export const DefaultHeaderStyle = () => {
+export const DefaultHeaderStyle = ({addClassName}) => {
   return (
     <header className="main-header main-header--three  clearfix">
       <div className="main-header-three__bottom main-header-four__bottom">
@@ -85,7 +85,7 @@ export const DefaultHeaderStyle = () => {
                       </div>
                     </Link>
                   </div>
-                  <a href="#" className="mobile-nav__toggler">
+                  <a href="#" className="mobile-nav__toggler" onClick={()=>addClassName((prevState) => !prevState)}>
                     <i className="fa fa-bars" />
                   </a>
                   <ul className="main-menu__list">

@@ -381,7 +381,7 @@ export const FooterStyle2 = () => (
               <div className="footer-widget__about-logo">
                 <Link href="/">
                   <div className="footer-widget__about-logo-2">
-                    <img src="/assets/images/resources/logo.png" alt="image" />
+                    <img src="/assets/images/resources/templogo.png" alt="image" />
                   </div>
                 </Link>
               </div>

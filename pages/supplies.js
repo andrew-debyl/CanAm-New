@@ -7,8 +7,8 @@ const Supplies = () => {
       <PageBanner pageName="Supplies" />
       <section className="team-details-one">
         <div className="container">
-          <div className="row">
-            <div className="col-xl-6">
+          <div className="row supplies--swap-ori">
+            <div className="col-xl-6 supplies--left-wrapper">
               <div
                 className="team-details-one__left col-xl-6 wow slideInLeft"
                 data-wow-delay="500ms"
@@ -19,7 +19,7 @@ const Supplies = () => {
                 </div>
               </div>
             </div>
-            <div className="col-xl-6">
+            <div className="col-xl-6 supplies--right-wrapper">
               <div className="team-details-one__right">
                 <div className="team-details-one__right-top-text">
                   <h2>We Meet Your Print and Copy Needs for Less</h2>
