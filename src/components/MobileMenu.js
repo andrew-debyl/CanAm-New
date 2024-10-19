@@ -71,12 +71,12 @@ const MobileMenu = ({isMobileOpen, addClassName}) => {
                   </a>
                 </li>
                 <li>
-                  <a href="/parts" onClick={toggleMobileMenu}>
+                  <a href="/supplies" onClick={toggleMobileMenu}>
                     Supplies
                   </a>
                 </li>
                 <li>
-                  <a href="/parts" onClick={toggleMobileMenu}>
+                  <a href="/equipment" onClick={toggleMobileMenu}>
                     Equipment
                   </a>
                 </li>

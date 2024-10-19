@@ -1,283 +1,837 @@
 [
-    {
-      "id": "1",
-      "name": "Printer",
-      "products": [
-        {
-          "id": "1",
-          "name": "temp",
-          "subName": "temp sub",
-          "desc": "temp desc",
-          "img": "",
-          "features": [
-            {
-              "id": "1",
-              "title": "",
-              "content": ""
-            }
-          ]
-        },
-        {
-          "id": "2",
-          "name": "temp",
-          "subName": "temp sub",
-          "desc": "temp desc",
-          "img": "",
-          "features": [
-            {
-              "id": "1",
-              "title": "",
-              "content": ""
-            }
-          ]
-        },
-        {
-          "id": "3",
-          "name": "temp",
-          "subName": "temp sub",
-          "desc": "temp desc",
-          "img": "",
-          "features": [
-            {
-              "id": "1",
-              "title": "",
-              "content": ""
-            }
-          ]
-        },
-        {
-          "id": "4",
-          "name": "temp",
-          "subName": "temp sub",
-          "desc": "temp desc",
-          "img": "",
-          "features": [
-            {
-              "id": "1",
-              "title": "",
-              "content": ""
-            }
-          ]
-        },
-        {
-          "id": "5",
-          "name": "temp",
-          "subName": "temp sub",
-          "desc": "temp desc",
-          "img": "",
-          "features": [
-            {
-              "id": "1",
-              "title": "",
-              "content": ""
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "2",
-      "name": "Copier",
-      "products": [
-        {
-          "id": "1",
-          "name": "Ricoh MP C4504",
-          "subName": "A3 Color Laser Multifunction Copier",
-          "desc": "45ppm, Copy, Fax, Print, Scan, Auto Duplex, Network, WIFI, 4 Trays and Comes with Pre-Installed Postscript 3 Supplement",
-          "img": "/assets/img/products/c4504.png",
-          "features": [
-            {
-              "id": "1",
-              "title": "Standard Features",
-              "content": "Copy, Print, Scan, Auto Duplex, and Network"
-            }
-          ]
-        },
-        {
-          "id": "2",
-          "name": "Ricoh MP C3004",
-          "subName": "A3/A4 Color Laser Multifunction Copier",
-          "desc": "30ppm, Copy, Fax, Print, Scan, Auto Duplex, Network, WIFI, 4 Trays, Stand, Comes with Pre-installed PostScript 3 Supplement",
-          "img": "/assets/img/products/c3004.png",
-          "features": [
-            {
-              "id": "1",
-              "title": "Standard Features",
-              "content": "Copy, WIFI, Fax, Print, Scan, Auto Duplex, and Network"
-            }
-          ]
-        },
-        {
-          "id": "3",
-          "name": "Ricoh MP C5504",
-          "subName": "Tabloid/Ledger-Size Color Laser Multifunction Copier",
-          "desc": "55ppm, Copy, Print, Scan, 2 Trays, Stand",
-          "img": "/assets/img/products/c5504.png",
-          "features": [
-            {
-              "id": "1",
-              "title": "Standard Features",
-              "content": "Copy, Print, Scan, Auto Duplex, and Network"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "3",
-      "name": "Scanner",
-      "products": [
-        {
-          "id": "1",
-          "name": "temp",
-          "subName": "temp sub",
-          "desc": "temp desc",
-          "img": "",
-          "features": [
-            {
-              "id": "1",
-              "title": "",
-              "content": ""
-            }
-          ]
-        },
-        {
-          "id": "2",
-          "name": "temp",
-          "subName": "temp sub",
-          "desc": "temp desc",
-          "img": "",
-          "features": [
-            {
-              "id": "1",
-              "title": "",
-              "content": ""
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "4",
-      "name": "Laptop",
-      "products": [
-        {
-          "id": "1",
-          "name": "temp",
-          "subName": "temp sub",
-          "desc": "temp desc",
-          "img": "",
-          "features": [
-            {
-              "id": "1",
-              "title": "",
-              "content": ""
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "5",
-      "name": "Tablet",
-      "products": [
-        {
-          "id": "1",
-          "name": "temp",
-          "subName": "temp sub",
-          "desc": "temp desc",
-          "img": "",
-          "features": [
-            {
-              "id": "1",
-              "title": "",
-              "content": ""
-            }
-          ]
-        },
-        {
-          "id": "2",
-          "name": "temp",
-          "subName": "temp sub",
-          "desc": "temp desc",
-          "img": "",
-          "features": [
-            {
-              "id": "1",
-              "title": "",
-              "content": ""
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "6",
-      "name": "Desktop",
-      "products": [
-        {
-          "id": "1",
-          "name": "temp",
-          "subName": "temp sub",
-          "desc": "temp desc",
-          "img": "",
-          "features": [
-            {
-              "id": "1",
-              "title": "",
-              "content": ""
-            }
-          ]
-        },
-        {
-          "id": "2",
-          "name": "temp",
-          "subName": "temp sub",
-          "desc": "temp desc",
-          "img": "",
-          "features": [
-            {
-              "id": "1",
-              "title": "",
-              "content": ""
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "7",
-      "name": "Server",
-      "products": [
-        {
-          "id": "1",
-          "name": "temp",
-          "subName": "temp sub",
-          "desc": "temp desc",
-          "img": "",
-          "features": [
-            {
-              "id": "1",
-              "title": "",
-              "content": ""
-            }
-          ]
-        },
-        {
-          "id": "2",
-          "name": "temp",
-          "subName": "temp sub",
-          "desc": "temp desc",
-          "img": "",
-          "features": [
-            {
-              "id": "1",
-              "title": "",
-              "content": ""
-            }
-          ]
-        }
-      ]
-    }
-  ]
-  
+  {
+    "id": "1",
+    "name": "Xerox",
+    "subName": "xerox",
+    "products": [
+      {
+        "id": "1",
+        "name": "Xerox",
+        "subName": "C75",
+        "desc": "Elevate your office's productivity and creativity with the Xerox C75 Color Multifunction Printer. Designed for businesses that demand versatility, speed, and exceptional quality, the C75 delivers outstanding color printing, copying, scanning, and finishing capabilities—all in one compact device. Whether you're producing vibrant marketing materials or essential business documents, the C75 empowers you to achieve professional results with ease.",
+        "img": "/assets/images/equipment/xerox-c75.png",
+        "features": [
+          {
+            "id": "1",
+            "content": "Delivers vibrant prints with a resolution of up to 2400 x 2400 dpi, ensuring professional-grade output for all your documents."
+          },
+          {
+            "id": "2",
+            "content": "Achieves impressive print speeds of up to 75 pages per minute, enhancing productivity in busy office environments."
+          },
+          {
+            "id": "3",
+            "content": "Supports a wide variety of media sizes and types, allowing for creative projects ranging from brochures to envelopes."
+          },
+          {
+            "id": "4",
+            "content": "Features single-pass duplex scanning, enabling fast and efficient scanning of double-sided documents."
+          },
+          {
+            "id": "5",
+            "content": "Offers multiple finishing capabilities, including stapling, hole punching, and booklet making, for polished, professional presentations."
+          },
+          {
+            "id": "6",
+            "content": "The intuitive touchscreen display simplifies operation, making it easy for all users to navigate and access features quickly."
+          },
+          {
+            "id": "7",
+            "content": "Includes advanced security options like user authentication and secure print, protecting sensitive information and ensuring compliance."
+          }
+        ]
+      },
+      {
+        "id": "2",
+        "name": "Xerox",
+        "subName": "J75",
+        "desc": "Take your print production to the next level with the Xerox J75 Color Press, engineered for businesses that require outstanding quality and flexibility. This high-performance press is perfect for producing vibrant marketing materials, brochures, and professional documents, all while maintaining exceptional detail. With its advanced digital technology, the J75 seamlessly integrates into your workflow, enabling you to handle diverse print jobs with ease.",
+        "img": "/assets/images/equipment/xerox-j75.png",
+        "features": [
+          {
+            "id": "1",
+            "content": "Produces vivid prints with a resolution of up to 2400 x 2400 dpi, ensuring professional-grade output every time."
+          },
+          {
+            "id": "2",
+            "content": "Achieves impressive speeds of up to 75 pages per minute, boosting efficiency in high-volume print environments."
+          },
+          {
+            "id": "3",
+            "content": "Supports an extensive range of media types and sizes, allowing for creative projects from brochures to specialty stocks."
+          },
+          {
+            "id": "4",
+            "content": "Offers versatile finishing capabilities, including stapling, folding, and booklet-making, for a polished, professional look."
+          },
+          {
+            "id": "5",
+            "content": "The user-friendly touchscreen simplifies operation, making it easy for all team members to navigate features quickly."
+          },
+          {
+            "id": "6",
+            "content": "Incorporates advanced security options, such as user authentication and secure printing, to safeguard sensitive information."
+          },
+          {
+            "id": "7",
+            "content": "Integrates seamlessly into existing workflows with various connectivity options, enhancing overall productivity and collaboration."
+          }
+        ]
+      },
+      {
+        "id": "3",
+        "name": "Xerox",
+        "subName": "DocuColor 700/700i/770",
+        "desc": "Introducing the DocuColor 700/700i/770, the ultimate solution for vibrant, high-quality color printing that meets the demands of modern businesses. Designed for performance and versatility, this digital color press delivers exceptional image quality, making it perfect for everything from marketing materials to professional presentations. With its advanced technology and user-friendly interface, you can easily achieve stunning results in no time. Whether you’re printing short runs or high-volume projects, the DocuColor series is engineered to keep your workflow efficient and your print quality consistently outstanding.",
+        "img": "/assets/images/equipment/docucolor-770.png",
+        "features": [
+          {
+            "id": "1",
+            "content": "Unmatched color fidelity with a maximum resolution of 2400 x 2400 dpi for vibrant, sharp images."
+          },
+          {
+            "id": "2",
+            "content": "Rapid printing speeds of up to 70 pages per minute, ensuring high productivity for busy environments."
+          },
+          {
+            "id": "3",
+            "content": "Wide media compatibility, allowing printing on various substrates including cardstock, labels, and textured papers."
+          },
+          {
+            "id": "4",
+            "content": "Intuitive touch-screen interface with customizable workflows for streamlined operation and ease of use."
+          },
+          {
+            "id": "5",
+            "content": "Comprehensive finishing options, including inline booklet-making, trimming, and folding for professional presentations."
+          },
+          {
+            "id": "6",
+            "content": "Robust job management features with advanced job queuing and tracking for optimal print workflow."
+          },
+          {
+            "id": "7",
+            "content": "Energy-efficient design that meets environmental standards while delivering high performance."
+          }
+        ]
+      },
+      {
+        "id": "4",
+        "name": "Xerox",
+        "subName": "C60/C70",
+        "desc": "Introducing the Xerox C60/C70, your go-to digital color press for exceptional print quality and unparalleled versatility. Designed to meet the evolving needs of businesses, this powerhouse combines high-performance printing with advanced color technology, ensuring your materials stand out with vibrant colors and sharp details. Whether you're producing marketing collateral, professional documents, or creative projects, the C60/C70 delivers remarkable results every time. With an intuitive interface and customizable features, this printer is engineered to enhance your productivity and simplify your workflow, making it an essential tool for any modern workspace.",
+        "img": "/assets/images/equipment/xerox-c60-c70.png",
+        "features": [
+          {
+            "id": "1",
+            "content": "Outstanding image quality with a resolution of up to 2400 x 2400 dpi for stunning, true-to-life prints."
+          },
+          {
+            "id": "2",
+            "content": "Impressive printing speeds of up to 75 pages per minute, perfect for high-volume jobs."
+          },
+          {
+            "id": "3",
+            "content": "Flexible media handling capabilities, accommodating various paper sizes and weights for diverse projects."
+          },
+          {
+            "id": "4",
+            "content": "User-friendly color touchscreen interface that allows for easy navigation and customization."
+          },
+          {
+            "id": "5",
+            "content": "Extensive finishing options including stapling, hole punching, and booklet-making for professional presentations."
+          },
+          {
+            "id": "6",
+            "content": "Advanced color management tools, ensuring consistent and accurate color reproduction across all prints."
+          },
+          {
+            "id": "7",
+            "content": "Sustainable design featuring energy-saving modes and recyclable materials to minimize environmental impact."
+          }
+        ]
+      },
+      {
+        "id": "5",
+        "name": "Xerox",
+        "subName": "550/560/570",
+        "desc": "Introducing the Xerox 550/560/570 series, a powerful digital color press designed to elevate your printing capabilities with exceptional quality and unmatched flexibility. This series is engineered for high-performance environments, making it ideal for print shops, marketing agencies, and corporate environments alike. With cutting-edge technology, these machines deliver brilliant colors and crisp details that will make your prints truly stand out. The intuitive interface and robust features ensure that you can easily manage jobs, optimize workflows, and produce a wide array of materials—from brochures to banners—with ease and efficiency.",
+        "img": "/assets/images/equipment/xerox-550-560-570.png",
+        "features": [
+          {
+            "id": "1",
+            "content": "High-resolution output up to 1200 x 1200 dpi, delivering sharp, vibrant images and text."
+          },
+          {
+            "id": "2",
+            "content": "Fast printing speeds of up to 65 pages per minute, ensuring quick turnaround times for all projects."
+          },
+          {
+            "id": "3",
+            "content": "Comprehensive media handling capabilities, including thick stock and specialty media for diverse applications."
+          },
+          {
+            "id": "4",
+            "content": "Intuitive color touchscreen interface with customizable workflows to streamline operation and enhance productivity."
+          },
+          {
+            "id": "5",
+            "content": "Versatile finishing options such as folding, stapling, and booklet making to create professional-quality documents."
+          },
+          {
+            "id": "6",
+            "content": "Advanced color management features, ensuring accurate and consistent color across all prints."
+          },
+          {
+            "id": "7",
+            "content": "Sustainable printing solutions designed to reduce waste and lower energy consumption without compromising performance."
+          }
+        ]
+      },
+      {
+        "id": "6",
+        "name": "Xerox",
+        "subName": "Primelink C9065/C9070",
+        "desc": "Introducing the Xerox Primelink C9065/C9070, a state-of-the-art digital color press designed to redefine your printing experience with superior quality and unmatched versatility. Engineered for high-volume production environments, this advanced printer delivers stunning color accuracy and detail, making it perfect for a variety of applications, from high-impact marketing materials to intricate graphics. With its intuitive user interface and robust finishing options, the Primelink series streamlines workflows and enhances productivity, ensuring your business meets demanding deadlines while delivering exceptional results every time.",
+        "img": "/assets/images/equipment/xerox-primelink-c9070.png",
+        "features": [
+          {
+            "id": "1",
+            "content": "Exceptional print quality with a maximum resolution of 2400 x 2400 dpi for vibrant colors and fine details."
+          },
+          {
+            "id": "2",
+            "content": "Impressive print speeds of up to 70 pages per minute, designed to handle high-volume workloads efficiently."
+          },
+          {
+            "id": "3",
+            "content": "Extensive media handling capabilities, supporting a wide range of paper types and sizes, including specialty stocks."
+          },
+          {
+            "id": "4",
+            "content": "User-friendly color touchscreen interface with customizable settings for easy job management and navigation."
+          },
+          {
+            "id": "5",
+            "content": "Advanced finishing options, including inline stapling, booklet making, and folding for professional document presentation."
+          },
+          {
+            "id": "6",
+            "content": "Robust color management tools that ensure consistent color reproduction across different media types."
+          },
+          {
+            "id": "7",
+            "content": "Energy-efficient design that meets sustainability standards while providing high-quality printing performance."
+          }
+        ]
+      },
+      {
+        "id": "7",
+        "name": "Xerox",
+        "subName": "Versant 80",
+        "desc": "Elevate your print production capabilities with the Xerox Versant 80 Color Press, a high-performance solution designed for businesses that demand exceptional quality and versatility. Ideal for print service providers and in-house print departments, the Versant 80 delivers stunning color reproduction and precise detail, making it perfect for everything from marketing materials to intricate graphics. With its advanced automation and user-friendly features, this color press streamlines your workflow and maximizes productivity.",
+        "img": "/assets/images/equipment/xerox-versant-80.png",
+        "features": [
+          {
+            "id": "1",
+            "content": "Produces exceptional color quality with a resolution of up to 2400 x 2400 dpi, ensuring vibrant, detailed prints."
+          },
+          {
+            "id": "2",
+            "content": "Achieves impressive print speeds of up to 80 pages per minute, ideal for high-volume production environments."
+          },
+          {
+            "id": "3",
+            "content": "Supports a wide variety of media types and sizes, including thick and specialty stocks for diverse printing applications."
+          },
+          {
+            "id": "4",
+            "content": "Features advanced automation capabilities, including automated calibration and job management for consistent output."
+          },
+          {
+            "id": "5",
+            "content": "The intuitive touchscreen interface simplifies operation and allows for quick access to settings and features."
+          },
+          {
+            "id": "6",
+            "content": "Includes robust security features such as secure print and user authentication to protect sensitive information."
+          },
+          {
+            "id": "7",
+            "content": "Provides flexible connectivity options, including USB, Ethernet, and wireless, for seamless integration into any workflow."
+          }
+        ]
+      },
+      {
+        "id": "8",
+        "name": "Xerox",
+        "subName": "Versant 180",
+        "desc": "Unlock your print production potential with the Xerox Versant 180 Color Press, a powerful solution designed for businesses that demand high-quality output and exceptional versatility. This advanced color press is perfect for both print service providers and in-house printing operations, delivering vibrant colors and sharp details for everything from marketing materials to intricate graphics. With its innovative features and user-friendly design, the Versant 180 streamlines workflows and maximizes efficiency.",
+        "img": "/assets/images/equipment/xerox-versant-180.png",
+        "features": [
+          {
+            "id": "1",
+            "content": "Delivers outstanding color quality with a resolution of up to 2400 x 2400 dpi, ensuring stunning and precise prints."
+          },
+          {
+            "id": "2",
+            "content": "Achieves print speeds of up to 80 pages per minute, making it ideal for high-volume production environments."
+          },
+          {
+            "id": "3",
+            "content": "Supports a wide range of media types and sizes, including specialty stocks, for diverse printing applications."
+          },
+          {
+            "id": "4",
+            "content": "Features advanced automation capabilities, such as automated color calibration and workflow management for consistent results."
+          },
+          {
+            "id": "5",
+            "content": "The intuitive touchscreen interface simplifies navigation and operation, making it accessible for all users."
+          },
+          {
+            "id": "6",
+            "content": "Incorporates robust security features, including secure print and user authentication, to protect sensitive documents."
+          },
+          {
+            "id": "7",
+            "content": "Offers flexible connectivity options, including USB, Ethernet, and wireless, for seamless integration into any office environment."
+          }
+        ]
+      },
+      {
+        "id": "9",
+        "name": "Xerox",
+        "subName": "Versant 280",
+        "desc": "Elevate your print production capabilities with the Xerox Versant 280 Color Press, a sophisticated solution tailored for businesses that demand high-quality output and operational flexibility. This advanced color press is ideal for both print service providers and in-house printing departments, delivering vibrant colors and exceptional detail for a wide variety of applications, from marketing materials to professional documents. With its cutting-edge technology and user-friendly features, the Versant 280 enhances workflow efficiency and maximizes productivity.",
+        "img": "/assets/images/equipment/xerox-versant-280.png",
+        "features": [
+          {
+            "id": "1",
+            "content": "Delivers exceptional color quality with a resolution of up to 2400 x 2400 dpi for stunning image clarity."
+          },
+          {
+            "id": "2",
+            "content": "Achieves print speeds of up to 80 pages per minute, perfect for high-volume production needs."
+          },
+          {
+            "id": "3",
+            "content": "Supports a wide variety of media types and sizes, including thick and specialty stocks, for diverse print applications."
+          },
+          {
+            "id": "4",
+            "content": "Features advanced automation capabilities, such as automated color calibration and job management for consistent output."
+          },
+          {
+            "id": "5",
+            "content": "The intuitive touchscreen interface simplifies navigation and operation, making it user-friendly for all skill levels."
+          },
+          {
+            "id": "6",
+            "content": "Includes robust security features like secure print and user authentication to safeguard sensitive information."
+          },
+          {
+            "id": "7",
+            "content": "Provides flexible connectivity options, including USB, Ethernet, and wireless, for seamless integration into any workflow."
+          }
+        ]
+      },
+      {
+        "id": "10",
+        "name": "Xerox",
+        "subName": "Versant 2100",
+        "desc": "Transform your printing capabilities with the Xerox Versant 2100 Color Press, designed for businesses that require high-quality output and exceptional versatility. This advanced color press is perfect for print service providers and in-house print operations, delivering vibrant colors and precise details for a wide range of applications, from marketing materials to professional documents. With its innovative features and user-friendly design, the Versant 2100 enhances workflow efficiency and maximizes productivity.",
+        "img": "/assets/images/equipment/xerox-versant-2100.png",
+        "features": [
+          {
+            "id": "1",
+            "content": "Delivers outstanding color quality with a resolution of up to 2400 x 2400 dpi for vibrant, sharp prints."
+          },
+          {
+            "id": "2",
+            "content": "Achieves impressive print speeds of up to 100 pages per minute, ideal for high-volume production environments."
+          },
+          {
+            "id": "3",
+            "content": "Supports a broad range of media types and sizes, including specialty stocks, for diverse printing applications."
+          },
+          {
+            "id": "4",
+            "content": "Features advanced automation capabilities, such as automated color calibration and job management for consistent results."
+          },
+          {
+            "id": "5",
+            "content": "The intuitive touchscreen interface simplifies navigation and operation, making it accessible for all users."
+          },
+          {
+            "id": "6",
+            "content": "Incorporates robust security features, including secure print and user authentication, to protect sensitive documents."
+          },
+          {
+            "id": "7",
+            "content": "Provides flexible connectivity options, including USB, Ethernet, and wireless, for seamless integration into any workflow."
+          }
+        ]
+      },
+      {
+        "id": "11",
+        "name": "Xerox",
+        "subName": "Versant 3100",
+        "desc": "Revolutionize your print production with the Xerox Versant 3100 Color Press, designed for businesses that require unparalleled quality and versatility. This advanced color press is perfect for print service providers and in-house print operations, delivering stunning colors and exceptional detail for a wide variety of applications, from eye-catching marketing materials to intricate graphics. With its innovative features and user-friendly design, the Versant 3100 enhances workflow efficiency and boosts productivity.",
+        "img": "/assets/images/equipment/xerox-versant-3100.png",
+        "features": [
+          {
+            "id": "1",
+            "content": "Delivers exceptional color quality with a resolution of up to 2400 x 2400 dpi, ensuring vibrant and sharp prints."
+          },
+          {
+            "id": "2",
+            "content": "Achieves impressive print speeds of up to 100 pages per minute, making it ideal for high-demand production environments."
+          },
+          {
+            "id": "3",
+            "content": "Supports a wide range of media types and sizes, including specialty stocks, for diverse printing applications."
+          },
+          {
+            "id": "4",
+            "content": "Features advanced automation capabilities, such as automated color calibration and job management for consistent results."
+          },
+          {
+            "id": "5",
+            "content": "The intuitive touchscreen interface simplifies navigation and operation, making it user-friendly for all skill levels."
+          },
+          {
+            "id": "6",
+            "content": "Incorporates robust security features, including secure print and user authentication, to safeguard sensitive information."
+          },
+          {
+            "id": "7",
+            "content": "Provides flexible connectivity options, including USB, Ethernet, and wireless, for seamless integration into any workflow."
+          }
+        ]
+      },
+      {
+        "id": "12",
+        "name": "Xerox",
+        "subName": "Versant 4100",
+        "desc": "Elevate your print production capabilities with the Xerox Versant 4100 Color Press, engineered for businesses that demand exceptional quality, speed, and versatility. Ideal for both print service providers and in-house print departments, this advanced color press delivers stunning colors and sharp details for a wide range of applications, from high-quality marketing materials to complex graphics. With its innovative features and intuitive design, the Versant 4100 enhances workflow efficiency and boosts overall productivity.",
+        "img": "/assets/images/equipment/xerox-versant-4100.png",
+        "features": [
+          {
+            "id": "1",
+            "content": "Produces exceptional color quality with a resolution of up to 2400 x 2400 dpi for vibrant, high-definition prints."
+          },
+          {
+            "id": "2",
+            "content": "Achieves impressive print speeds of up to 100 pages per minute, making it ideal for high-volume production needs."
+          },
+          {
+            "id": "3",
+            "content": "Supports a wide variety of media types and sizes, including specialty stocks, for versatile printing applications."
+          },
+          {
+            "id": "4",
+            "content": "Features advanced automation capabilities, including automated color calibration and job management for consistent results."
+          },
+          {
+            "id": "5",
+            "content": "The user-friendly touchscreen interface simplifies operation, making it easy for all users to navigate."
+          },
+          {
+            "id": "6",
+            "content": "Incorporates robust security features, such as secure print and user authentication, to protect sensitive documents."
+          },
+          {
+            "id": "7",
+            "content": "Offers flexible connectivity options, including USB, Ethernet, and wireless, for seamless integration into any workflow."
+          }
+        ]
+      },
+      {
+        "id": "13",
+        "name": "Xerox",
+        "subName": "1000i",
+        "desc": "Transform your print production with the Xerox 1000i Color Press, an innovative solution designed for businesses that require exceptional quality and versatility. This advanced digital press is perfect for both commercial print service providers and in-house print operations, delivering vibrant colors and remarkable detail across a wide range of applications. With its cutting-edge technology and user-friendly features, the Xerox 1000i enhances workflow efficiency and allows you to produce professional-grade prints with ease.",
+        "img": "/assets/images/equipment/xerox-1000i.png",
+        "features": [
+          {
+            "id": "1",
+            "content": "Delivers stunning color quality with a resolution of up to 2400 x 2400 dpi, ensuring vivid and precise prints."
+          },
+          {
+            "id": "2",
+            "content": "Achieves print speeds of up to 100 pages per minute, making it ideal for high-volume production environments."
+          },
+          {
+            "id": "3",
+            "content": "Supports a wide variety of media types and sizes, including specialty stocks, for diverse printing applications."
+          },
+          {
+            "id": "4",
+            "content": "Features advanced automation capabilities, such as automated color calibration and job management for consistent output."
+          },
+          {
+            "id": "5",
+            "content": "The intuitive touchscreen interface simplifies navigation and operation, making it accessible for all users."
+          },
+          {
+            "id": "6",
+            "content": "Incorporates robust security features, including secure print and user authentication, to safeguard sensitive information."
+          },
+          {
+            "id": "7",
+            "content": "Provides flexible connectivity options, including USB, Ethernet, and wireless, for seamless integration into any workflow."
+          }
+        ]
+      },
+      {
+        "id": "14",
+        "name": "Xerox",
+        "subName": "Iridesse",
+        "desc": "Elevate your print capabilities with the Xerox Iridesse Production Press, a state-of-the-art solution designed for businesses that demand outstanding quality and creative versatility. This advanced digital press enables you to produce breathtaking prints with vibrant colors and exquisite detail, making it ideal for high-end marketing materials, packaging, and personalized communications. With its innovative features and user-friendly design, the Iridesse enhances workflow efficiency and empowers your creative projects.",
+        "img": "/assets/images/equipment/xerox-iridesse.png",
+        "features": [
+          {
+            "id": "1",
+            "content": "Delivers exceptional color quality with a resolution of up to 2400 x 2400 dpi, ensuring stunning and precise prints."
+          },
+          {
+            "id": "2",
+            "content": "Achieves print speeds of up to 120 pages per minute, perfect for high-volume production environments."
+          },
+          {
+            "id": "3",
+            "content": "Supports a diverse range of media types and sizes, including specialty stocks, enabling creative printing options."
+          },
+          {
+            "id": "4",
+            "content": "Features the ability to add metallic and specialty dry inks for unique and eye-catching effects."
+          },
+          {
+            "id": "5",
+            "content": "The intuitive touchscreen interface simplifies operation, making it accessible for all skill levels."
+          },
+          {
+            "id": "6",
+            "content": "Incorporates robust security features, such as secure print and user authentication, to protect sensitive documents."
+          },
+          {
+            "id": "7",
+            "content": "Offers flexible connectivity options, including USB, Ethernet, and wireless, for seamless integration into any workflow."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "name": "DocuTech© / DocuPrint©",
+    "subName": "docu",
+    "products": [
+      {
+        "id": "1",
+        "name": "DocuTech",
+        "subName": "135/6100/6115/6135/6155/6180",
+        "desc": "Introducing the DocuTech 135/6100/6115/6135/6155/6180 series, the ultimate solution for high-speed, high-quality production printing. Designed for businesses that demand exceptional reliability and performance, this series combines advanced technology with user-friendly features to elevate your printing capabilities. Whether you're producing high-volume documents, books, or marketing materials, the DocuTech series delivers crisp text and stunning graphics with remarkable efficiency. With a range of customizable options and robust finishing capabilities, you can streamline your workflow and meet any printing challenge head-on.",
+        "img": "/assets/images/equipment/docutech.png",
+        "features": [
+          {
+            "id": "1",
+            "content": "High-quality printing with a resolution of up to 1200 x 1200 dpi for sharp text and detailed images."
+          },
+          {
+            "id": "2",
+            "content": "Fast print speeds of up to 135 pages per minute, ensuring efficient handling of high-volume jobs."
+          },
+          {
+            "id": "3",
+            "content": "Versatile media handling, capable of printing on various paper sizes and types, including heavy stocks."
+          },
+          {
+            "id": "4",
+            "content": "Intuitive user interface with a touchscreen for easy navigation and job management."
+          },
+          {
+            "id": "5",
+            "content": "Comprehensive finishing options, including stapling, hole punching, and booklet making for professional results."
+          },
+          {
+            "id": "6",
+            "content": "Advanced workflow solutions that integrate seamlessly with existing systems to enhance productivity."
+          },
+          {
+            "id": "7",
+            "content": "Durable and reliable design built for high-volume environments, ensuring consistent performance over time."
+          }
+        ]
+      },
+      {
+        "id": "2",
+        "name": "DocuPrint",
+        "subName": "100/115/135/155/180/4635",
+        "desc": "Introducing the DocuPrint 100/115/135/155/180/4635 series, a versatile lineup of production printers that deliver outstanding print quality and reliability for all your document needs. Engineered for efficiency, these printers are ideal for businesses that require high-volume printing without sacrificing speed or quality. The DocuPrint series offers advanced features to enhance your workflow, whether you're producing everything from everyday office documents to high-impact marketing materials. With user-friendly controls and robust finishing options, you can easily manage jobs and achieve professional results every time.",
+        "img": "/assets/images/equipment/docuprint.png",
+        "features": [
+          {
+            "id": "1",
+            "content": "High-resolution output up to 1200 x 1200 dpi for crisp, clear text and vibrant graphics."
+          },
+          {
+            "id": "2",
+            "content": "Impressive print speeds ranging from 100 to 180 pages per minute, perfect for high-volume printing needs."
+          },
+          {
+            "id": "3",
+            "content": "Flexible media handling options, accommodating a variety of paper sizes, weights, and types."
+          },
+          {
+            "id": "4",
+            "content": "Intuitive control panel with a user-friendly interface for easy job management and operation."
+          },
+          {
+            "id": "5",
+            "content": "Comprehensive finishing capabilities, including stapling, folding, and hole punching for polished documents."
+          },
+          {
+            "id": "6",
+            "content": "Seamless integration with existing workflows and document management systems for enhanced productivity."
+          },
+          {
+            "id": "7",
+            "content": "Robust construction designed for reliability and durability in high-demand production environments."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "3",
+    "name": "Nuvera, Enterprise PS",
+    "subName": "nuvera",
+    "products": [
+      {
+        "id": "1",
+        "name": "Nuvera",
+        "subName": "100/120/144/157 EA",
+        "desc": "Introducing the Nuvera 100/120/144/157 EA series, a cutting-edge solution for high-performance production printing that meets the demands of today’s fast-paced business environment. Engineered for reliability and exceptional quality, this series combines advanced technology with flexible capabilities, making it ideal for producing a wide range of applications, from high-volume documents to sophisticated marketing materials. The Nuvera series ensures consistent output with vibrant colors and sharp details, all while streamlining your workflow and enhancing productivity with user-friendly features.",
+        "img": "/assets/images/equipment/nuvera-120ea.png",
+        "features": [
+          {
+            "id": "1",
+            "content": "Exceptional print quality with a resolution of up to 1200 x 1200 dpi for clear, vibrant images and text."
+          },
+          {
+            "id": "2",
+            "content": "High-speed printing capabilities, offering speeds of 100 to 157 pages per minute to maximize efficiency."
+          },
+          {
+            "id": "3",
+            "content": "Versatile media handling that supports various sizes and weights, including heavy stocks and specialty papers."
+          },
+          {
+            "id": "4",
+            "content": "User-friendly touchscreen interface designed for easy navigation and quick job setup."
+          },
+          {
+            "id": "5",
+            "content": "Advanced finishing options such as stapling, booklet-making, and trimming for professional-quality results."
+          },
+          {
+            "id": "6",
+            "content": "Integrated workflow tools that allow for seamless job management and enhanced productivity."
+          },
+          {
+            "id": "7",
+            "content": "Robust design built for high-volume usage, ensuring consistent performance and durability in demanding environments."
+          }
+        ]
+      },
+      {
+        "id": "2",
+        "name": "Nuvera",
+        "subName": "200/288/314 EA",
+        "desc": "Introducing the Nuvera 200/288/314 EA series, an innovative production printing solution tailored for high-demand environments that require outstanding quality and efficiency. This advanced series combines exceptional speed with superior print quality, making it perfect for a variety of applications, from corporate documents to creative marketing materials. With its intelligent technology and user-friendly features, the Nuvera series enhances your workflow, enabling you to produce professional-grade prints with ease. Elevate your printing capabilities and meet the diverse needs of your business with the Nuvera series.",
+        "img": "/assets/images/equipment/nuvera-200-288-314.png",
+        "features": [
+          {
+            "id": "1",
+            "content": "Impressive print resolution of up to 1200 x 1200 dpi, delivering crisp text and vivid color output."
+          },
+          {
+            "id": "2",
+            "content": "High-speed printing capabilities ranging from 200 to 314 pages per minute, designed for rapid job completion."
+          },
+          {
+            "id": "3",
+            "content": "Versatile media handling options that support a wide variety of paper types and sizes, including heavy and specialty stocks."
+          },
+          {
+            "id": "4",
+            "content": "Intuitive touchscreen interface that simplifies job setup and navigation, enhancing user experience."
+          },
+          {
+            "id": "5",
+            "content": "Robust finishing capabilities, including inline stapling, folding, and booklet-making for polished final products."
+          },
+          {
+            "id": "6",
+            "content": "Integrated workflow solutions that facilitate seamless job management and tracking for increased productivity."
+          },
+          {
+            "id": "7",
+            "content": "Durable construction engineered for high-volume production, ensuring reliability and consistent performance."
+          }
+        ]
+      },
+      {
+        "id": "3",
+        "name": "Nuvera",
+        "subName": "288/314 EA MICR",
+        "desc": "Elevate your printing capabilities with the Xerox Nuvera 288EA MICR, a specialized production system designed for high-volume environments that require exceptional black-and-white output, especially for financial and transactional printing. Ideal for commercial print providers and in-house print departments, this advanced system ensures accuracy and reliability in printing MICR (Magnetic Ink Character Recognition) documents. With its robust features and user-friendly interface, the Nuvera 288EA MICR allows you to produce high-quality documents efficiently.",
+        "img": "/assets/images/equipment/nuvera-200-288-314.png",
+        "features": [
+          {
+            "id": "1",
+            "content": "Delivers high-quality black-and-white prints with a resolution of up to 1200 x 1200 dpi for clear text and images."
+          },
+          {
+            "id": "2",
+            "content": "Achieves impressive print speeds of up to 288 pages per minute, perfect for high-volume production needs."
+          },
+          {
+            "id": "3",
+            "content": "Designed specifically for MICR printing, ensuring accuracy in financial documents and checks."
+          },
+          {
+            "id": "4",
+            "content": "Supports a variety of media types and sizes, providing flexibility for diverse document applications."
+          },
+          {
+            "id": "5",
+            "content": "Features advanced finishing options, including stapling and booklet-making for professional output."
+          },
+          {
+            "id": "6",
+            "content": "The intuitive user interface simplifies operation, making it user-friendly for all skill levels."
+          },
+          {
+            "id": "7",
+            "content": "Incorporates robust security features such as secure print and user authentication to protect sensitive information."
+          }
+        ]
+      },
+      {
+        "id": "4",
+        "name": "Xerox",
+        "subName": "D95/D110/D125",
+        "desc": "Introducing the Xerox D95/D110/D125 series, a powerful digital production printer designed to deliver exceptional quality and efficiency for high-volume printing needs. This versatile lineup is ideal for print service providers, corporate environments, and educational institutions looking to produce everything from sharp text documents to vibrant graphics. With its advanced technology, the D95/D110/D125 series ensures consistent output and quick turnaround times, all while providing a user-friendly experience. Elevate your printing capabilities and meet the diverse demands of your business with this robust, reliable solution.",
+        "img": "/assets/images/equipment/xerox-d95-d110-d125.png",
+        "features": [
+          {
+            "id": "1",
+            "content": "Outstanding image quality with a resolution of up to 2400 x 2400 dpi, producing crisp, vibrant prints."
+          },
+          {
+            "id": "2",
+            "content": "High-speed printing capabilities, delivering up to 125 pages per minute for efficient production workflows."
+          },
+          {
+            "id": "3",
+            "content": "Flexible media handling, accommodating a wide range of paper sizes, weights, and specialty media options."
+          },
+          {
+            "id": "4",
+            "content": "User-friendly touchscreen interface that simplifies job management and operation for enhanced productivity."
+          },
+          {
+            "id": "5",
+            "content": "Advanced finishing options, including stapling, hole punching, and booklet-making for professional-grade documents."
+          },
+          {
+            "id": "6",
+            "content": "Seamless integration with existing workflows and document management systems for streamlined operations."
+          },
+          {
+            "id": "7",
+            "content": "Robust and reliable design built for high-demand environments, ensuring consistent performance and longevity."
+          }
+        ]
+      },
+      {
+        "id": "5",
+        "name": "Xerox",
+        "subName": "D136",
+        "desc": "Enhance your document production with the Xerox D136 Copier/Printer, a reliable and efficient solution designed for high-volume environments that demand exceptional quality. Ideal for commercial print providers and busy office settings, the D136 delivers outstanding black-and-white output with impressive speed and precision. With its advanced features and user-friendly interface, this multifunction system enables you to efficiently produce a wide range of documents while maintaining high standards of quality.",
+        "img": "/assets/images/equipment/xerox-d136.png",
+        "features": [
+          {
+            "id": "1",
+            "content": "Produces high-quality black-and-white prints with a resolution of up to 1200 x 1200 dpi for clear text and detailed images."
+          },
+          {
+            "id": "2",
+            "content": "Achieves impressive print speeds of up to 136 pages per minute, making it suitable for high-demand production environments."
+          },
+          {
+            "id": "3",
+            "content": "Supports a variety of media types and sizes, offering flexibility for diverse document applications."
+          },
+          {
+            "id": "4",
+            "content": "Features advanced finishing options, including stapling, hole punching, and booklet-making for professional results."
+          },
+          {
+            "id": "5",
+            "content": "The intuitive touchscreen interface simplifies operation, ensuring ease of use for all skill levels."
+          },
+          {
+            "id": "6",
+            "content": "Incorporates robust security features, such as secure print and user authentication, to protect sensitive information."
+          },
+          {
+            "id": "7",
+            "content": "Offers flexible connectivity options, including USB, Ethernet, and network printing, for seamless integration into any workflow."
+          }
+        ]
+      },
+      {
+        "id": "6",
+        "name": "Xerox",
+        "subName": "Primelink B9100/B9110/B9125/B9136",
+        "desc": "Introducing the Xerox Primelink B9100/B9110/B9125/B9136 series, a state-of-the-art solution for high-volume black-and-white production printing that combines exceptional quality, speed, and versatility. Engineered for demanding environments, this series delivers crisp, clear documents with outstanding efficiency, making it perfect for everything from high-quantity print runs to intricate graphic applications. With a range of advanced features and user-friendly controls, the Primelink series enhances workflow capabilities, allowing businesses to achieve professional results with ease and consistency.",
+        "img": "/assets/images/equipment/xerox-primelink-b9100-b9110-b9125-b9136.png",
+        "features": [
+          {
+            "id": "1",
+            "content": "High-quality black-and-white printing with a resolution of up to 1200 x 1200 dpi for sharp text and detailed images."
+          },
+          {
+            "id": "2",
+            "content": "Impressive printing speeds of up to 136 pages per minute, designed for rapid job completion in busy environments."
+          },
+          {
+            "id": "3",
+            "content": "Versatile media handling capabilities that support various paper sizes and weights, including specialty stocks."
+          },
+          {
+            "id": "4",
+            "content": "Intuitive touchscreen interface for easy navigation and job setup, enhancing user experience and productivity."
+          },
+          {
+            "id": "5",
+            "content": "Comprehensive finishing options, including stapling, hole punching, and booklet-making for professional presentations."
+          },
+          {
+            "id": "6",
+            "content": "Integrated workflow tools for seamless job management and tracking, optimizing print production processes."
+          },
+          {
+            "id": "7",
+            "content": "Durable design built for high-volume usage, ensuring consistent performance and reliability in demanding print environments."
+          }
+        ]
+      }
+    ]
+  }
+]

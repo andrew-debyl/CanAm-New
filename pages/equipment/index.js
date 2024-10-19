@@ -48,29 +48,21 @@ const Equipment = () => {
                       id="nav-tab"
                       role="tablist"
                     >
-                      {[
-                        "Printer",
-                        "Copier",
-                        "Scanner",
-                        "Laptop",
-                        "Tablet",
-                        "Desktop",
-                        "Server",
-                      ].map((tab) => (
+                      {equData.map((tab) => (
                         <button
-                          key={tab}
+                          key={tab.subName}
                           className={`nav-link ${
-                            "Printer" === tab ? "active" : ""
+                            "xerox" === tab.subName ? "active" : ""
                           }`}
                           type="button"
                           role="tab"
-                          aria-controls={tab}
-                          aria-selected={"Printer" === tab}
-                          id={`${tab}-tab`}
+                          aria-controls={tab.subName}
+                          aria-selected={"xerox" === tab.subName}
+                          id={`${tab.subName}-tab`}
                           data-bs-toggle="tab"
-                          data-bs-target={`#${tab}`}
+                          data-bs-target={`#${tab.subName}`}
                         >
-                          {tab}
+                          {tab.name}
                         </button>
                       ))}
                     </div>
@@ -83,30 +75,27 @@ const Equipment = () => {
             <div className="tab-content" id="nav-tabContent">
               {equData.map((tab) => (
                 <div
-                  key={tab.name}
+                  key={tab.subName}
                   className={`tab-pane fade ${
-                    "Printer" === tab.name ? "show active" : ""
-                  }`}
-                  id={tab.name}
+                    "xerox" === tab.subName ? "show active" : ""
+                  }  equipment-items-wrapper`}
+                  id={tab.subName}
                   role="tabpanel"
-                  aria-labelledby={`${tab.name}-tab`}
+                  aria-labelledby={`${tab.subName}-tab`}
                 >
                   {tab.products.map((product) => (
                     <Link
                       key={product.id}
-                      className="col-xl-4 col-lg-4 col-md-6 filter-item development finance"
-                      href={`/equipment/${tab.name}/${product.id}`}
+                      className="equipment-item filter-item development finance"
+                      href={`/equipment/${tab.subName}/${product.id}`}
                     >
-                      <div className="case-studies-one__single ">
+                      <div className="case-studies-one__single">
                         <div className="case-studies-one__single-img">
-                          <img
-                            src="assets/images/resources/case-studies-v1-img5.jpg"
-                            alt="image"
-                          />
-                          <div className="overly-text">
-                            <h3>{product.name}</h3>
-                            <p>{product.subName}</p>
-                          </div>
+                          <img src={product.img} alt="image" />
+                        </div>
+                        <div className="overly-text-equipment">
+                          <h3>{product.name}</h3>
+                          <p className="equipment-subname">{product.subName}</p>
                         </div>
                       </div>
                     </Link>

@@ -1773,7 +1773,6 @@ ul {
   display: none;
 }
 
-
 /***
 =============================================
     Slider
@@ -2243,7 +2242,6 @@ ul {
 .banner-one__banner-img img {
   width: auto;
 }
-
 
 /***
 =============================================
@@ -3475,7 +3473,6 @@ ul {
   background: var(--thm-base);
 }
 
-
 /***
 =============================================
     Cta One
@@ -4535,12 +4532,27 @@ ul {
   margin-bottom: 59px;
 }
 
+.equipment-items-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.equipment-item {
+  width: 32.1%;
+  margin-bottom: 10px;
+}
+
 .case-studies-one__single {
-  position: relative;
-  display: block;
+  background-color: #fff;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
   overflow: hidden;
-  margin-bottom: 30px;
-  border-radius: 7px;
+  transition: all 300ms ease;
+}
+
+.case-studies-one__single:hover {
+  transform: translateY(-5px);
 }
 
 .swiper-slide .case-studies-one__single {
@@ -4556,88 +4568,51 @@ ul {
   color: #253c95;
 }
 
-.equipment-container {
-  display: flex;
-  flex-wrap: wrap;
-}
-
 .tab-content > .active {
   display: flex;
   flex-wrap: wrap;
 }
 
 .case-studies-one__single-img {
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
   position: relative;
-  display: block;
-  margin: 20px;
-  transition: all 0.7s ease 0s;
+  padding: 10px;
 }
 
 .case-studies-one__single-img img {
   width: 100%;
-  transform: scale(1);
+  height: 100%;
+  object-fit: contain;
 }
 
-.case-studies-one__single:hover .case-studies-one__single-img {
-  transform: scale(1.04);
+.overly-text-equipment {
+  padding: 15px;
+  text-align: center;
 }
 
-.case-studies-one__single-img .overly-text {
-  position: absolute;
-  left: 40px;
-  bottom: 35px;
-  z-index: 2;
+.case-studies-one__single-img .overly-text-equipment h3 {
+  font-size: 1.2rem;
+  margin: 10px 0;
+  color: #333;
 }
 
-.case-studies-one__single-img .overly-text h3 {
-  font-size: 24px;
-  line-height: 34px;
-  font-weight: 700;
-  margin-bottom: 2px;
-}
-
-.case-studies-one__single-img .overly-text h3 a {
+.case-studies-one__single-img .overly-text-equipment h3 a {
   color: #ffffff;
   transition: all 200ms linear;
   transition-delay: 0.1s;
 }
 
-.case-studies-one__single-img .overly-text h3 a:hover {
+.case-studies-one__single-img .overly-text-equipment h3 a:hover {
   color: #fff;
   opacity: 0.8;
 }
 
-.case-studies-one__single-img .overly-text p {
-  color: #ffffff;
-  margin: 0;
+.equipment-subname {
+  color: #777;
+  margin-bottom: 0;
 }
-
-.case-studies-one__single-img .overly-btn {
-  position: absolute;
-  top: 20px;
-  right: 20px;
-  z-index: 2;
-}
-
-.case-studies-one__single-img .overly-btn a {
-  position: relative;
-  display: inline-block;
-  color: #222631;
-  width: 45px;
-  height: 45px;
-  line-height: 45px;
-  background: #f3f6f8;
-  border-radius: 7px;
-  text-align: center;
-  transition: all 200ms linear;
-  transition-delay: 0.1s;
-}
-
-.case-studies-one__single-img .overly-btn a:hover {
-  background: var(--thm-base);
-  color: #ffffff;
-}
-
 
 /***
 =============================================
@@ -4645,9 +4620,15 @@ ul {
 =============================================
 ***/
 
+.equipment-spec-img-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
 .portfolio-details {
   padding-top: 120px;
   padding-bottom: 120px;
+  border-bottom: 1px solid #ededed;
 }
 
 .portfolio-details__content__title {
@@ -4655,7 +4636,44 @@ ul {
   color: var(--thm-black);
   margin: 0;
   margin-top: 45px;
+}
+
+.portfolio-details__content__subtitle {
+  color: var(--thm-gray);
+}
+
+.equipment-heading-wrapper {
   margin-bottom: 35px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.equipment-brochure-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.equipment-brochure {
+  border: none;
+  outline: none !important;
+  background-color: rgb(221, 31, 38);
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: capitalize;
+  padding: 12px 32px 14px;
+  border-radius: 7px;
+  font-family: var(--thm-manrope-font);
+  transition: all 0.3s linear;
+  z-index: 1;
+  overflow: hidden;
+}
+
+.equipment-brochure:hover {
+  scale: 1.07;
+  color: black;
 }
 
 .portfolio-details__content p {
@@ -4798,7 +4816,6 @@ ul {
   color: var(--thm-base);
 }
 
-
 /***
 =============================================
     Counter Three
@@ -4889,7 +4906,6 @@ ul {
   display: block;
 }
 
-
 /***
 =============================================
     Features Five
@@ -4903,7 +4919,6 @@ ul {
 .features-one--features-five .features-one__single {
   border-radius: 0;
 }
-
 
 /***
 =============================================
@@ -5510,7 +5525,6 @@ ul {
   margin: 0;
 }
 
-
 /***
 =============================================
     Portfolio Grid
@@ -5928,8 +5942,6 @@ ul {
   display: block;
   margin-top: 51px;
 }
-
-
 
 /* Tiny Scrollbar */
 #scrollbar1 {
