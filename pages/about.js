@@ -36,7 +36,7 @@ const About = () => {
                     data-wow-duration="1500ms"
                   >
                     <img
-                      src="assets/images/about/100_2588.jpg"
+                      src="/assets/images/about/100_2588.jpg"
                       alt="image"
                     />
                   </div>
@@ -97,7 +97,7 @@ const About = () => {
                     <div className="counter-one__single">
                       <div className="counter-one__single-icon">
                         <img
-                          src="assets/images/icon/counter-v3-icon1.png"
+                          src="/assets/images/icon/counter-v3-icon1.png"
                           alt="image"
                         />
                       </div>
@@ -119,7 +119,7 @@ const About = () => {
                     <div className="counter-one__single">
                       <div className="counter-one__single-icon">
                         <img
-                          src="assets/images/icon/counter-v3-icon2.png"
+                          src="/assets/images/icon/counter-v3-icon2.png"
                           alt="image"
                         />
                       </div>
@@ -141,7 +141,7 @@ const About = () => {
                     <div className="counter-one__single">
                       <div className="counter-one__single-icon">
                         <img
-                          src="assets/images/icon/counter-v3-icon3.png"
+                          src="/assets/images/icon/counter-v3-icon3.png"
                           alt="image"
                         />
                       </div>
@@ -261,7 +261,7 @@ const About = () => {
             >
               <div className="why-choose-one__img">
                 <img
-                  src="assets/images/about/100_2221.jpg"
+                  src="/assets/images/about/100_2221.jpg"
                   alt="image"
                 />
               </div>
