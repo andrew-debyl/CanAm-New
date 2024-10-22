@@ -36,7 +36,7 @@ const About = () => {
                     data-wow-duration="1500ms"
                   >
                     <img
-                      src="/assets/images/about/100_2588.jpg"
+                      src="/assets/images/resources/100_4.jpg"
                       alt="image"
                     />
                   </div>

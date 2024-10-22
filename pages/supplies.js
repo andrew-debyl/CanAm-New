@@ -15,7 +15,7 @@ const Supplies = () => {
                 data-wow-duration="1500ms"
               >
                 <div className="team-details-one__left-img why-choose-one__img">
-                  <img src="assets/images/resources/100_2889.jpg" alt="image" />
+                  <img src="assets/images/resources/100_1.jpg" alt="image" />
                 </div>
               </div>
             </div>
