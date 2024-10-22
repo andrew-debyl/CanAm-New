@@ -126,7 +126,7 @@ const TechnicalSupport = () => {
                 </div>
                 <div className="services-details-img1">
                   <img
-                    src="assets/images/resources/tech-support.jpg"
+                    src="assets/images/resources/100_2752.jpg"
                     alt="image"
                   />
                 </div>

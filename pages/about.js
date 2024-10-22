@@ -36,7 +36,7 @@ const About = () => {
                     data-wow-duration="1500ms"
                   >
                     <img
-                      src="assets/images/about/printer-small2.jpg"
+                      src="assets/images/about/100_2588.jpg"
                       alt="image"
                     />
                   </div>
@@ -261,7 +261,7 @@ const About = () => {
             >
               <div className="why-choose-one__img">
                 <img
-                  src="assets/images/resources/fixing-printer.jpg"
+                  src="assets/images/about/100_2221.jpg"
                   alt="image"
                 />
               </div>

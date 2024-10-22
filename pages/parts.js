@@ -58,7 +58,7 @@ const Parts = () => {
               data-wow-duration="2500ms"
             >
               <div className="why-choose-one__img">
-                <img src="assets/images/resources/temp4.jpg" alt="image" />
+                <img src="assets/images/resources/100_2741.jpg" alt="image" />
               </div>
             </div>
           </div>
