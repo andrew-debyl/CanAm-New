@@ -37,7 +37,7 @@ const TechnicalSupport = () => {
                   data-wow-duration="1200ms"
                 >
                   <h3 className="services-details__sidebar-title">
-                    Conatct Us
+                    Contact Us
                   </h3>
                   <form
                     onSubmit={(e) => e.preventDefault()}
