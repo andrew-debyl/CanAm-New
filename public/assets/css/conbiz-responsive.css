@@ -1274,6 +1274,9 @@
   .section-title__title br {
     display: none;
   }
+  .disable-click {
+      pointer-events: none; 
+  }
   .section-title__title {
     font-size: 40px;
   }

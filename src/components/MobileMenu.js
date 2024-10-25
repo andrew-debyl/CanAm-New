@@ -80,6 +80,16 @@ const MobileMenu = ({isMobileOpen, addClassName}) => {
                     Equipment
                   </a>
                 </li>
+                <li>
+                  <a href="/gallery" onClick={toggleMobileMenu}>
+                    Gallery
+                  </a>
+                </li>
+                <li>
+                  <a href="/videos" onClick={toggleMobileMenu}>
+                    Videos
+                  </a>
+                </li>
               </ul>
             </li>
             <li className="dropdown">

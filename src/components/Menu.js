@@ -12,6 +12,12 @@ export const Products = () => (
     <li>
       <Link href="/equipment">Equipment</Link>
     </li>
+    <li>
+      <Link href="/gallery">Gallery</Link>
+    </li>
+    <li>
+      <Link href="/videos">Videos</Link>
+    </li>
   </Fragment>
 );
 export const Services = () => (

@@ -18,24 +18,24 @@ export const FooterStyle1 = () => (
               <h3 className="footer-widget__title">Overview</h3>
               <ul className="footer-widget__overview-list list-unstyled">
                 <li>
-                  <Link href="/">
+                  <Link href="/buying-or-selling">
                     <div>
                       <i
                         className="fa fa-angle-double-right"
                         aria-hidden="true"
                       />
-                      Home
+                      Buying or Selling
                     </div>
                   </Link>
                 </li>
                 <li>
-                  <Link href="/resources">
+                  <Link href="/technical-support">
                     <div>
                       <i
                         className="fa fa-angle-double-right"
                         aria-hidden="true"
                       />
-                      Resources
+                      Technical Support
                     </div>
                   </Link>
                 </li>
@@ -69,19 +69,8 @@ export const FooterStyle1 = () => (
             data-wow-delay="0.3s"
           >
             <div className="footer-widget__column footer-widget__company mar-top">
-              <h3 className="footer-widget__title">Products/Services</h3>
+              <h3 className="footer-widget__title">Products</h3>
               <ul className="footer-widget__company-list list-unstyled">
-                <li>
-                  <Link href="/equipment">
-                    <div>
-                      <i
-                        className="fa fa-angle-double-right"
-                        aria-hidden="true"
-                      />
-                      Equipment
-                    </div>
-                  </Link>
-                </li>
                 <li>
                   <Link href="/parts">
                     <div>
@@ -105,24 +94,24 @@ export const FooterStyle1 = () => (
                   </Link>
                 </li>
                 <li>
-                  <Link href="/technical-support">
+                  <Link href="/equipment">
                     <div>
                       <i
                         className="fa fa-angle-double-right"
                         aria-hidden="true"
                       />
-                      Technical Support
+                      Equipment
                     </div>
                   </Link>
                 </li>
                 <li>
-                  <Link href="/buying-or-selling">
+                  <Link href="/gallery">
                     <div>
                       <i
                         className="fa fa-angle-double-right"
                         aria-hidden="true"
                       />
-                      Buying/Selling
+                      Gallery
                     </div>
                   </Link>
                 </li>
@@ -173,7 +162,7 @@ export const FooterStyle1 = () => (
               <div className="footer-widget__about-logo">
                 <Link href="/">
                   <div>
-                    <img src="/assets/images/resources/logo.png" alt="image" />
+                    <img src="/assets/images/resources/logo-2.png" alt="image" />
                   </div>
                 </Link>
               </div>
@@ -236,14 +225,25 @@ export const FooterStyle2 = () => (
             <div className="footer-widget__column footer-widget__company mar-top">
               <h3 className="footer-widget__title">Overview</h3>
               <ul className="footer-widget__company-list list-unstyled">
-                <li>
-                  <Link href="/">
+              <li>
+                  <Link href="/buying-or-selling">
                     <div>
                       <i
                         className="fa fa-angle-double-right"
                         aria-hidden="true"
                       />
-                      Home
+                      Buying or Selling
+                    </div>
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/technical-support">
+                    <div>
+                      <i
+                        className="fa fa-angle-double-right"
+                        aria-hidden="true"
+                      />
+                      Technical Support
                     </div>
                   </Link>
                 </li>
@@ -255,17 +255,6 @@ export const FooterStyle2 = () => (
                         aria-hidden="true"
                       />
                       About Us
-                    </div>
-                  </Link>
-                </li>
-                <li>
-                  <Link href="/buying-or-selling">
-                    <div>
-                      <i
-                        className="fa fa-angle-double-right"
-                        aria-hidden="true"
-                      />
-                      Buying/Selling
                     </div>
                   </Link>
                 </li>
@@ -288,19 +277,8 @@ export const FooterStyle2 = () => (
             data-wow-delay="0.3s"
           >
             <div className="footer-widget__column footer-widget__company mar-top">
-              <h3 className="footer-widget__title">Products/Services</h3>
+              <h3 className="footer-widget__title">Products</h3>
               <ul className="footer-widget__company-list list-unstyled">
-                <li>
-                  <Link href="/equipment">
-                    <div>
-                      <i
-                        className="fa fa-angle-double-right"
-                        aria-hidden="true"
-                      />
-                      Equipment
-                    </div>
-                  </Link>
-                </li>
                 <li>
                   <Link href="/parts">
                     <div>
@@ -324,13 +302,24 @@ export const FooterStyle2 = () => (
                   </Link>
                 </li>
                 <li>
-                  <Link href="/technical-support">
+                  <Link href="/equipment">
                     <div>
                       <i
                         className="fa fa-angle-double-right"
                         aria-hidden="true"
                       />
-                      Technical Support
+                      Equipment
+                    </div>
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/gallery">
+                    <div>
+                      <i
+                        className="fa fa-angle-double-right"
+                        aria-hidden="true"
+                      />
+                      Gallery
                     </div>
                   </Link>
                 </li>
@@ -381,7 +370,10 @@ export const FooterStyle2 = () => (
               <div className="footer-widget__about-logo">
                 <Link href="/">
                   <div className="footer-widget__about-logo-2">
-                    <img src="/assets/images/resources/templogo.png" alt="image" />
+                    <img
+                      src="/assets/images/resources/templogo.png"
+                      alt="image"
+                    />
                   </div>
                 </Link>
               </div>
