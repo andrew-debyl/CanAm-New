@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 const Features = () => {
   return (
     <section className="features-one features-one--features-five clearfix">
@@ -11,9 +13,11 @@ const Features = () => {
             >
               <div className="features-one__single-left">
                 <div className="features-one__single-left-icon">
-                  <img
+                  <Image
                     src="/assets/images/icon/customer-service.png"
                     alt="image"
+                    width={64}
+                    height={64}
                   />
                 </div>
                 <div className="features-one__single-left-text">
@@ -34,7 +38,12 @@ const Features = () => {
             >
               <div className="features-one__single-left">
                 <div className="features-one__single-left-icon">
-                  <img src="/assets/images/icon/support.png" alt="image" />
+                  <Image
+                    src="/assets/images/icon/support.png"
+                    alt="image"
+                    width={64}
+                    height={64}
+                  />
                 </div>
                 <div className="features-one__single-left-text">
                   <h4>

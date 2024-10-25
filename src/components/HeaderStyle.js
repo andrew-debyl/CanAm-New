@@ -1,7 +1,8 @@
 import Link from "next/dist/client/link";
 import { Contact, Services, Products } from "./Menu";
+import Image from 'next/image';
 
-export const HeaderStyle1 = ({addClassName}) => {
+export const HeaderStyle1 = ({ addClassName }) => {
   return (
     <header className="main-header clearfix">
       <div className="main-header-one__bottom">
@@ -13,12 +14,16 @@ export const HeaderStyle1 = ({addClassName}) => {
                   <div className="logo-box1">
                     <Link href="/">
                       <div>
-                        <img src="/assets/images/resources/logo6.png" alt="" />
+                        <Image src="/assets/images/resources/logo6.png" alt="" width={230} height={65} />
                       </div>
                     </Link>
                   </div>
                 </div>
-                <a href="#" className="mobile-nav__toggler" onClick={()=>addClassName((prevState) => !prevState)}>
+                <a
+                  href="#"
+                  className="mobile-nav__toggler"
+                  onClick={() => addClassName((prevState) => !prevState)}
+                >
                   <i className="fa fa-bars"></i>
                 </a>
                 <div className="middle">
@@ -66,7 +71,7 @@ export const HeaderStyle1 = ({addClassName}) => {
   );
 };
 
-export const DefaultHeaderStyle = ({addClassName}) => {
+export const DefaultHeaderStyle = ({ addClassName }) => {
   return (
     <header className="main-header main-header--three  clearfix">
       <div className="main-header-three__bottom main-header-four__bottom">
@@ -78,14 +83,20 @@ export const DefaultHeaderStyle = ({addClassName}) => {
                   <div className="logo-box3 logo-box3--style2">
                     <Link href="/">
                       <div>
-                        <img
+                        <Image
                           src="/assets/images/resources/logo6.png"
                           alt="image"
+                          width={212}
+                          height={60}
                         />
                       </div>
                     </Link>
                   </div>
-                  <a href="#" className="mobile-nav__toggler" onClick={()=>addClassName((prevState) => !prevState)}>
+                  <a
+                    href="#"
+                    className="mobile-nav__toggler"
+                    onClick={() => addClassName((prevState) => !prevState)}
+                  >
                     <i className="fa fa-bars" />
                   </a>
                   <ul className="main-menu__list">

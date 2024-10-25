@@ -27,7 +27,7 @@ const ProductDetails = () => {
   };
 
   const productData = getProductData(category, id);
-  console.log(productData);
+  
   return (
     <Layout>
       <PageBanner pageName={productData.name} />

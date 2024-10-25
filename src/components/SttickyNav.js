@@ -8,13 +8,6 @@ export const Sticky1 = () => {
         <div className="main-menu__inner">
           <div className="left">
             <div className="logo-box1">
-              <div
-                className="logo-box1_bg"
-                style={{
-                  backgroundImage:
-                    "url(/assets/images/pattern/logo-box1-bg.png)",
-                }}
-              ></div>
               <Link href="/">
                 <div>
                   <img src="/assets/images/resources/logo6.png" alt="image" />

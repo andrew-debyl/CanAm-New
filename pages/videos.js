@@ -89,8 +89,8 @@ const Videos = () => {
           </div>
         </div>
       </section>
-      <br/>
-      <br/>
+      <br />
+      <br />
     </Layout>
   );
 };

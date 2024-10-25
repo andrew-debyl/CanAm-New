@@ -1,6 +1,7 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import { brandSliderProps } from "../../sliderProps";
 import { useRef } from "react";
+import Image from "next/image";
 
 const BrandSlider = () => {
   const swiperRef = useRef(null);
@@ -30,35 +31,60 @@ const BrandSlider = () => {
         <SwiperSlide className="partner-one__single">
           <div className="partner-one__img">
             <div>
-              <img src="assets/images/brand/xerox-logo.png" alt="image" />
+              <Image
+                src="/assets/images/brand/xerox-logo.png"
+                alt="image"
+                width={180}
+                height={100}
+              />
             </div>
           </div>
         </SwiperSlide>
         <SwiperSlide className="partner-one__single">
           <div className="partner-one__img">
             <div>
-              <img src="assets/images/brand/ricoh-logo.png" alt="image" />
+              <Image
+                src="/assets/images/brand/ricoh-logo.png"
+                alt="image"
+                width={180}
+                height={100}
+              />
             </div>
           </div>
         </SwiperSlide>
         <SwiperSlide className="partner-one__single">
           <div className="partner-one__img">
             <div>
-              <img src="assets/images/brand/konica-logo.png" alt="image" />
+              <Image
+                src="/assets/images/brand/konica-logo.png"
+                alt="image"
+                width={180}
+                height={100}
+              />
             </div>
           </div>
         </SwiperSlide>
         <SwiperSlide className="partner-one__single">
           <div className="partner-one__img">
             <div>
-              <img src="assets/images/brand/kodak-logo.png" alt="image" />
+              <Image
+                src="/assets/images/brand/kodak-logo.png"
+                alt="image"
+                width={180}
+                height={100}
+              />
             </div>
           </div>
         </SwiperSlide>
         <SwiperSlide className="partner-one__single">
           <div className="partner-one__img">
             <div>
-              <img src="assets/images/brand/canon-logo.png" alt="image" />
+              <Image
+                src="/assets/images/brand/canon-logo.png"
+                alt="image"
+                width={180}
+                height={100}
+              />
             </div>
           </div>
         </SwiperSlide>

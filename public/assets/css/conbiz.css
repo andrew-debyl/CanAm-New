@@ -2443,7 +2443,7 @@ ul {
   justify-content: space-between;
   border-radius: 10px;
   background-color: #ffffff;
-  box-shadow: 0px 10px 30px 0px rgba(226, 226, 226, 0.35);
+  box-shadow: 0px 10px 30px rgba(226, 226, 226, 0.35);
   padding: 40px 40px 40px;
   z-index: 2;
   margin-bottom: 40px;
@@ -2595,6 +2595,10 @@ ul {
 .about-one__logo {
   position: relative;
   display: block;
+}
+
+.video-wrapper{
+  justify-content: space-evenly;
 }
 
 .about-one__logo img {
@@ -4480,6 +4484,7 @@ ul {
   margin-bottom: 7px;
   transition: all 200ms linear;
   transition-delay: 0.1s;
+  color: rgb(221, 31, 38);
 }
 
 .features-three__single-title a {
@@ -4993,25 +4998,6 @@ ul {
   margin-top: 50px;
   border-radius: 7px;
   box-shadow: 0px 10px 60px 0px rgba(212, 212, 212, 0.38);
-}
-
-.portfolio-details__info__title {
-  margin: 0;
-  border-top-left-radius: 7px;
-  border-top-right-radius: 7px;
-  padding-top: 17px;
-  padding-bottom: 17px;
-  color: #fff;
-  font-size: 22px;
-  font-family: var(--thm-manrope-font);
-  font-weight: 700;
-  background-color: var(--thm-base);
-  padding-left: 40px;
-  padding-right: 40px;
-  background-image: url(../images/shapes/portfolio-d-heading-bg.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
 }
 
 .portfolio-details__info ul {

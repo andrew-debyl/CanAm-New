@@ -18,9 +18,9 @@ const Layout = ({ children, header, footer, featuresContentOff }) => {
       <Head>
         <title> CanAm Imaging</title>
         <link
-            rel="stylesheet"
-            href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&display=swap"
-          />
+          rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&display=swap"
+        />
         <link
           rel="apple-touch-icon"
           sizes="180x180"
@@ -39,12 +39,12 @@ const Layout = ({ children, header, footer, featuresContentOff }) => {
           href="/assets/images/favicons/favicon-16x16.png"
         />
       </Head>
-      <Header header={header} addClassName={addClassName}/>
+      <Header header={header} addClassName={addClassName} />
       {children}
       {!featuresContentOff && <Features />}
 
       <Footer footer={footer} />
-      <MobileMenu isMobileOpen={isMobileOpen} addClassName={addClassName}/>
+      <MobileMenu isMobileOpen={isMobileOpen} addClassName={addClassName} />
       <ScrollTop />
     </div>
   );

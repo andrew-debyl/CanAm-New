@@ -1,7 +1,7 @@
 import Link from "next/dist/client/link";
+import Image from "next/image";
 import { useState } from "react";
-const MobileMenu = ({isMobileOpen, addClassName}) => {
-  //expanded (top one)
+const MobileMenu = ({ isMobileOpen, addClassName }) => {
   const [isExpandedProducts, setIsExpandedProducts] = useState(false);
   const [isExpandedServices, setIsExpandedServices] = useState(false);
 
@@ -33,9 +33,10 @@ const MobileMenu = ({isMobileOpen, addClassName}) => {
         <div className="logo-box">
           <Link href="/">
             <div aria-label="logo image">
-              <img
-                src="/assets/images/resources/templogo.png"
+              <Image
+                src="/assets/images/resources/whitelogo.png"
                 width={155}
+                height={44}
                 alt="image"
               />
             </div>

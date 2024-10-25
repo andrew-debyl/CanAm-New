@@ -1,6 +1,7 @@
 import Link from "next/dist/client/link";
 import BrandSlider from "../src/components/slider/BrandSlider";
 import Layout from "../src/components/Layout";
+import Image from "next/image";
 
 const Index = () => {
   return (
@@ -41,7 +42,12 @@ const Index = () => {
                   </div>
                 </div>
                 <div className="banner-one__banner-img custom-animation-right">
-                  <img src="assets/images/backgrounds/back4.png" alt="image" />
+                  <Image
+                    src="/assets/images/backgrounds/back4.png"
+                    alt="image"
+                    width={2210}
+                    height={1222}
+                  />
                 </div>
               </div>
             </div>
@@ -59,9 +65,11 @@ const Index = () => {
               >
                 <div className="features-one__single-left">
                   <div className="features-one__single-left-icon">
-                    <img
-                      src="assets/images/icon/customer-service.png"
+                    <Image
+                      src="/assets/images/icon/customer-service.png"
                       alt="image"
+                      width={64}
+                      height={64}
                     />
                   </div>
                   <div className="features-one__single-left-text">
@@ -84,7 +92,12 @@ const Index = () => {
               >
                 <div className="features-one__single-left">
                   <div className="features-one__single-left-icon">
-                    <img src="assets/images/icon/support.png" alt="image" />
+                    <Image
+                      src="/assets/images/icon/support.png"
+                      alt="image"
+                      width={64}
+                      height={64}
+                    />
                   </div>
                   <div className="features-one__single-left-text">
                     <h4>
@@ -110,15 +123,22 @@ const Index = () => {
                   <img src="assets/images/shapes/thm-shape-1.png" alt="image" />
                 </div>
                 <div className="about-one__left-img">
-                  <img
+                  <Image
                     className="homepage-logo"
-                    src="assets/images/resources/largecopier.jpg"
+                    src="/assets/images/resources/largecopier.jpg"
                     alt="image"
+                    width={373}
+                    height={472}
                   />
                 </div>
                 <div className="about-one__left-bottom">
                   <div className="about-one__logo">
-                    <img src="assets/images/resources/logo-2.png" alt="image" />
+                    <Image
+                      src="/assets/images/resources/logo-2.png"
+                      alt="image"
+                      width={240}
+                      height={68}
+                    />
                   </div>
                 </div>
               </div>

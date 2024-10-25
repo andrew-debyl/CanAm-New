@@ -1,6 +1,7 @@
 import Link from "next/dist/client/link";
 import Layout from "../src/components/Layout";
 import PageBanner from "../src/components/PageBanner";
+import Image from "next/image";
 
 const Parts = () => {
   return (
@@ -58,7 +59,12 @@ const Parts = () => {
               data-wow-duration="2500ms"
             >
               <div className="why-choose-one__img">
-                <img src="assets/images/resources/100_2.jpg" alt="image" />
+                <Image
+                  src="/assets/images/resources/100_2.jpg"
+                  alt="image"
+                  width={580}
+                  height={614}
+                />
               </div>
             </div>
           </div>

@@ -3,6 +3,7 @@ import dynamic from "next/dynamic";
 import BrandSlider from "../src/components/slider/BrandSlider";
 import Layout from "../src/components/Layout";
 import PageBanner from "../src/components/PageBanner";
+import Image from "next/image";
 
 const Counter = dynamic(() => import("../src/components/Counter"), {
   ssr: false,
@@ -24,20 +25,32 @@ const About = () => {
                   <img src="assets/images/shapes/thm-shape-1.png" alt="image" />
                 </div>
                 <div className="about-one__left-img">
-                  <img src="assets/images/about/printer.png" alt="image" />
+                  <Image
+                    src="/assets/images/about/printer.png"
+                    alt="image"
+                    width={570}
+                    height={630}
+                  />
                 </div>
                 <div className="about-one__left-bottom">
                   <div className="about-one__logo">
-                    <img src="assets/images/resources/logo-2.png" alt="image" />
+                    <Image
+                      src="/assets/images/resources/logo-2.png"
+                      alt="image"
+                      width={240}
+                      height={68}
+                    />
                   </div>
                   <div
                     className="about-one__video-gallery wow fadeInUp animated animated"
                     data-wow-delay="00ms"
                     data-wow-duration="1500ms"
                   >
-                    <img
+                    <Image
                       src="/assets/images/resources/banner4.jpg"
                       alt="image"
+                      width={198}
+                      height={216}
                     />
                   </div>
                 </div>
@@ -260,9 +273,11 @@ const About = () => {
               data-wow-duration="2500ms"
             >
               <div className="why-choose-one__img">
-                <img
+                <Image
                   src="/assets/images/about/100_2221.jpg"
                   alt="image"
+                  width={500}
+                  height={640}
                 />
               </div>
             </div>

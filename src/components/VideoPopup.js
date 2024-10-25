@@ -24,7 +24,7 @@ const VideoPopup = ({ close, videoID }) => {
   let domNode = useClickOutside(() => {
     close(false);
   });
-  console.log(videoID)
+
   return (
     <Fragment>
       <div className="mfp-bg mfp-ready" onClick={() => close(false)}></div>

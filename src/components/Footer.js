@@ -10,7 +10,7 @@ const Footer = ({ footer }) => {
       case 2:
         return <FooterStyle2 />;
       default:
-        return  <FooterStyle2 />;
+        return <FooterStyle2 />;
     }
   };
   return <Fragment>{getFooter()}</Fragment>;

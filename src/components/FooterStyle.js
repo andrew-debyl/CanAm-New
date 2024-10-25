@@ -1,4 +1,5 @@
 import Link from "next/dist/client/link";
+import Image from "next/image";
 export const FooterStyle1 = () => (
   <footer className="footer-one">
     <div className="container">
@@ -162,7 +163,12 @@ export const FooterStyle1 = () => (
               <div className="footer-widget__about-logo">
                 <Link href="/">
                   <div>
-                    <img src="/assets/images/resources/logo-2.png" alt="image" />
+                    <Image
+                      src="/assets/images/resources/logo-2.png"
+                      alt="image"
+                      width={240}
+                      height={68}
+                    />
                   </div>
                 </Link>
               </div>
@@ -225,7 +231,7 @@ export const FooterStyle2 = () => (
             <div className="footer-widget__column footer-widget__company mar-top">
               <h3 className="footer-widget__title">Overview</h3>
               <ul className="footer-widget__company-list list-unstyled">
-              <li>
+                <li>
                   <Link href="/buying-or-selling">
                     <div>
                       <i
@@ -370,9 +376,11 @@ export const FooterStyle2 = () => (
               <div className="footer-widget__about-logo">
                 <Link href="/">
                   <div className="footer-widget__about-logo-2">
-                    <img
-                      src="/assets/images/resources/templogo.png"
+                    <Image
+                      src="/assets/images/resources/whitelogo.png"
                       alt="image"
+                      width={230}
+                      height={65}
                     />
                   </div>
                 </Link>

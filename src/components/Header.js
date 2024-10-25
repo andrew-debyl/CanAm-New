@@ -4,7 +4,7 @@ import { activeNavMenu, stickyNav } from "../utils";
 import { HeaderStyle1, DefaultHeaderStyle } from "./HeaderStyle";
 import { Sticky1 } from "./SttickyNav";
 
-const Header = ({header, addClassName}) => {
+const Header = ({ header, addClassName }) => {
   const router = useRouter();
   useEffect(() => {
     activeNavMenu(router.pathname);
@@ -14,15 +14,15 @@ const Header = ({header, addClassName}) => {
   const getHeader = () => {
     switch (header) {
       case 1:
-        return (<HeaderStyle1 addClassName={addClassName}/>);
+        return <HeaderStyle1 addClassName={addClassName} />;
       default:
-        return (<DefaultHeaderStyle addClassName={addClassName}/>);
+        return <DefaultHeaderStyle addClassName={addClassName} />;
     }
   };
   return (
     <Fragment>
       {getHeader()}
-      <Sticky1/>
+      <Sticky1 />
     </Fragment>
   );
 };

@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Layout from "../src/components/Layout";
 import PageBanner from "../src/components/PageBanner";
 
@@ -125,10 +126,7 @@ const TechnicalSupport = () => {
                   </a>
                 </div>
                 <div className="services-details-img1">
-                  <img
-                    src="assets/images/resources/100_3.jpg"
-                    alt="image"
-                  />
+                  <Image src="/assets/images/resources/100_3.jpg" alt="image" width={702} height={395}/>
                 </div>
               </div>
             </div>
