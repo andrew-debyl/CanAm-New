@@ -60,17 +60,6 @@ export const singleSlide = {
   },
 };
 
-export const home3SliderProps = {
-  slidesPerView: 1,
-  loop: true,
-  autoplay: true,
-  speed: 800,
-  navigation: {
-    nextEl: "#main-slider__swiper-button-next",
-    prevEl: "#main-slider__swiper-button-prev",
-  },
-};
-
 export const portfolioDetailsSlider = {
   slidesPerView: 1,
   loop: true,

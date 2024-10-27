@@ -23,7 +23,6 @@ const TechnicalSupport = () => {
                     <li>
                       <p>Troubleshooting</p>
                     </li>
-
                     <li>
                       <p>Technical Support</p>
                     </li>
