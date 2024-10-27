@@ -16,13 +16,7 @@ const Parts = () => {
       </Head>
       <Layout footer={2}>
         <PageBanner pageName="Parts" />
-        <section
-          className="why-choose-one why-choose-one-team"
-          style={{
-            backgroundImage:
-              "url(assets/images/backgrounds/why-choose-one-team-bg.png)",
-          }}
-        >
+        <section className="why-choose-one why-choose-one-team">
           <div className="container">
             <div className="row">
               <div className="col-xl-6">

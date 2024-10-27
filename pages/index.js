@@ -172,9 +172,9 @@ const Index = () => {
                       <span style={{ fontWeight: "bold" }}>
                         Extensive Inventory
                       </span>
-                      – Our Financial Strength allows us to
+                      : Our Financial Strength allows us to
                     </p>
-                    <ul style={{ fontSize: "18px" }} className="home-page-list">
+                    <ul style={{ fontSize: "18px", color: "#5B5F62" }} className="home-page-list">
                       <li>
                         Maintain an extensive inventory of Fully-Reconditioned
                         Xerox and Other Manufacturers’ Equipment
@@ -196,13 +196,13 @@ const Index = () => {
                       <span style={{ fontWeight: "bold" }}>
                         Competitive Prices
                       </span>
-                      – Let us give you a quote – you will not be disappointed!
+                      : Let us give you a quote – you will not be disappointed!
                     </p>
                     <p style={{ fontSize: "18px" }}>
                       <span style={{ fontWeight: "bold" }}>
                         Professional Advice
                       </span>
-                      - Our Team of Sales Professionals, Analysts and
+                      : Our Team of Sales Professionals, Analysts and
                       Xerox-trained Technicians will ensure that you make the
                       Right Choice for your Printing Needs
                     </p>

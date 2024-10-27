@@ -25,7 +25,7 @@
   --thm-base-rgb: 149, 77, 28;
   --thm-primary: #f94d1c;
   --thm-primary-rgb: 249, 77, 28;
-  --thm-gray: #74787c;
+  --thm-gray: #5B5F62;
   --thm-gray-rgb: 116, 120, 124;
   --thm-black: #1a1a1a;
   --thm-black-rgb: 26, 26, 26;
@@ -1994,7 +1994,7 @@ ul {
 }
 
 .footer-widget__overview-list li a {
-  color: #74787c;
+  color: #5B5F62;
   font-size: 17px;
   line-height: 27px;
   font-weight: 400;
@@ -2034,7 +2034,7 @@ ul {
 }
 
 .footer-widget__company-list li a {
-  color: #74787c;
+  color: #5B5F62;
   font-size: 17px;
   line-height: 27px;
   font-weight: 400;
@@ -2071,7 +2071,7 @@ ul {
 }
 
 .footer-widget__newsletter-input-box input[type="email"] {
-  color: #74787c;
+  color: #5B5F62;
   font-size: 17px;
   height: 55px;
   width: 100%;
@@ -2156,7 +2156,7 @@ ul {
 }
 
 .footer-contact-info ul li .text a {
-  color: #74787c;
+  color: #5B5F62;
   font-size: 17px;
   line-height: 30px;
   font-weight: 500;
@@ -2185,7 +2185,7 @@ ul {
   position: relative;
   display: block;
   margin: 0;
-  color: #74787c;
+  color: #5B5F62;
 }
 
 /***
@@ -2861,7 +2861,7 @@ ul {
 
 .services-details__services-list li a {
   position: relative;
-  color: #74787c;
+  color: #5B5F62;
   display: block;
   padding: 13px 0px 4px;
   transition: all 200ms linear;
@@ -2900,7 +2900,7 @@ ul {
   width: 100%;
   height: 60px;
   border: none;
-  color: #74787c;
+  color: #5B5F62;
   font-size: 15px;
   font-weight: 500;
   padding: 0 30px;
@@ -3117,7 +3117,7 @@ ul {
 }
 
 .contact-box__single.style2 .contact-box__single-text p a {
-  color: #74787c;
+  color: #5B5F62;
   transition: all 200ms linear;
   transition-delay: 0.1s;
 }
@@ -3136,7 +3136,7 @@ ul {
 }
 
 .contact-box__single.style3 .contact-box__single-text p a {
-  color: #74787c;
+  color: #5B5F62;
   transition: all 200ms linear;
   transition-delay: 0.1s;
 }
