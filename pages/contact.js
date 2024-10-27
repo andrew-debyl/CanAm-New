@@ -7,8 +7,9 @@ import {
   AdvancedMarker,
   InfoWindow,
 } from "@vis.gl/react-google-maps";
+import Head from "next/head";
 
-const News = () => {
+const Contact = () => {
   const apiKey = process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY;
   const [infoWindowVisible, setInfoWindowVisible] = useState(false);
 
@@ -17,6 +18,14 @@ const News = () => {
   };
 
   return (
+    <>
+    <Head>
+        <title>Contact Us</title>
+        <meta
+          name="description"
+          content="Get in touch with CanAm Imaging for professional support. Contact us via phone, email, or through the form below for all your imaging equipment needs."
+        />
+      </Head>
     <Layout footer={2}>
       <PageBanner pageName="Contact Us" />
       <section className="contact-box">
@@ -237,7 +246,8 @@ const News = () => {
         </div>
       </section>
     </Layout>
+    </>
   );
 };
 
-export default News;
+export default Contact;
