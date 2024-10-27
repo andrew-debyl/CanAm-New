@@ -31,7 +31,7 @@ const MobileMenu = ({ isMobileOpen, addClassName }) => {
           <i className="fa fa-times" />
         </span>
         <div className="logo-box">
-          <Link href="/">
+          <Link href="/" aria-label="Go to Home Page">
             <div aria-label="logo image">
               <Image
                 src="/assets/images/resources/whitelogo.png"
@@ -45,7 +45,7 @@ const MobileMenu = ({ isMobileOpen, addClassName }) => {
         <div className="dropdown current">
           <ul className="main-menu__list">
             <li className="current">
-              <a href="/" onClick={toggleMobileMenu}>
+              <a href="/" aria-label="Go to Home Page" onClick={toggleMobileMenu}>
                 Home
               </a>
             </li>

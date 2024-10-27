@@ -18,7 +18,11 @@ const Error = () => {
                 >
                   <h3>This Page Does Not Exist</h3>
                   <div className="error-page__btn">
-                    <Link href="/" className="thm-btn">
+                    <Link
+                      href="/"
+                      aria-label="Go to Home Page"
+                      className="thm-btn"
+                    >
                       Go To Home&nbsp;
                       <i
                         className="fa fa-angle-double-right"

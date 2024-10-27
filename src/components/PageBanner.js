@@ -34,7 +34,7 @@ const PageBanner = ({ pageName }) => {
             }}
           >
             <li>
-              <Link href="/">
+              <Link href="/" aria-label="Go to Home Page">
                 <div>Home</div>
               </Link>
             </li>

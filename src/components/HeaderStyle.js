@@ -12,7 +12,7 @@ export const HeaderStyle1 = ({ addClassName }) => {
               <div className="main-menu__inner">
                 <div className="left">
                   <div className="logo-box1">
-                    <Link href="/">
+                    <Link href="/" aria-label="Go to Home Page">
                       <div>
                         <Image src="/assets/images/resources/logo6.png" alt="" width={230} height={65} />
                       </div>
@@ -29,7 +29,7 @@ export const HeaderStyle1 = ({ addClassName }) => {
                 <div className="middle">
                   <ul className="main-menu__list">
                     <li>
-                      <Link href="/">Home</Link>
+                      <Link href="/" aria-label="Go to Home Page">Home</Link>
                     </li>
                     <li>
                       <Link href="/about">About</Link>
@@ -81,7 +81,7 @@ export const DefaultHeaderStyle = ({ addClassName }) => {
               <div className="main-menu__inner">
                 <div className="left">
                   <div className="logo-box3 logo-box3--style2">
-                    <Link href="/">
+                    <Link href="/" aria-label="Go to Home Page">
                       <div>
                         <Image
                           src="/assets/images/resources/logo6.png"
@@ -101,7 +101,7 @@ export const DefaultHeaderStyle = ({ addClassName }) => {
                   </a>
                   <ul className="main-menu__list">
                     <li>
-                      <Link href="/">Home</Link>
+                      <Link href="/" aria-label="Go to Home Page">Home</Link>
                     </li>
                     <li>
                       <Link href="/about">About</Link>

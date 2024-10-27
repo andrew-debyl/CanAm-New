@@ -8,7 +8,7 @@ export const Sticky1 = () => {
         <div className="main-menu__inner">
           <div className="left">
             <div className="logo-box1">
-              <Link href="/">
+              <Link href="/" aria-label="Go to Home Page">
                 <div>
                   <img src="/assets/images/resources/logo6.png" alt="image" />
                 </div>
@@ -21,7 +21,7 @@ export const Sticky1 = () => {
           <div className="middle">
             <ul className="main-menu__list">
               <li>
-                <Link href="/">Home</Link>
+                <Link href="/" aria-label="Go to Home Page">Home</Link>
               </li>
               <li>
                 <Link href="/about">About</Link>

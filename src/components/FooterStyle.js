@@ -161,7 +161,7 @@ export const FooterStyle1 = () => (
           >
             <div className="footer-widget__column footer-widget__about">
               <div className="footer-widget__about-logo">
-                <Link href="/">
+                <Link href="/" aria-label="Go to Home Page">
                   <div>
                     <Image
                       src="/assets/images/resources/logo-2.png"
@@ -374,7 +374,7 @@ export const FooterStyle2 = () => (
           >
             <div className="footer-widget__column footer-widget__about">
               <div className="footer-widget__about-logo">
-                <Link href="/">
+                <Link href="/" aria-label="Go to Home Page">
                   <div className="footer-widget__about-logo-2">
                     <Image
                       src="/assets/images/resources/whitelogo.png"
