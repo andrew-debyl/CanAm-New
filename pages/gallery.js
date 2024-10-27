@@ -11,9 +11,9 @@ const Modal = ({ isOpen, image, onClose }) => {
   return (
     <div className="modal-overlay" onClick={onClose}>
       <div className="modal-content" onClick={(e) => e.stopPropagation()}>
-        <img src={image} alt="" />
+        <Image src={image} alt="" width={800} height={600}/>
         <button onClick={onClose} className="close-button">
-          <img src="/assets/images/icon/close-line-icon.png" alt=""></img>
+          <Image src="/assets/images/icon/close-line-icon.png" alt="" width={30} height={30}/>
         </button>
       </div>
     </div>
@@ -55,7 +55,7 @@ const Gallery = () => {
                       className="blog-one__single-img disable-click"
                       onClick={() => handleImageClick(data.img)}
                     >
-                      <img src={data.img} alt="image" />
+                      <Image src={data.img} alt="image" width={300} height={300}/>
                     </div>
                     <h5 className="gallery-heading">{data.name}</h5>
                   </div>
