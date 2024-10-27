@@ -61,7 +61,7 @@ const About = () => {
                 <div className="section-title">
                   <div className="section-title__tagline">
                     <span className="left" />
-                    <h4>About Canam</h4>
+                    <h4>About CanAm</h4>
                   </div>
                   <h2 className="section-title__title">
                     Your Partner in Superior Print and Copy Solutions

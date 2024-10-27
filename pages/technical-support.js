@@ -103,30 +103,16 @@ const TechnicalSupport = () => {
                     smoothly and efficiently. Your satisfaction and the optimal
                     performance of your equipment are our top priorities.
                   </p>
-                  <br />
-                  <p>
-                    For troubleshooting tips, installation help and more,
-                    contact a CanAm Imaging technical advisor at:
-                  </p>
-                  <b>
-                    <span>Phone: </span>
-                  </b>
-                  <a className="tech-support--contact" href="tel:18667580007">
-                    1-866-758-0007
-                  </a>
-                  <br />
-                  <b>
-                    <span>Email: </span>
-                  </b>
-                  <a
-                    className="tech-support--contact"
-                    href="mailto:tech@canamimaging.com"
-                  >
-                    tech@canamimaging.com
-                  </a>
+               
+                  
                 </div>
                 <div className="services-details-img1">
-                  <Image src="/assets/images/resources/100_3.jpg" alt="image" width={702} height={395}/>
+                  <Image
+                    src="/assets/images/resources/100_3.jpg"
+                    alt="image"
+                    width={702}
+                    height={395}
+                  />
                 </div>
               </div>
             </div>

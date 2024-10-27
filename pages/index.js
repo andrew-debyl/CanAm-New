@@ -148,7 +148,7 @@ const Index = () => {
                 <div className="section-title">
                   <div className="section-title__tagline">
                     <span className="left" />
-                    <h4>CanAm Imaging</h4>
+                    <h4>Complete Printing Solutions</h4>
                   </div>
                   <h1>
                     Production and Mid-Volume Printing Equipment, Parts, and
@@ -159,7 +159,7 @@ const Index = () => {
                   <p style={{ fontSize: "18px" }}>
                     <span style={{ fontWeight: "bold" }}>
                       Extensive Inventory
-                    </span>{" "}
+                    </span>
                     – Our Financial Strength allows us to
                   </p>
                   <ul style={{ fontSize: "18px" }} className="home-page-list">
@@ -169,10 +169,10 @@ const Index = () => {
                     </li>
                     <li>
                       Provide 100% Genuine Xerox Parts to the Self-Service and
-                      I.S.O. Marketplace{" "}
+                      I.S.O. Marketplace
                     </li>
                     <li>
-                      Carry a Wide Range of Supplies from Various Manufacturers{" "}
+                      Carry a Wide Range of Supplies from Various Manufacturers
                     </li>
                     <li>
                       Provide quality Canon, Kodak, Konica Minolta, Ricoh and
@@ -182,13 +182,13 @@ const Index = () => {
                   <p style={{ fontSize: "18px" }}>
                     <span style={{ fontWeight: "bold" }}>
                       Competitive Prices
-                    </span>{" "}
+                    </span>
                     – Let us give you a quote – you will not be disappointed!
                   </p>
                   <p style={{ fontSize: "18px" }}>
                     <span style={{ fontWeight: "bold" }}>
                       Professional Advice
-                    </span>{" "}
+                    </span>
                     - Our Team of Sales Professionals, Analysts and
                     Xerox-trained Technicians will ensure that you make the
                     Right Choice for your Printing Needs

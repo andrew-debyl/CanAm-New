@@ -4324,7 +4324,7 @@ ul {
 .footer-contact-info ul li {
   position: relative;
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   margin-bottom: 12px;
 }
 
