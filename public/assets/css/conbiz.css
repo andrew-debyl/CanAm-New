@@ -2391,12 +2391,6 @@ ul {
   margin-bottom: 59px;
 }
 
-.equipment-items-wrapper {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
-}
-
 .equipment-item {
   width: 32.1%;
   margin-bottom: 10px;
@@ -2430,6 +2424,7 @@ ul {
 .tab-content > .active {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 
 .case-studies-one__single-img {
