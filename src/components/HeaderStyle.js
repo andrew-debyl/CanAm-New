@@ -14,7 +14,7 @@ export const HeaderStyle1 = ({ addClassName }) => {
                   <div className="logo-box1">
                     <Link href="/" aria-label="Go to Home Page">
                       <div>
-                        <Image src="/assets/images/resources/logo6.png" alt="" width={230} height={65} />
+                        <Image src="/assets/images/resources/logo6.png" alt="" width={230} height={65} priority/>
                       </div>
                     </Link>
                   </div>
