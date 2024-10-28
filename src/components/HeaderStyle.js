@@ -23,6 +23,7 @@ export const HeaderStyle1 = ({ addClassName }) => {
                   href="#"
                   className="mobile-nav__toggler"
                   onClick={() => addClassName((prevState) => !prevState)}
+                  aria-label="Toggle mobile navigation"
                 >
                   <i className="fa fa-bars"></i>
                 </a>
