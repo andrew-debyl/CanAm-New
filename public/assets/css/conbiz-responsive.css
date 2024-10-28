@@ -494,6 +494,14 @@
     text-align: center;
   }
 
+  .custom-animation-down {
+    animation: none;
+  }
+
+  .custom-animation-right {
+    animation: none;
+  }
+
   /***Counter One Css***/
   .counter-one__single {
     align-items: center;
