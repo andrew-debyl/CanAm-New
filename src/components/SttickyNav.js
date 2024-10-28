@@ -1,5 +1,6 @@
 import Link from "next/dist/client/link";
 import { Services, Products } from "./Menu";
+import Image from "next/image";
 
 export const Sticky1 = () => {
   return (
@@ -10,12 +11,12 @@ export const Sticky1 = () => {
             <div className="logo-box1">
               <Link href="/" aria-label="Go to Home Page">
                 <div>
-                  <img src="/assets/images/resources/logo6.png" alt="image" />
+                  <Image src="/assets/images/resources/logo6.png" alt="image" width={230} height={65}/>
                 </div>
               </Link>
             </div>
           </div>
-          <a href="#" className="mobile-nav__toggler">
+          <a href="#" className="mobile-nav__toggler" aria-label="Toggle mobile navigation">
             <i className="fa fa-bars" />
           </a>
           <div className="middle">
@@ -27,13 +28,13 @@ export const Sticky1 = () => {
                 <Link href="/about">About</Link>
               </li>
               <li className="dropdown">
-                <a href="#">Products</a>
+                <a href="#" aria-label="Toggle products">Products</a>
                 <ul>
                   <Products />
                 </ul>
               </li>
               <li className="dropdown">
-                <a href="#">Services</a>
+                <a href="#" aria-label="Toggle services">Services</a>
                 <ul>
                   <Services />
                 </ul>

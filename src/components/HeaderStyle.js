@@ -1,6 +1,6 @@
 import Link from "next/dist/client/link";
 import { Contact, Services, Products } from "./Menu";
-import Image from 'next/image';
+import Image from "next/image";
 
 export const HeaderStyle1 = ({ addClassName }) => {
   return (
@@ -14,7 +14,13 @@ export const HeaderStyle1 = ({ addClassName }) => {
                   <div className="logo-box1">
                     <Link href="/" aria-label="Go to Home Page">
                       <div>
-                        <Image src="/assets/images/resources/logo6.png" alt="" width={230} height={65} priority/>
+                        <Image
+                          src="/assets/images/resources/logo6.png"
+                          alt=""
+                          width={230}
+                          height={65}
+                          priority
+                        />
                       </div>
                     </Link>
                   </div>
@@ -30,19 +36,25 @@ export const HeaderStyle1 = ({ addClassName }) => {
                 <div className="middle">
                   <ul className="main-menu__list">
                     <li>
-                      <Link href="/" aria-label="Go to Home Page">Home</Link>
+                      <Link href="/" aria-label="Go to Home Page">
+                        Home
+                      </Link>
                     </li>
                     <li>
                       <Link href="/about">About</Link>
                     </li>
                     <li className="dropdown">
-                      <a href="#">Products</a>
+                      <a href="#" aria-label="Toggle products">
+                        Products
+                      </a>
                       <ul>
                         <Products />
                       </ul>
                     </li>
                     <li className="dropdown">
-                      <a href="#">Services</a>
+                      <a href="#" aria-label="Toggle services">
+                        Services
+                      </a>
                       <ul>
                         <Services />
                       </ul>
@@ -97,24 +109,27 @@ export const DefaultHeaderStyle = ({ addClassName }) => {
                     href="#"
                     className="mobile-nav__toggler"
                     onClick={() => addClassName((prevState) => !prevState)}
+                    aria-label="Toggle mobile navigation"
                   >
                     <i className="fa fa-bars" />
                   </a>
                   <ul className="main-menu__list">
                     <li>
-                      <Link href="/" aria-label="Go to Home Page">Home</Link>
+                      <Link href="/" aria-label="Go to Home Page">
+                        Home
+                      </Link>
                     </li>
                     <li>
                       <Link href="/about">About</Link>
                     </li>
                     <li className="dropdown">
-                      <a href="#">Products</a>
+                      <a href="#" aria-label="Toggle products">Products</a>
                       <ul>
                         <Products />
                       </ul>
                     </li>
                     <li className="dropdown">
-                      <a href="#">Services</a>
+                      <a href="#" aria-label="Toggle services">Services</a>
                       <ul>
                         <Services />
                       </ul>

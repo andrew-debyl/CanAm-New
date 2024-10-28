@@ -42,7 +42,7 @@ const Contact = () => {
                 </div>
                 <div className="contact-box__single-text">
                   <h2>
-                    <a href="#">Our Location</a>
+                    <div>Our Location</div>
                   </h2>
                   <p>
                     <b>United States:</b> <br />
@@ -68,7 +68,7 @@ const Contact = () => {
                 </div>
                 <div className="contact-box__single-text">
                   <h2>
-                    <a href="#">Email Address</a>
+                    <div>Email Address</div>
                   </h2>
                   <p>
                     <b>General Contact:</b> <br />
@@ -102,7 +102,7 @@ const Contact = () => {
                 </div>
                 <div className="contact-box__single-text">
                   <h2>
-                    <a href="#">Phone Number</a>
+                    <div>Phone Number</div>
                   </h2>
                   <p>
                     <b>United States:</b> <br />

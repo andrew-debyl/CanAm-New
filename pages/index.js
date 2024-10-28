@@ -68,7 +68,7 @@ const Index = () => {
             <div className="row">
               <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12">
                 <div
-                  className="features-one__single wow fadeInLeft animated animated"
+                  className="features-one__single wow fadeInLeft animated"
                   data-wow-delay="00ms"
                   data-wow-duration="1500ms"
                 >
@@ -95,7 +95,7 @@ const Index = () => {
               </div>
               <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12">
                 <div
-                  className="features-one__single wow fadeInRight animated animated"
+                  className="features-one__single wow fadeInRight animated"
                   data-wow-delay="00ms"
                   data-wow-duration="1500ms"
                 >
