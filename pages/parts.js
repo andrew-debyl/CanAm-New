@@ -14,16 +14,16 @@ const Parts = () => {
           content="Explore CanAm Imaging's extensive range of genuine Xerox and Kodak Digimaster parts, available at competitive prices."
         />
         <script type="application/ld+json">
-          {JSON.stringify({
+          {`{
             "@context": "https://schema.org",
             "@type": "WebPage",
             "name": "Parts",
             "description": "Explore CanAm Imaging's extensive range of genuine Xerox and Kodak Digimaster parts, available at competitive prices.",
-            "url": "https://can-am-new.vercel.app/parts", // Replace with your actual URL
+            "url": "https://can-am-new.vercel.app/parts",
             "mainEntity": {
               "@type": "Organization",
               "name": "CanAm Imaging",
-              "url": "https://can-am-new.vercel.app/" // Replace with your actual URL
+              "url": "https://can-am-new.vercel.app/"
             },
             "breadcrumb": {
               "@type": "BreadcrumbList",
@@ -32,17 +32,17 @@ const Parts = () => {
                   "@type": "ListItem",
                   "position": 1,
                   "name": "Home",
-                  "item": "https://can-am-new.vercel.app/" // Replace with your actual URL
+                  "item": "https://can-am-new.vercel.app/"
                 },
                 {
                   "@type": "ListItem",
                   "position": 2,
                   "name": "Parts",
-                  "item": "https://can-am-new.vercel.app/parts" // Replace with your actual URL
+                  "item": "https://can-am-new.vercel.app/parts"
                 }
               ]
             }
-          })}
+          }`}
         </script>
       </Head>
       <Layout footer={2}>
