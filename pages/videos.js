@@ -43,7 +43,7 @@ const Videos = () => {
                   data-wow-delay="00ms"
                   data-wow-duration="1500ms"
                 >
-                  <img src="assets/images/about/video1.png" alt="image" />
+                  <img src="assets/images/about/video1.png" alt="first video" />
                   <div className="video-box">
                     <a
                       className="video-popup wow zoomIn animated animated"
@@ -74,7 +74,7 @@ const Videos = () => {
                   data-wow-delay="00ms"
                   data-wow-duration="1500ms"
                 >
-                  <img src="assets/images/about/video2.png" alt="image" />
+                  <img src="assets/images/about/video2.png" alt="second video" />
                   <div className="video-box">
                     <a
                       className="video-popup wow zoomIn animated animated"

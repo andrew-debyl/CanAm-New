@@ -37,7 +37,7 @@ const MobileMenu = ({ isMobileOpen, addClassName }) => {
                 src="/assets/images/resources/whitelogo.png"
                 width={155}
                 height={44}
-                alt="image"
+                alt="canam logo"
               />
             </div>
           </Link>

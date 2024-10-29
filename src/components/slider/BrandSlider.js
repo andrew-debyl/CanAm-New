@@ -33,7 +33,7 @@ const BrandSlider = () => {
             <div>
               <Image
                 src="/assets/images/brand/xerox-logo.png"
-                alt="image"
+                alt="xerox logo"
                 width={180}
                 height={100}
               />
@@ -45,7 +45,7 @@ const BrandSlider = () => {
             <div>
               <Image
                 src="/assets/images/brand/ricoh-logo.png"
-                alt="image"
+                alt="ricoh logo"
                 width={180}
                 height={100}
               />
@@ -57,7 +57,7 @@ const BrandSlider = () => {
             <div>
               <Image
                 src="/assets/images/brand/konica-logo.png"
-                alt="image"
+                alt="konica logo"
                 width={180}
                 height={100}
               />
@@ -69,7 +69,7 @@ const BrandSlider = () => {
             <div>
               <Image
                 src="/assets/images/brand/kodak-logo.png"
-                alt="image"
+                alt="kodak logo"
                 width={180}
                 height={100}
               />
@@ -81,7 +81,7 @@ const BrandSlider = () => {
             <div>
               <Image
                 src="/assets/images/brand/canon-logo.png"
-                alt="image"
+                alt="canan logo"
                 width={180}
                 height={100}
               />

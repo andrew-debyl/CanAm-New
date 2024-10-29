@@ -15,7 +15,7 @@ const Features = () => {
                 <div className="features-one__single-left-icon">
                   <Image
                     src="/assets/images/icon/customer-service.png"
-                    alt="image"
+                    alt="icon"
                     width={64}
                     height={64}
                   />
@@ -40,7 +40,7 @@ const Features = () => {
                 <div className="features-one__single-left-icon">
                   <Image
                     src="/assets/images/icon/support.png"
-                    alt="image"
+                    alt="icon"
                     width={64}
                     height={64}
                   />

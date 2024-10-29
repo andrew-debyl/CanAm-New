@@ -165,7 +165,7 @@ export const FooterStyle1 = () => (
                   <div>
                     <Image
                       src="/assets/images/resources/logo-2.png"
-                      alt="image"
+                      alt="canam logo"
                       width={240}
                       height={68}
                     />
@@ -378,7 +378,7 @@ export const FooterStyle2 = () => (
                   <div className="footer-widget__about-logo-2">
                     <Image
                       src="/assets/images/resources/whitelogo.png"
-                      alt="image"
+                      alt="canam logo"
                       width={230}
                       height={65}
                     />

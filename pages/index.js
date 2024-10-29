@@ -21,7 +21,7 @@ const Index = () => {
             data-wow-delay="500ms"
             data-wow-duration="3500ms"
           >
-            <img src="assets/images/shapes/banner-shape-1.png" alt="image" />
+            <img src="assets/images/shapes/banner-shape-1.png" alt="shape for background" />
           </div>
           <div className="container">
             <div className="row">
@@ -53,7 +53,7 @@ const Index = () => {
                   <div className="banner-one__banner-img custom-animation-right">
                     <Image
                       src="/assets/images/backgrounds/back4.png"
-                      alt="image"
+                      alt="large printer"
                       width={2210}
                       height={1222}
                     />
@@ -76,7 +76,7 @@ const Index = () => {
                     <div className="features-one__single-left-icon">
                       <Image
                         src="/assets/images/icon/customer-service.png"
-                        alt="image"
+                        alt="icon"
                         width={64}
                         height={64}
                       />
@@ -103,7 +103,7 @@ const Index = () => {
                     <div className="features-one__single-left-icon">
                       <Image
                         src="/assets/images/icon/support.png"
-                        alt="image"
+                        alt="icon"
                         width={64}
                         height={64}
                       />
@@ -131,14 +131,14 @@ const Index = () => {
                   <div className="shape1">
                     <img
                       src="assets/images/shapes/thm-shape-1.png"
-                      alt="image"
+                      alt="shape for background"
                     />
                   </div>
                   <div className="about-one__left-img">
                     <Image
                       className="homepage-logo"
                       src="/assets/images/resources/largecopier.jpg"
-                      alt="image"
+                      alt="image of printer"
                       width={373}
                       height={472}
                     />
@@ -147,7 +147,7 @@ const Index = () => {
                     <div className="about-one__logo">
                       <Image
                         src="/assets/images/resources/logo-2.png"
-                        alt="image"
+                        alt="canam logo"
                         width={240}
                         height={68}
                       />

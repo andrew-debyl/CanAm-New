@@ -11,7 +11,7 @@ export const Sticky1 = () => {
             <div className="logo-box1">
               <Link href="/" aria-label="Go to Home Page">
                 <div>
-                  <Image src="/assets/images/resources/logo6.png" alt="image" width={230} height={65}/>
+                  <Image src="/assets/images/resources/logo6.png" alt="canam logo" width={230} height={65}/>
                 </div>
               </Link>
             </div>

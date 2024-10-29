@@ -13,6 +13,43 @@ const Parts = () => {
           name="description"
           content="Explore CanAm Imaging's extensive range of genuine Xerox and Kodak Digimaster parts, available at competitive prices."
         />
+        <script type="application/ld+json">
+          {JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "WebPage",
+            name: "Parts",
+            description:
+              "Explore CanAm Imaging's extensive range of genuine Xerox and Kodak Digimaster parts, available at competitive prices.",
+            url: "https://can-am-new.vercel.app/parts", // Replace with your actual URL
+            mainEntity: {
+              "@type": "Product",
+              name: "Xerox and Kodak Digimaster Parts",
+              description:
+                "CanAm Imaging provides Xerox parts to the I.S.O and Self-Service marketplace for the United States and Canada. Offering both new and used Xerox parts, all fully guaranteed and competitively priced.",
+              brand: {
+                "@type": "Brand",
+                name: "CanAm Imaging",
+              },
+            },
+            breadcrumb: {
+              "@type": "BreadcrumbList",
+              itemListElement: [
+                {
+                  "@type": "ListItem",
+                  position: 1,
+                  name: "Home",
+                  item: "https://can-am-new.vercel.app/",// Replace with your actual URL
+                },
+                {
+                  "@type": "ListItem",
+                  position: 2,
+                  name: "Parts",
+                  item: "https://can-am-new.vercel.app/parts",// Replace with your actual URL
+                },
+              ],
+            },
+          })}
+        </script>
       </Head>
       <Layout footer={2}>
         <PageBanner pageName="Parts" />
@@ -64,7 +101,7 @@ const Parts = () => {
                 <div className="why-choose-one__img">
                   <Image
                     src="/assets/images/resources/100_2.jpg"
-                    alt="image"
+                    alt="image of parts"
                     width={580}
                     height={614}
                   />

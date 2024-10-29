@@ -33,13 +33,13 @@ const About = () => {
                   <div className="shape1">
                     <img
                       src="assets/images/shapes/thm-shape-1.png"
-                      alt="image"
+                      alt="background image for style"
                     />
                   </div>
                   <div className="about-one__left-img">
                     <Image
                       src="/assets/images/about/printer.png"
-                      alt="image"
+                      alt="image of printer"
                       width={570}
                       height={630}
                     />
@@ -48,7 +48,7 @@ const About = () => {
                     <div className="about-one__logo">
                       <Image
                         src="/assets/images/resources/logo-2.png"
-                        alt="image"
+                        alt="canam logo"
                         width={240}
                         height={68}
                       />
@@ -60,7 +60,7 @@ const About = () => {
                     >
                       <Image
                         src="/assets/images/resources/banner4.jpg"
-                        alt="image"
+                        alt="image of printing roller"
                         width={198}
                         height={216}
                       />
@@ -123,7 +123,7 @@ const About = () => {
                         <div className="counter-one__single-icon">
                           <img
                             src="/assets/images/icon/counter-v3-icon1.png"
-                            alt="image"
+                            alt="icon image"
                           />
                         </div>
                         <div className="counter-one__outer">
@@ -145,7 +145,7 @@ const About = () => {
                         <div className="counter-one__single-icon">
                           <img
                             src="/assets/images/icon/counter-v3-icon2.png"
-                            alt="image"
+                            alt="icon image"
                           />
                         </div>
                         <div className="counter-one__outer">
@@ -167,7 +167,7 @@ const About = () => {
                         <div className="counter-one__single-icon">
                           <img
                             src="/assets/images/icon/counter-v3-icon3.png"
-                            alt="image"
+                            alt="icon image"
                           />
                         </div>
                         <div className="counter-one__outer">
@@ -287,7 +287,7 @@ const About = () => {
                 <div className="why-choose-one__img">
                   <Image
                     src="/assets/images/about/100_2221.jpg"
-                    alt="image"
+                    alt="image of women working with printer"
                     width={500}
                     height={640}
                   />

@@ -45,7 +45,7 @@ const ProductDetails = () => {
             <div className="portfolio-details__gallery">
               <div className="row">
                 <div className="equipment-spec-img-wrapper">
-                  <img src={productData.img} alt="image" />
+                  <img src={productData.img} alt="image of product" />
                 </div>
               </div>
             </div>

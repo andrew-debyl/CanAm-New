@@ -16,7 +16,7 @@ export const HeaderStyle1 = ({ addClassName }) => {
                       <div>
                         <Image
                           src="/assets/images/resources/logo6.png"
-                          alt=""
+                          alt="canam logo"
                           width={230}
                           height={65}
                           priority
@@ -98,7 +98,7 @@ export const DefaultHeaderStyle = ({ addClassName }) => {
                       <div>
                         <Image
                           src="/assets/images/resources/logo6.png"
-                          alt="image"
+                          alt="canam logo"
                           width={212}
                           height={60}
                         />

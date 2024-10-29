@@ -116,7 +116,7 @@ const TechnicalSupport = () => {
                   <div className="services-details-img1">
                     <Image
                       src="/assets/images/resources/100_3.jpg"
-                      alt="image"
+                      alt="image of warehouse"
                       width={702}
                       height={395}
                     />

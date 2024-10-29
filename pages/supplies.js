@@ -27,7 +27,7 @@ const Supplies = () => {
                   <div className="team-details-one__left-img why-choose-one__img">
                     <Image
                       src="/assets/images/resources/100_1.jpg"
-                      alt="image"
+                      alt="image of supplies"
                       width={504}
                       height={553}
                     />

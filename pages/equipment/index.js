@@ -100,7 +100,7 @@ const Equipment = () => {
                       >
                         <div className="case-studies-one__single">
                           <div className="case-studies-one__single-img">
-                            <img src={product.img} alt="image" />
+                            <img src={product.img} alt="image of product" />
                           </div>
                           <div className="overly-text-equipment">
                             <h3>{product.name}</h3>
