@@ -4,6 +4,40 @@ import PageBanner from "../src/components/PageBanner";
 import Head from "next/head";
 
 const Supplies = () => {
+  function addSuppliesJsonLd() {
+    return {
+      __html: JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "name": "Supplies",
+        "description": "Discover a wide range of print and copy supplies at CanAm Imaging. Quality products to meet all your printing needs.",
+        "url": "https://can-am-new.vercel.app/supplies",
+        "mainEntity": {
+          "@type": "Organization",
+          "name": "CanAm Imaging",
+          "url": "https://can-am-new.vercel.app/"
+        },
+        "breadcrumb": {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://can-am-new.vercel.app/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Supplies",
+              "item": "https://can-am-new.vercel.app/supplies"
+            }
+          ]
+        }
+      }),
+    };
+  }
+
   return (
     <>
       <Head>
@@ -11,6 +45,11 @@ const Supplies = () => {
         <meta
           name="description"
           content="Discover a wide range of print and copy supplies at CanAm Imaging. Quality products to meet all your printing needs."
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={addSuppliesJsonLd()}
+          key="supplies-jsonld"
         />
       </Head>
       <Layout footer={2}>

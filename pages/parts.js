@@ -5,6 +5,7 @@ import Image from "next/image";
 import Head from "next/head";
 
 const Parts = () => {
+  //ADD ACTUAL LINKSSSSSSSSSSSSSSSSSSSSSSSSSSS
   function addPartsJsonLd() {
     return {
       __html: JSON.stringify({
