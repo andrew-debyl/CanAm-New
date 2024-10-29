@@ -62,7 +62,7 @@ const ProductDetails = () => {
                       </h4>
                     </div>
                     <div className="equipment-brochure-wrapper">
-                      <Link href="#" className="equipment-brochure">
+                      <Link href={productData.brochure} target="_blank" className="equipment-brochure">
                         Product Brochure
                       </Link>
                     </div>

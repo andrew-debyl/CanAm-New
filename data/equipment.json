@@ -10,6 +10,7 @@
         "subName": "C75",
         "desc": "Elevate your office's productivity and creativity with the Xerox C75 Color Multifunction Printer. Designed for businesses that demand versatility, speed, and exceptional quality, the C75 delivers outstanding color printing, copying, scanning, and finishing capabilities—all in one compact device. Whether you're producing vibrant marketing materials or essential business documents, the C75 empowers you to achieve professional results with ease.",
         "img": "/assets/images/equipment/xerox-c75.png",
+        "brochure": "https://www.xerox.com/digital-printing/latest/C75BR-01U.pdf",
         "features": [
           {
             "id": "1",
@@ -47,6 +48,7 @@
         "subName": "J75",
         "desc": "Take your print production to the next level with the Xerox J75 Color Press, engineered for businesses that require outstanding quality and flexibility. This high-performance press is perfect for producing vibrant marketing materials, brochures, and professional documents, all while maintaining exceptional detail. With its advanced digital technology, the J75 seamlessly integrates into your workflow, enabling you to handle diverse print jobs with ease.",
         "img": "/assets/images/equipment/xerox-j75.png",
+        "brochure": "https://www.xerox.com/digital-printing/latest/J75BR-01U.PDF",
         "features": [
           {
             "id": "1",
@@ -84,6 +86,7 @@
         "subName": "DocuColor 700/700i/770",
         "desc": "Introducing the DocuColor 700/700i/770, the ultimate solution for vibrant, high-quality color printing that meets the demands of modern businesses. Designed for performance and versatility, this digital color press delivers exceptional image quality, making it perfect for everything from marketing materials to professional presentations. With its advanced technology and user-friendly interface, you can easily achieve stunning results in no time. Whether you’re printing short runs or high-volume projects, the DocuColor series is engineered to keep your workflow efficient and your print quality consistently outstanding.",
         "img": "/assets/images/equipment/docucolor-770.png",
+        "brochure": "https://www.office.xerox.com/latest/X70BR-04U.PDF",
         "features": [
           {
             "id": "1",
@@ -121,6 +124,7 @@
         "subName": "C60/C70",
         "desc": "Introducing the Xerox C60/C70, your go-to digital color press for exceptional print quality and unparalleled versatility. Designed to meet the evolving needs of businesses, this powerhouse combines high-performance printing with advanced color technology, ensuring your materials stand out with vibrant colors and sharp details. Whether you're producing marketing collateral, professional documents, or creative projects, the C60/C70 delivers remarkable results every time. With an intuitive interface and customizable features, this printer is engineered to enhance your productivity and simplify your workflow, making it an essential tool for any modern workspace.",
         "img": "/assets/images/equipment/xerox-c60-c70.png",
+        "brochure": "https://www.office.xerox.com/latest/X60BR-01U.PDF",
         "features": [
           {
             "id": "1",
@@ -158,6 +162,7 @@
         "subName": "550/560/570",
         "desc": "Introducing the Xerox 550/560/570 series, a powerful digital color press designed to elevate your printing capabilities with exceptional quality and unmatched flexibility. This series is engineered for high-performance environments, making it ideal for print shops, marketing agencies, and corporate environments alike. With cutting-edge technology, these machines deliver brilliant colors and crisp details that will make your prints truly stand out. The intuitive interface and robust features ensure that you can easily manage jobs, optimize workflows, and produce a wide array of materials—from brochures to banners—with ease and efficiency.",
         "img": "/assets/images/equipment/xerox-550-560-570.png",
+        "brochure": "https://www.office.xerox.com/latest/X56BR-01U.PDF",
         "features": [
           {
             "id": "1",
@@ -195,6 +200,7 @@
         "subName": "Primelink C9065/C9070",
         "desc": "Introducing the Xerox Primelink C9065/C9070, a state-of-the-art digital color press designed to redefine your printing experience with superior quality and unmatched versatility. Engineered for high-volume production environments, this advanced printer delivers stunning color accuracy and detail, making it perfect for a variety of applications, from high-impact marketing materials to intricate graphics. With its intuitive user interface and robust finishing options, the Primelink series streamlines workflows and enhances productivity, ensuring your business meets demanding deadlines while delivering exceptional results every time.",
         "img": "/assets/images/equipment/xerox-primelink-c9070.png",
+        "brochure": "https://www.xerox.com/digital-printing/latest/PC9BR-01U.PDF",
         "features": [
           {
             "id": "1",
@@ -232,6 +238,7 @@
         "subName": "Versant 80",
         "desc": "Elevate your print production capabilities with the Xerox Versant 80 Color Press, a high-performance solution designed for businesses that demand exceptional quality and versatility. Ideal for print service providers and in-house print departments, the Versant 80 delivers stunning color reproduction and precise detail, making it perfect for everything from marketing materials to intricate graphics. With its advanced automation and user-friendly features, this color press streamlines your workflow and maximizes productivity.",
         "img": "/assets/images/equipment/xerox-versant-80.png",
+        "brochure": "https://www.xerox.com/digital-printing/latest/V80BR-01U.PDF",
         "features": [
           {
             "id": "1",
@@ -269,6 +276,7 @@
         "subName": "Versant 180",
         "desc": "Unlock your print production potential with the Xerox Versant 180 Color Press, a powerful solution designed for businesses that demand high-quality output and exceptional versatility. This advanced color press is perfect for both print service providers and in-house printing operations, delivering vibrant colors and sharp details for everything from marketing materials to intricate graphics. With its innovative features and user-friendly design, the Versant 180 streamlines workflows and maximizes efficiency.",
         "img": "/assets/images/equipment/xerox-versant-180.png",
+        "brochure": "https://www.xerox.com/digital-printing/latest/V18BR-02U.PDF",
         "features": [
           {
             "id": "1",
@@ -306,6 +314,7 @@
         "subName": "Versant 280",
         "desc": "Elevate your print production capabilities with the Xerox Versant 280 Color Press, a sophisticated solution tailored for businesses that demand high-quality output and operational flexibility. This advanced color press is ideal for both print service providers and in-house printing departments, delivering vibrant colors and exceptional detail for a wide variety of applications, from marketing materials to professional documents. With its cutting-edge technology and user-friendly features, the Versant 280 enhances workflow efficiency and maximizes productivity.",
         "img": "/assets/images/equipment/xerox-versant-280.png",
+        "brochure": "https://www.office.xerox.com/latest/V28BR-01U.PDF",
         "features": [
           {
             "id": "1",
@@ -343,6 +352,7 @@
         "subName": "Versant 2100",
         "desc": "Transform your printing capabilities with the Xerox Versant 2100 Color Press, designed for businesses that require high-quality output and exceptional versatility. This advanced color press is perfect for print service providers and in-house print operations, delivering vibrant colors and precise details for a wide range of applications, from marketing materials to professional documents. With its innovative features and user-friendly design, the Versant 2100 enhances workflow efficiency and maximizes productivity.",
         "img": "/assets/images/equipment/xerox-versant-2100.png",
+        "brochure": "https://www.office.xerox.com/latest/V21BR-01U.PDF",
         "features": [
           {
             "id": "1",
@@ -380,6 +390,7 @@
         "subName": "Versant 3100",
         "desc": "Revolutionize your print production with the Xerox Versant 3100 Color Press, designed for businesses that require unparalleled quality and versatility. This advanced color press is perfect for print service providers and in-house print operations, delivering stunning colors and exceptional detail for a wide variety of applications, from eye-catching marketing materials to intricate graphics. With its innovative features and user-friendly design, the Versant 3100 enhances workflow efficiency and boosts productivity.",
         "img": "/assets/images/equipment/xerox-versant-3100.png",
+        "brochure": "https://www.xerox.com/digital-printing/latest/V31BR-01U.PDF",
         "features": [
           {
             "id": "1",
@@ -417,6 +428,7 @@
         "subName": "Versant 4100",
         "desc": "Elevate your print production capabilities with the Xerox Versant 4100 Color Press, engineered for businesses that demand exceptional quality, speed, and versatility. Ideal for both print service providers and in-house print departments, this advanced color press delivers stunning colors and sharp details for a wide range of applications, from high-quality marketing materials to complex graphics. With its innovative features and intuitive design, the Versant 4100 enhances workflow efficiency and boosts overall productivity.",
         "img": "/assets/images/equipment/xerox-versant-4100.png",
+        "brochure": "https://www.xerox.com/digital-printing/latest/V41BR-01U.PDF",
         "features": [
           {
             "id": "1",
@@ -454,6 +466,7 @@
         "subName": "1000i",
         "desc": "Transform your print production with the Xerox 1000i Color Press, an innovative solution designed for businesses that require exceptional quality and versatility. This advanced digital press is perfect for both commercial print service providers and in-house print operations, delivering vibrant colors and remarkable detail across a wide range of applications. With its cutting-edge technology and user-friendly features, the Xerox 1000i enhances workflow efficiency and allows you to produce professional-grade prints with ease.",
         "img": "/assets/images/equipment/xerox-1000i.png",
+        "brochure": "https://www.office.xerox.com/latest/X80BR-06U.PDF",
         "features": [
           {
             "id": "1",
@@ -491,6 +504,7 @@
         "subName": "Iridesse",
         "desc": "Elevate your print capabilities with the Xerox Iridesse Production Press, a state-of-the-art solution designed for businesses that demand outstanding quality and creative versatility. This advanced digital press enables you to produce breathtaking prints with vibrant colors and exquisite detail, making it ideal for high-end marketing materials, packaging, and personalized communications. With its innovative features and user-friendly design, the Iridesse enhances workflow efficiency and empowers your creative projects.",
         "img": "/assets/images/equipment/xerox-iridesse.png",
+        "brochure": "https://www.xerox.com/digital-printing/latest/XIPDS-01U.PDF",
         "features": [
           {
             "id": "1",
@@ -535,6 +549,7 @@
         "subName": "135/6100/6115/6135/6155/6180",
         "desc": "Introducing the DocuTech 135/6100/6115/6135/6155/6180 series, the ultimate solution for high-speed, high-quality production printing. Designed for businesses that demand exceptional reliability and performance, this series combines advanced technology with user-friendly features to elevate your printing capabilities. Whether you're producing high-volume documents, books, or marketing materials, the DocuTech series delivers crisp text and stunning graphics with remarkable efficiency. With a range of customizable options and robust finishing capabilities, you can streamline your workflow and meet any printing challenge head-on.",
         "img": "/assets/images/equipment/docutech.png",
+        "brochure": "https://www.office.xerox.com/latest/DT6SS-01U.PDF",
         "features": [
           {
             "id": "1",
@@ -572,6 +587,7 @@
         "subName": "100/115/135/155/180/4635",
         "desc": "Introducing the DocuPrint 100/115/135/155/180/4635 series, a versatile lineup of production printers that deliver outstanding print quality and reliability for all your document needs. Engineered for efficiency, these printers are ideal for businesses that require high-volume printing without sacrificing speed or quality. The DocuPrint series offers advanced features to enhance your workflow, whether you're producing everything from everyday office documents to high-impact marketing materials. With user-friendly controls and robust finishing options, you can easily manage jobs and achieve professional results every time.",
         "img": "/assets/images/equipment/docuprint.png",
+        "brochure": "https://www.xerox.com/digital-printing/latest/DP1BR-01U.PDF",
         "features": [
           {
             "id": "1",
@@ -616,6 +632,7 @@
         "subName": "100/120/144/157 EA",
         "desc": "Introducing the Nuvera 100/120/144/157 EA series, a cutting-edge solution for high-performance production printing that meets the demands of today’s fast-paced business environment. Engineered for reliability and exceptional quality, this series combines advanced technology with flexible capabilities, making it ideal for producing a wide range of applications, from high-volume documents to sophisticated marketing materials. The Nuvera series ensures consistent output with vibrant colors and sharp details, all while streamlining your workflow and enhancing productivity with user-friendly features.",
         "img": "/assets/images/equipment/nuvera-120ea.png",
+        "brochure": "https://www.xerox.com/digital-printing/latest/NU1SS-01U.PDF",
         "features": [
           {
             "id": "1",
@@ -653,6 +670,7 @@
         "subName": "200/288/314 EA",
         "desc": "Introducing the Nuvera 200/288/314 EA series, an innovative production printing solution tailored for high-demand environments that require outstanding quality and efficiency. This advanced series combines exceptional speed with superior print quality, making it perfect for a variety of applications, from corporate documents to creative marketing materials. With its intelligent technology and user-friendly features, the Nuvera series enhances your workflow, enabling you to produce professional-grade prints with ease. Elevate your printing capabilities and meet the diverse needs of your business with the Nuvera series.",
         "img": "/assets/images/equipment/nuvera-200-288-314.png",
+        "brochure": "https://www.office.xerox.com/latest/NU2BR-01U.PDF",
         "features": [
           {
             "id": "1",
@@ -690,6 +708,7 @@
         "subName": "288/314 EA MICR",
         "desc": "Elevate your printing capabilities with the Xerox Nuvera 288EA MICR, a specialized production system designed for high-volume environments that require exceptional black-and-white output, especially for financial and transactional printing. Ideal for commercial print providers and in-house print departments, this advanced system ensures accuracy and reliability in printing MICR (Magnetic Ink Character Recognition) documents. With its robust features and user-friendly interface, the Nuvera 288EA MICR allows you to produce high-quality documents efficiently.",
         "img": "/assets/images/equipment/nuvera-200-288-314.png",
+        "brochure": "https://www.xerox.com/digital-printing/latest/NU2SS-01U.pdf",
         "features": [
           {
             "id": "1",
@@ -727,6 +746,7 @@
         "subName": "D95/D110/D125",
         "desc": "Introducing the Xerox D95/D110/D125 series, a powerful digital production printer designed to deliver exceptional quality and efficiency for high-volume printing needs. This versatile lineup is ideal for print service providers, corporate environments, and educational institutions looking to produce everything from sharp text documents to vibrant graphics. With its advanced technology, the D95/D110/D125 series ensures consistent output and quick turnaround times, all while providing a user-friendly experience. Elevate your printing capabilities and meet the diverse demands of your business with this robust, reliable solution.",
         "img": "/assets/images/equipment/xerox-d95-d110-d125.png",
+        "brochure": "https://www.xerox.com/digital-printing/latest/XD1BR-01U.PDF",
         "features": [
           {
             "id": "1",
@@ -764,6 +784,7 @@
         "subName": "D136",
         "desc": "Enhance your document production with the Xerox D136 Copier/Printer, a reliable and efficient solution designed for high-volume environments that demand exceptional quality. Ideal for commercial print providers and busy office settings, the D136 delivers outstanding black-and-white output with impressive speed and precision. With its advanced features and user-friendly interface, this multifunction system enables you to efficiently produce a wide range of documents while maintaining high standards of quality.",
         "img": "/assets/images/equipment/xerox-d136.png",
+        "brochure": "https://www.xerox.com/digital-printing/latest/XD3BR-01U.PDF",
         "features": [
           {
             "id": "1",
@@ -801,6 +822,7 @@
         "subName": "Primelink B9100/B9110/B9125/B9136",
         "desc": "Introducing the Xerox Primelink B9100/B9110/B9125/B9136 series, a state-of-the-art solution for high-volume black-and-white production printing that combines exceptional quality, speed, and versatility. Engineered for demanding environments, this series delivers crisp, clear documents with outstanding efficiency, making it perfect for everything from high-quantity print runs to intricate graphic applications. With a range of advanced features and user-friendly controls, the Primelink series enhances workflow capabilities, allowing businesses to achieve professional results with ease and consistency.",
         "img": "/assets/images/equipment/xerox-primelink-b9100-b9110-b9125-b9136.png",
+        "brochure": "https://www.xerox.com/digital-printing/latest/PB9BR-01U.PDF",
         "features": [
           {
             "id": "1",
