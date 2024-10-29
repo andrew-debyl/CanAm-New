@@ -22,14 +22,9 @@ const Parts = () => {
               "Explore CanAm Imaging's extensive range of genuine Xerox and Kodak Digimaster parts, available at competitive prices.",
             url: "https://can-am-new.vercel.app/parts", // Replace with your actual URL
             mainEntity: {
-              "@type": "Product",
-              name: "Xerox and Kodak Digimaster Parts",
-              description:
-                "CanAm Imaging provides Xerox parts to the I.S.O and Self-Service marketplace for the United States and Canada. Offering both new and used Xerox parts, all fully guaranteed and competitively priced.",
-              brand: {
-                "@type": "Brand",
-                name: "CanAm Imaging",
-              },
+              "@type": "Organization",
+              name: "CanAm Imaging",
+              url: "https://can-am-new.vercel.app/", // Replace with your actual URL
             },
             breadcrumb: {
               "@type": "BreadcrumbList",
