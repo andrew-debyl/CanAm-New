@@ -17,32 +17,31 @@ const Parts = () => {
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "WebPage",
-            name: "Parts",
-            description:
-              "Explore CanAm Imaging's extensive range of genuine Xerox and Kodak Digimaster parts, available at competitive prices.",
-            url: "https://can-am-new.vercel.app/parts", // Replace with your actual URL
-            mainEntity: {
+            "name": "Parts",
+            "description": "Explore CanAm Imaging's extensive range of genuine Xerox and Kodak Digimaster parts, available at competitive prices.",
+            "url": "https://can-am-new.vercel.app/parts", // Replace with your actual URL
+            "mainEntity": {
               "@type": "Organization",
-              name: "CanAm Imaging",
-              url: "https://can-am-new.vercel.app/", // Replace with your actual URL
+              "name": "CanAm Imaging",
+              "url": "https://can-am-new.vercel.app/" // Replace with your actual URL
             },
-            breadcrumb: {
+            "breadcrumb": {
               "@type": "BreadcrumbList",
-              itemListElement: [
+              "itemListElement": [
                 {
                   "@type": "ListItem",
-                  position: 1,
-                  name: "Home",
-                  item: "https://can-am-new.vercel.app/",// Replace with your actual URL
+                  "position": 1,
+                  "name": "Home",
+                  "item": "https://can-am-new.vercel.app/" // Replace with your actual URL
                 },
                 {
                   "@type": "ListItem",
-                  position: 2,
-                  name: "Parts",
-                  item: "https://can-am-new.vercel.app/parts",// Replace with your actual URL
-                },
-              ],
-            },
+                  "position": 2,
+                  "name": "Parts",
+                  "item": "https://can-am-new.vercel.app/parts" // Replace with your actual URL
+                }
+              ]
+            }
           })}
         </script>
       </Head>
