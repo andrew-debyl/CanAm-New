@@ -33,7 +33,7 @@ const Contact = () => {
             "@type": "ContactPoint",
             "telephone": "+1-XXX-XXX-XXXX",
             "contactType": "Customer Service",
-            "areaServed": "US",
+            "areaServed": "Worldwide",
             "availableLanguage": "English"
           }
         },
@@ -53,6 +53,11 @@ const Contact = () => {
               "item": "https://can-am-new.vercel.app/contact"
             }
           ]
+        },
+        "potentialAction": {
+          "@type": "Action",
+          "name": "Contact Us",
+          "target": "https://can-am-new.vercel.app/contact"
         }
       })
     }
