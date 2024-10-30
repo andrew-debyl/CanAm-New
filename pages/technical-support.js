@@ -114,6 +114,7 @@ const TechnicalSupport = () => {
                               type="email"
                               name="email"
                               placeholder="Email Address"
+                              autocomplete="email"
                               required
                             />
                           </div>

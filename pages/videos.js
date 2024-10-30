@@ -37,7 +37,7 @@ const Videos = () => {
               "name": "First Video",
               "description": "Tutorial or demonstration for the first product.",
               "thumbnailUrl": "https://can-am-new.vercel.app/assets/images/about/video1.png",
-              "uploadDate": "2023-01-01",
+              "uploadDate": "2024-10-25T08:00:00-04:00",
               "contentUrl": "https://www.youtube.com/watch?v=yi6ks7q_ZpQ",
               "embedUrl": "https://www.youtube.com/embed/yi6ks7q_ZpQ"
             },
@@ -46,7 +46,7 @@ const Videos = () => {
               "name": "Second Video",
               "description": "Tutorial or demonstration for the second product.",
               "thumbnailUrl": "https://can-am-new.vercel.app/assets/images/about/video2.png",
-              "uploadDate": "2023-01-01",
+              "uploadDate": "2024-10-25T08:00:00-04:00",
               "contentUrl": "https://www.youtube.com/watch?v=Hkcx8B3kV0w",
               "embedUrl": "https://www.youtube.com/embed/Hkcx8B3kV0w"
             }

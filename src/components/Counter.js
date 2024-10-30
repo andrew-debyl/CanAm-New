@@ -1,20 +1,19 @@
 import CountUp from "react-countup";
-import ReactVisibilitySensor from "react-visibility-sensor";
+import useVisibility from "./UseVisibility";
+
 const Counter = ({ end, decimals }) => {
+  const [isVisible, ref] = useVisibility();
+
   return (
-    <CountUp
-      end={end ? end : 100}
-      duration={1}
-      decimals={decimals ? decimals : 0}
-    >
-      {({ countUpRef, start }) => (
-        <ReactVisibilitySensor onChange={start} delayedCall>
-          <span className="odometer" data-to={end} ref={countUpRef}>
-            count
-          </span>
-        </ReactVisibilitySensor>
+    <span className="odometer" ref={ref}>
+      {isVisible && (
+        <CountUp
+          end={end ? end : 100}
+          duration={1}
+          decimals={decimals ? decimals : 0}
+        />
       )}
-    </CountUp>
+    </span>
   );
 };
 
