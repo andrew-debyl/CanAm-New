@@ -4,6 +4,55 @@ import PageBanner from "../src/components/PageBanner";
 import Head from "next/head";
 
 const TechnicalSupport = () => {
+  //ADD ACTUAL LINKSSSSSSSSSSSSSSSSSSSSSSSSSSS
+  function addTechSupportJsonLd() {
+    return {
+      __html: JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "name": "Technical Support",
+        "description": "Explore technical support services at CanAm Imaging, including troubleshooting, consulting, and prompt assistance from qualified technicians.",
+        "url": "https://can-am-new.vercel.app/technical-support",
+        "mainEntity": {
+          "@type": "Organization",
+          "name": "CanAm Imaging",
+          "url": "https://can-am-new.vercel.app/",
+          "contactPoint": {
+            "@type": "ContactPoint",
+            "telephone": "+1-XXX-XXX-XXXX",
+            "contactType": "Customer Service",
+            "areaServed": "US",
+            "availableLanguage": "English"
+          }
+        },
+        "potentialAction": {
+          "@type": "ContactAction",
+          "target": {
+            "@type": "EntryPoint",
+            "urlTemplate": "https://can-am-new.vercel.app/contact",
+          },
+          "name": "Contact Us"
+        },
+        "breadcrumb": {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://can-am-new.vercel.app/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Technical Support",
+              "item": "https://can-am-new.vercel.app/technical-support"
+            }
+          ]
+        }
+      })
+    }
+  }
   return (
     <>
       <Head>
@@ -11,6 +60,11 @@ const TechnicalSupport = () => {
         <meta
           name="description"
           content="Explore technical support services at CanAm Imaging, including troubleshooting, consulting, and prompt assistance from qualified technicians."
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={addTechSupportJsonLd()}
+          key="techsupport-jsonld"
         />
       </Head>
       <Layout footer={2}>

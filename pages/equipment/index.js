@@ -10,6 +10,41 @@ const Equipment = () => {
     import("bootstrap/dist/js/bootstrap.bundle.min.js");
   }, []);
 
+   //ADD ACTUAL LINKSSSSSSSSSSSSSSSSSSSSSSSSSSS
+   function addEquiJsonLd() {
+    return {
+      __html: JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "name": "Equipment",
+        "description": "Explore CanAm Imaging\'s top-quality reconditioned imaging equipment.",
+        "url": "https://can-am-new.vercel.app/equipment",
+        "mainEntity": {
+          "@type": "Organization",
+          "name": "CanAm Imaging",
+          "url": "https://can-am-new.vercel.app/"
+        },
+        "breadcrumb": {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://can-am-new.vercel.app/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Equipment",
+              "item": "https://can-am-new.vercel.app/equipment"
+            }
+          ]
+        }
+      })
+    }
+  }
+
   return (
     <>
       <Head>
@@ -17,6 +52,11 @@ const Equipment = () => {
         <meta
           name="description"
           content="Explore CanAm Imaging's top-quality reconditioned imaging equipment, including Xerox and pre-owned products from Canon, Kodak, Konica Minolta, and Ricoh. Our expert consultants are ready to help you find the perfect solution for your business needs."
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={addEquiJsonLd()}
+          key="equi-jsonld"
         />
       </Head>
       <Layout>

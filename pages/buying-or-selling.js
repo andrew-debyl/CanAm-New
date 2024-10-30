@@ -3,6 +3,47 @@ import Layout from "../src/components/Layout";
 import PageBanner from "../src/components/PageBanner";
 
 const BuyingOrSelling = () => {
+  //ADD ACTUAL LINKSSSSSSSSSSSSSSSSSSSSSSSSSSS
+  function addBuyOrSellJsonLd() {
+    return {
+      __html: JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "name": "Buying or Selling",
+        "description": "Looking to buy or sell imaging equipment, parts, or supplies? Contact CanAm Imaging today to connect with our expert consultants and explore your options.",
+        "url": "https://can-am-new.vercel.app/buying-or-selling",
+        "mainEntity": {
+          "@type": "Organization",
+          "name": "CanAm Imaging",
+          "url": "https://can-am-new.vercel.app/",
+          "contactPoint": {
+            "@type": "ContactPoint",
+            "telephone": "+1-XXX-XXX-XXXX",
+            "contactType": "Sales",
+            "areaServed": "US",
+            "availableLanguage": "English"
+          }
+        },
+        "breadcrumb": {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://can-am-new.vercel.app/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Buying or Selling",
+              "item": "https://can-am-new.vercel.app/buying-or-selling"
+            }
+          ]
+        }
+      })
+    }
+  }
   return (
     <>
       <Head>
@@ -10,6 +51,11 @@ const BuyingOrSelling = () => {
         <meta
           name="description"
           content="Looking to buy or sell imaging equipment, parts, or supplies? Contact CanAm Imaging today to connect with our expert consultants and explore your options."
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={addBuyOrSellJsonLd()}
+          key="buyorsell-jsonld"
         />
       </Head>
       <Layout footer={2}>

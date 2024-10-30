@@ -18,6 +18,44 @@ const Videos = () => {
     setVideoPopup(true);
   };
 
+  //ADD ACTUAL LINKSSSSSSSSSSSSSSSSSSSSSSSSSSS
+  function addVideosJsonLd() {
+    return {
+      __html: JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "name": "Videos",
+        "description": "Explore our video gallery showcasing CanAm Imaging's products and services. Watch tutorials and demonstrations.",
+        "url": "https://can-am-new.vercel.app/videos",
+        "mainEntity": {
+          "@type": "VideoGallery",
+          "name": "CanAm Imaging Video Gallery",
+          "description": "A collection of videos showcasing products and services.",
+          "video": [
+            {
+              "@type": "VideoObject",
+              "name": "First Video",
+              "description": "Tutorial or demonstration for the first product.",
+              "thumbnailUrl": "https://can-am-new.vercel.app/assets/images/about/video1.png",
+              "uploadDate": "2023-01-01",
+              "contentUrl": "https://www.youtube.com/watch?v=yi6ks7q_ZpQ",
+              "embedUrl": "https://www.youtube.com/embed/yi6ks7q_ZpQ"
+            },
+            {
+              "@type": "VideoObject",
+              "name": "Second Video",
+              "description": "Tutorial or demonstration for the second product.",
+              "thumbnailUrl": "https://can-am-new.vercel.app/assets/images/about/video2.png",
+              "uploadDate": "2023-01-01",
+              "contentUrl": "https://www.youtube.com/watch?v=Hkcx8B3kV0w",
+              "embedUrl": "https://www.youtube.com/embed/Hkcx8B3kV0w"
+            }
+          ]
+        }
+      })
+    }
+  }
+
   return (
     <>
       <Head>
@@ -25,6 +63,11 @@ const Videos = () => {
         <meta
           name="description"
           content="Explore our video gallery showcasing CanAm Imaging's products and services. Watch tutorials and demonstrations."
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={addVideosJsonLd()}
+          key="videos-jsonld"
         />
       </Head>
       <Layout>

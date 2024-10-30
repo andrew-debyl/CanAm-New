@@ -11,6 +11,48 @@ const Counter = dynamic(() => import("../src/components/Counter"), {
 });
 
 const About = () => {
+  //ADD ACTUAL LINKSSSSSSSSSSSSSSSSSSSSSSSSSSS
+  function addAboutJsonLd() {
+    return {
+      __html: JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "name": "About Us",
+        "description": "Learn about CanAm Imaging, your trusted partner in superior print and copy solutions, with over 65 years of experience in exceptional customer service and high-quality pre-owned equipment.",
+        "url": "https://can-am-new.vercel.app/about",
+        "mainEntity": {
+          "@type": "Organization",
+          "name": "CanAm Imaging",
+          "url": "https://can-am-new.vercel.app/",
+          "logo": "https://can-am-new.vercel.app/assets/images/resources/logo-2.png",
+          "contactPoint": {
+            "@type": "ContactPoint",
+            "telephone": "+1-XXX-XXX-XXXX",
+            "contactType": "Customer Service",
+            "areaServed": "US",
+            "availableLanguage": "English"
+          }
+        },
+        "breadcrumb": {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://can-am-new.vercel.app/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "About Us",
+              "item": "https://can-am-new.vercel.app/about"
+            }
+          ]
+        }
+      })
+    }
+  }
   return (
     <>
       <Head>
@@ -18,6 +60,11 @@ const About = () => {
         <meta
           name="description"
           content="Learn about CanAm Imaging, your trusted partner in superior print and copy solutions, with over 65 years of experience in exceptional customer service and high-quality pre-owned equipment."
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={addAboutJsonLd()}
+          key="about-jsonld"
         />
       </Head>
       <Layout footer={2}>

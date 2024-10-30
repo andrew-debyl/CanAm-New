@@ -29,6 +29,29 @@ const ProductDetails = () => {
 
   const productData = getProductData(category, id);
 
+  //ADD ACTUAL LINKSSSSSSSSSSSSSSSSSSSSSSSSSSS
+  function addEquiPeiceJsonLd(product) {
+    return {
+      __html: JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": product.name,
+        "description": product.desc,
+        "image": product.img,
+        "brand": {
+          "@type": "Brand",
+          "name": "CanAm Imaging"
+        },
+        "sku": product.id,
+        "offers": {
+          "@type": "Offer",
+          "url": `https://can-am-new.vercel.app/${product.name}/${product.id}`
+        },
+        "additionalType": "https://schema.org/Thing"
+      })
+    }
+  }
+
   return (
     <>
       <Head>
@@ -36,6 +59,11 @@ const ProductDetails = () => {
         <meta
           name="description"
           content={`Discover detailed information about the ${productData.name} ${productData.subName} from CanAm Imaging. Explore features, specifications, and more!`}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={addEquiPeiceJsonLd(productData)}
+          key="equipeice-jsonld"
         />
       </Head>
       <Layout>

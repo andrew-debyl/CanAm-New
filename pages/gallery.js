@@ -29,6 +29,54 @@ const Gallery = () => {
     setIsToggle(true);
   };
 
+  //ADD ACTUAL LINKSSSSSSSSSSSSSSSSSSSSSSSSSSS
+  function addGalleryJsonLd() {
+    return {
+      __html: JSON.stringify({
+        "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Gallery",
+      "description": "Explore our gallery showcasing our equipment and supplies. Click on any image for a closer view.",
+      "url": "https://can-am-new.vercel.app/gallery",
+      "mainEntity": {
+        "@type": "Organization",
+        "name": "CanAm Imaging",
+        "url": "https://can-am-new.vercel.app/",
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "+1-XXX-XXX-XXXX",
+          "contactType": "Customer Service",
+          "areaServed": "US",
+          "availableLanguage": "English"
+        }
+      },
+      "breadcrumb": {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://can-am-new.vercel.app/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Gallery",
+            "item": "https://can-am-new.vercel.app/gallery"
+          }
+        ]
+      },
+      "image": galleryData.map(data => ({
+        "@type": "ImageObject",
+        "url": data.img,
+        "name": data.name,
+        "description": `Image of ${data.name}`
+      }))
+      })
+    }
+  }
+
   return (
     <>
       <Head>
@@ -36,6 +84,11 @@ const Gallery = () => {
         <meta
           name="description"
           content="Explore our gallery showcasing our equipment and supplies. Click on any image for a closer view."
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={addGalleryJsonLd()}
+          key="gallery-jsonld"
         />
       </Head>
       <Layout>

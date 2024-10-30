@@ -17,6 +17,47 @@ const Contact = () => {
     setInfoWindowVisible(true);
   };
 
+  function addContactJsonLd() {
+    return {
+      __html: JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "name": "Contact Us",
+        "description": "Get in touch with CanAm Imaging for professional support. Contact us via phone, email, or through the form below for all your imaging equipment needs.",
+        "url": "https://can-am-new.vercel.app/contact",
+        "mainEntity": {
+          "@type": "Organization",
+          "name": "CanAm Imaging",
+          "url": "https://can-am-new.vercel.app/",
+          "contactPoint": {
+            "@type": "ContactPoint",
+            "telephone": "+1-XXX-XXX-XXXX",
+            "contactType": "Customer Service",
+            "areaServed": "US",
+            "availableLanguage": "English"
+          }
+        },
+        "breadcrumb": {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://can-am-new.vercel.app/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Contact Us",
+              "item": "https://can-am-new.vercel.app/contact"
+            }
+          ]
+        }
+      })
+    }
+  }
+
   return (
     <>
     <Head>
@@ -24,6 +65,11 @@ const Contact = () => {
         <meta
           name="description"
           content="Get in touch with CanAm Imaging for professional support. Contact us via phone, email, or through the form below for all your imaging equipment needs."
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={addContactJsonLd()}
+          key="contact-jsonld"
         />
       </Head>
     <Layout footer={2}>

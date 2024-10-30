@@ -4,6 +4,7 @@ import PageBanner from "../src/components/PageBanner";
 import Head from "next/head";
 
 const Supplies = () => {
+  //ADD ACTUAL LINKSSSSSSSSSSSSSSSSSSSSSSSSSSS
   function addSuppliesJsonLd() {
     return {
       __html: JSON.stringify({

@@ -5,6 +5,42 @@ import Image from "next/image";
 import Head from "next/head";
 
 const Index = () => {
+  //ADD ACTUAL LINKSSSSSSSSSSSSSSSSSSSSSSSSSSS
+  function addHomeJsonLd() {
+    return {
+      __html: JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "name": "Home",
+        "description": "Discover CanAm Imaging's premium print and copy services, dedicated customer care, and extensive range of printing solutions.",
+        "url": "https://can-am-new.vercel.app/",
+        "mainEntity": {
+          "@type": "Organization",
+          "name": "CanAm Imaging",
+          "url": "https://can-am-new.vercel.app/",
+          "logo": "https://can-am-new.vercel.app/assets/images/resources/logo-2.png",
+          "contactPoint": {
+            "@type": "ContactPoint",
+            "telephone": "+1-XXX-XXX-XXXX",
+            "contactType": "Customer Service",
+            "areaServed": "US",
+            "availableLanguage": "English"
+          }
+        },
+        "breadcrumb": {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://can-am-new.vercel.app/"
+            }
+          ]
+        }
+      })
+    }
+  }
   return (
     <>
       <Head>
@@ -12,6 +48,11 @@ const Index = () => {
         <meta
           name="description"
           content="Discover CanAm Imaging's premium print and copy services, dedicated customer care, and extensive range of printing solutions."
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={addHomeJsonLd()}
+          key="home-jsonld"
         />
       </Head>
       <Layout header={1} footer={1} featuresContentOff>
