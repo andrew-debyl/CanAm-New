@@ -45,6 +45,7 @@ const ProductDetails = () => {
         "sku": product.id,
         "offers": {
           "@type": "Offer",
+          "@price": "0.00",
           "url": `https://can-am-new.vercel.app/equipment/${product.name}/${product.id}`
         },
         "additionalType": "https://schema.org/Thing"
