@@ -46,6 +46,7 @@ const ProductDetails = () => {
         "offers": {
           "@type": "Offer",
           "price": "0.00",
+          "priceCurrency": "CAD",
           "url": `https://can-am-new.vercel.app/equipment/${product.name}/${product.id}`
         },
         "additionalType": "https://schema.org/Thing"
