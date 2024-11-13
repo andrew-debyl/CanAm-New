@@ -3203,8 +3203,13 @@ ul {
   z-index: 5;
 }
 
+form .success {
+  display: none;
+}
+
 .contact-page .contact-page__inner form input[type="text"],
-.contact-page .contact-page__inner form input[type="email"] {
+.contact-page .contact-page__inner form input[type="email"],
+.contact-page .contact-page__inner form input[type="tel"] {
   color: #2e2e36;
   font-size: 18px;
   font-weight: 700;
@@ -3234,6 +3239,10 @@ ul {
   outline: none;
   transition: all 200ms linear;
   transition-delay: 0.1s;
+}
+
+.contact-page__input-box{
+  display: flex;
 }
 
 .contact-page .contact-page__inner form input[type="text"]:focus {

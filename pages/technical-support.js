@@ -103,10 +103,11 @@ const TechnicalSupport = () => {
                       Contact Us
                     </h3>
                     <form
-                      onSubmit={(e) => e.preventDefault()}
+                      
                       id="review-form"
-                      action="#"
+                      action="https://api.web3forms.com/submit" method="POST"
                     >
+                       <input type="hidden" name="access_key" value="8576f478-53ae-42cc-b97e-336489de47d7"></input>
                       <div className="row">
                         <div className="col-md-12">
                           <div className="input-box">
@@ -132,6 +133,7 @@ const TechnicalSupport = () => {
                           </div>
                         </div>
                       </div>
+                      <input type="hidden" name="redirect" value="http://can-am-new.vercel.app/submit"></input>
                       <div className="row">
                         <div className="col-md-12">
                           <button className="conatct-one" type="submit">

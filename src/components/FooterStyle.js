@@ -130,17 +130,21 @@ export const FooterStyle1 = () => (
                 we'll follow up with you soon:
               </p>
               <form
-                onSubmit={(e) => e.preventDefault()}
                 className="footer-widget__newsletter-form"
+                action="https://api.web3forms.com/submit" 
+                method="POST"
               >
+                <input type="hidden" name="access_key" value="8576f478-53ae-42cc-b97e-336489de47d7"></input>
                 <div className="footer-widget__newsletter-input-box">
                   <input
                     type="email"
                     placeholder="Email address"
                     name="email"
                     autoComplete="off"
+                    required
                   />
                 </div>
+                <input type="hidden" name="redirect" value="http://can-am-new.vercel.app/submit"></input>
                 <div className="newsletter__button">
                   <button type="submit" className="footer-btn">
                     <span className="thm-btn">
@@ -343,17 +347,20 @@ export const FooterStyle2 = () => (
                 we'll follow up with you soon:
               </p>
               <form
-                onSubmit={(e) => e.preventDefault()}
+                action="https://api.web3forms.com/submit" method="POST"
                 className="footer-widget__newsletter-form"
               >
+                <input type="hidden" name="access_key" value="8576f478-53ae-42cc-b97e-336489de47d7"></input>
                 <div className="footer-widget__newsletter-input-box">
                   <input
                     type="email"
                     placeholder="Email address"
                     name="email"
                     autoComplete="off"
+                    required
                   />
                 </div>
+                <input type="hidden" name="redirect" value="http://can-am-new.vercel.app/submit"></input>
                 <div className="newsletter__button">
                   <button type="submit" className="footer-btn">
                     <span className="thm-btn">

@@ -84,9 +84,10 @@ const BuyingOrSelling = () => {
                     </p>
                   </div>
                   <form
-                    onSubmit={(e) => e.preventDefault()}
+                    action="https://api.web3forms.com/submit" method="POST"
                     className="contact-page__form contact-form-validated"
                   >
+                    <input type="hidden" name="access_key" value="8576f478-53ae-42cc-b97e-336489de47d7"></input>
                     <div className="row">
                       <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12">
                         <div className="contact-page__input-box">
@@ -95,6 +96,7 @@ const BuyingOrSelling = () => {
                             placeholder="Your name"
                             name="name"
                             autoComplete="off"
+                            required
                           />
                         </div>
                       </div>
@@ -105,6 +107,7 @@ const BuyingOrSelling = () => {
                             placeholder="Phone number"
                             name="phone"
                             autoComplete="off"
+                            required
                           />
                         </div>
                       </div>
@@ -117,6 +120,7 @@ const BuyingOrSelling = () => {
                             placeholder="Email address"
                             name="email"
                             autoComplete="off"
+                            required
                           />
                         </div>
                       </div>
@@ -164,6 +168,7 @@ const BuyingOrSelling = () => {
                         </div>
                       </div>
                     </div>
+                    <input type="hidden" name="redirect" value="http://can-am-new.vercel.app/submit"></input>
                     <div className="row">
                       <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12">
                         <div className="contact-page__input-box">

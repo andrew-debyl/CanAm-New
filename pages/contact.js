@@ -1,22 +1,10 @@
-import { useState } from "react";
 import Layout from "../src/components/Layout";
 import PageBanner from "../src/components/PageBanner";
-import {
-  APIProvider,
-  Map,
-  AdvancedMarker,
-  InfoWindow,
-} from "@vis.gl/react-google-maps";
 import Head from "next/head";
 
 const Contact = () => {
-  const apiKey = process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY;
-  const [infoWindowVisible, setInfoWindowVisible] = useState(false);
-
-  const handleMarkerClick = () => {
-    setInfoWindowVisible(true);
-  };
-
+  //CHANGE TO ACTUALR URL
+  //ALSO CHANGE DOWN BELOW FOR FORM SUBMISSIONS
   function addContactJsonLd() {
     return {
       __html: JSON.stringify({
@@ -203,62 +191,73 @@ const Contact = () => {
                     </h2>
                   </div>
                   <form
-                    onSubmit={(e) => e.preventDefault()}
-                    className="contact-page__form contact-form-validated"
+                    className="contact-page__form"
+                    action="https://api.web3forms.com/submit"
+                    method="POST"
                   >
+                    <input
+                      type="hidden"
+                      name="access_key"
+                      value="8576f478-53ae-42cc-b97e-336489de47d7"
+                    />
                     <div className="row">
                       <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12">
-                        <div className="contact-page__input-box">
+                        <label className="contact-page__input-box">
                           <input
                             type="text"
                             placeholder="Your name"
                             name="name"
                             autoComplete="off"
+                            required
                           />
-                        </div>
+                        </label>
                       </div>
                       <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12">
-                        <div className="contact-page__input-box">
+                        <label className="contact-page__input-box">
                           <input
-                            type="text"
+                            type="tel"
                             placeholder="Phone number"
                             name="phone"
                             autoComplete="off"
+                            required
                           />
-                        </div>
+                        </label>
                       </div>
                     </div>
                     <div className="row">
                       <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12">
-                        <div className="contact-page__input-box">
+                        <label className="contact-page__input-box">
                           <input
                             type="email"
                             placeholder="Email address"
                             name="email"
                             autoComplete="off"
+                            required
                           />
-                        </div>
+                        </label>
                       </div>
                       <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12">
-                        <div className="contact-page__input-box">
+                        <label className="contact-page__input-box">
                           <input
-                            type="email"
+                            type="text"
                             placeholder="Company"
                             name="Company"
                             autoComplete="off"
+                            required
                           />
-                        </div>
+                        </label>
                       </div>
                     </div>
                     <div className="row">
                       <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12">
-                        <div className="contact-page__input-box">
+                        <label className="contact-page__input-box">
                           <textarea
                             name="message"
                             placeholder="Write message"
                             defaultValue={""}
                           />
-                        </div>
+                        </label>
+                        <input type="hidden" name="redirect" value="http://can-am-new.vercel.app/submit"></input>
                         <div className="contact-page__btn">
                           <button type="submit">
                             <span className="thm-btn">Send It Our Way</span>
