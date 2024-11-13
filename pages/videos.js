@@ -105,6 +105,7 @@ const Videos = () => {
                       <i className="fa fa-play" aria-hidden="true" />
                     </a>
                   </div>
+                  <h5 className="gallery-heading">Nuvera 157EA Test Run</h5>
                 </div>
               </div>
               <div
@@ -136,6 +137,7 @@ const Videos = () => {
                       <i className="fa fa-play" aria-hidden="true" />
                     </a>
                   </div>
+                  <h5 className="gallery-heading">Nuvera 314EA Test Run</h5>
                 </div>
               </div>
             </div>
