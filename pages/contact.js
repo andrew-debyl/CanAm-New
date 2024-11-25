@@ -3,7 +3,6 @@ import PageBanner from "../src/components/PageBanner";
 import Head from "next/head";
 
 const Contact = () => {
- 
   function addContactJsonLd() {
     return {
       __html: JSON.stringify({
