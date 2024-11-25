@@ -3,8 +3,7 @@ import PageBanner from "../src/components/PageBanner";
 import Head from "next/head";
 
 const Contact = () => {
-  //CHANGE TO ACTUALR URL
-  //ALSO CHANGE DOWN BELOW FOR FORM SUBMISSIONS
+ 
   function addContactJsonLd() {
     return {
       __html: JSON.stringify({
@@ -13,11 +12,11 @@ const Contact = () => {
         name: "Contact Us",
         description:
           "Get in touch with CanAm Imaging for professional support. Contact us via phone, email, or through the form below for all your imaging equipment needs.",
-        url: "https://can-am-new.vercel.app/contact",
+        url: "https://www.canamimaging.com/contact",
         mainEntity: {
           "@type": "Organization",
           name: "CanAm Imaging",
-          url: "https://can-am-new.vercel.app/",
+          url: "https://www.canamimaging.com/",
           contactPoint: {
             "@type": "ContactPoint",
             telephone: "+1-XXX-XXX-XXXX",
@@ -33,32 +32,36 @@ const Contact = () => {
               "@type": "ListItem",
               position: 1,
               name: "Home",
-              item: "https://can-am-new.vercel.app/",
+              item: "https://www.canamimaging.com/",
             },
             {
               "@type": "ListItem",
               position: 2,
               name: "Contact Us",
-              item: "https://can-am-new.vercel.app/contact",
+              item: "https://www.canamimaging.com/contact",
             },
           ],
         },
         potentialAction: {
           "@type": "Action",
           name: "Contact Us",
-          target: "https://can-am-new.vercel.app/contact",
+          target: "https://www.canamimaging.com/contact",
         },
       }),
     };
   }
-
+  
   return (
     <>
       <Head>
         <title>Contact Us</title>
         <meta
           name="description"
-          content="Get in touch with CanAm Imaging for professional support. Contact us via phone, email, or through the form below for all your imaging equipment needs."
+          content="Are you looking for print and copying equipment? CanAm is an authorized retailer of Xerox parts and supplies in Canada and the US. Contact us today."
+        />
+        <meta
+          name="keywords"
+          content="Xerox Equipment parts suplies canon kodak NexPress docutech docucolor docuPrint document center buying or selling leasing renting high volume printers and copiers buying high-volume equipment purchasing CanAm Imaging Inc Xerox Parts Xerox Service Value Reseller Reconditioned Equipments refurbished re used re-used previously owned lease rent buy sell company reconditioned Xerox equipment"
         />
         <script
           type="application/ld+json"
@@ -257,7 +260,7 @@ const Contact = () => {
                             defaultValue={""}
                           />
                         </label>
-                        <input type="hidden" name="redirect" value="http://can-am-new.vercel.app/submit"></input>
+                        <input type="hidden" name="redirect" value="https://www.canamimaging.com/submit"></input>
                         <div className="contact-page__btn">
                           <button type="submit">
                             <span className="thm-btn">Send It Our Way</span>

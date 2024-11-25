@@ -5,7 +5,7 @@ import Image from "next/image";
 import Head from "next/head";
 
 const Parts = () => {
-  //ADD ACTUAL LINKSSSSSSSSSSSSSSSSSSSSSSSSSSS
+  
   function addPartsJsonLd() {
     return {
       __html: JSON.stringify({
@@ -13,11 +13,11 @@ const Parts = () => {
         "@type": "WebPage",
         "name": "Parts",
         "description": "Explore CanAm Imaging's extensive range of genuine Xerox and Kodak Digimaster parts, available at competitive prices.",
-        "url": "https://can-am-new.vercel.app/parts",
+        "url": "https://www.canamimaging.com/parts",
         "mainEntity": {
           "@type": "Organization",
           "name": "CanAm Imaging",
-          "url": "https://can-am-new.vercel.app/"
+          "url": "https://www.canamimaging.com/"
         },
         "breadcrumb": {
           "@type": "BreadcrumbList",
@@ -26,13 +26,13 @@ const Parts = () => {
               "@type": "ListItem",
               "position": 1,
               "name": "Home",
-              "item": "https://can-am-new.vercel.app/"
+              "item": "https://www.canamimaging.com/"
             },
             {
               "@type": "ListItem",
               "position": 2,
               "name": "Parts",
-              "item": "https://can-am-new.vercel.app/parts"
+              "item": "https://www.canamimaging.com/parts"
             }
           ]
         }

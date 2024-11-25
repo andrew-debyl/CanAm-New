@@ -4,7 +4,7 @@ import PageBanner from "../src/components/PageBanner";
 import Head from "next/head";
 
 const Supplies = () => {
-  //ADD ACTUAL LINKSSSSSSSSSSSSSSSSSSSSSSSSSSS
+  
   function addSuppliesJsonLd() {
     return {
       __html: JSON.stringify({
@@ -12,11 +12,11 @@ const Supplies = () => {
         "@type": "WebPage",
         "name": "Supplies",
         "description": "Discover a wide range of print and copy supplies at CanAm Imaging. Quality products to meet all your printing needs.",
-        "url": "https://can-am-new.vercel.app/supplies",
+        "url": "https://www.canamimaging.com/supplies",
         "mainEntity": {
           "@type": "Organization",
           "name": "CanAm Imaging",
-          "url": "https://can-am-new.vercel.app/"
+          "url": "https://www.canamimaging.com/"
         },
         "breadcrumb": {
           "@type": "BreadcrumbList",
@@ -25,13 +25,13 @@ const Supplies = () => {
               "@type": "ListItem",
               "position": 1,
               "name": "Home",
-              "item": "https://can-am-new.vercel.app/"
+              "item": "https://www.canamimaging.com/"
             },
             {
               "@type": "ListItem",
               "position": 2,
               "name": "Supplies",
-              "item": "https://can-am-new.vercel.app/supplies"
+              "item": "https://www.canamimaging.com/supplies"
             }
           ]
         }

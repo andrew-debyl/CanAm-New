@@ -29,7 +29,6 @@ const Gallery = () => {
     setIsToggle(true);
   };
 
-  //ADD ACTUAL LINKSSSSSSSSSSSSSSSSSSSSSSSSSSS
   function addGalleryJsonLd() {
     return {
       __html: JSON.stringify({
@@ -37,11 +36,11 @@ const Gallery = () => {
       "@type": "WebPage",
       "name": "Gallery",
       "description": "Explore our gallery showcasing our equipment and supplies. Click on any image for a closer view.",
-      "url": "https://can-am-new.vercel.app/gallery",
+      "url": "https://www.canamimaging.com/gallery",
       "mainEntity": {
         "@type": "Organization",
         "name": "CanAm Imaging",
-        "url": "https://can-am-new.vercel.app/",
+        "url": "https://www.canamimaging.com/",
         "contactPoint": {
           "@type": "ContactPoint",
           "telephone": "+1-XXX-XXX-XXXX",
@@ -57,13 +56,13 @@ const Gallery = () => {
             "@type": "ListItem",
             "position": 1,
             "name": "Home",
-            "item": "https://can-am-new.vercel.app/"
+            "item": "https://www.canamimaging.com/"
           },
           {
             "@type": "ListItem",
             "position": 2,
             "name": "Gallery",
-            "item": "https://can-am-new.vercel.app/gallery"
+            "item": "https://www.canamimaging.com/gallery"
           }
         ]
       },

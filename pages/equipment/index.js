@@ -10,7 +10,6 @@ const Equipment = () => {
     import("bootstrap/dist/js/bootstrap.bundle.min.js");
   }, []);
 
-   //ADD ACTUAL LINKSSSSSSSSSSSSSSSSSSSSSSSSSSS
    function addEquiJsonLd() {
     return {
       __html: JSON.stringify({
@@ -18,11 +17,11 @@ const Equipment = () => {
         "@type": "WebPage",
         "name": "Equipment",
         "description": "Explore CanAm Imaging\'s top-quality reconditioned imaging equipment.",
-        "url": "https://can-am-new.vercel.app/equipment",
+        "url": "https://www.canamimaging.com/equipment",
         "mainEntity": {
           "@type": "Organization",
           "name": "CanAm Imaging",
-          "url": "https://can-am-new.vercel.app/"
+          "url": "https://www.canamimaging.com/"
         },
         "breadcrumb": {
           "@type": "BreadcrumbList",
@@ -31,13 +30,13 @@ const Equipment = () => {
               "@type": "ListItem",
               "position": 1,
               "name": "Home",
-              "item": "https://can-am-new.vercel.app/"
+              "item": "https://www.canamimaging.com/"
             },
             {
               "@type": "ListItem",
               "position": 2,
               "name": "Equipment",
-              "item": "https://can-am-new.vercel.app/equipment"
+              "item": "https://www.canamimaging.com/equipment"
             }
           ]
         }

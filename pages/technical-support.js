@@ -4,7 +4,7 @@ import PageBanner from "../src/components/PageBanner";
 import Head from "next/head";
 
 const TechnicalSupport = () => {
-  //ADD ACTUAL LINKSSSSSSSSSSSSSSSSSSSSSSSSSSS
+ 
   function addTechSupportJsonLd() {
     return {
       __html: JSON.stringify({
@@ -12,11 +12,11 @@ const TechnicalSupport = () => {
         "@type": "WebPage",
         "name": "Technical Support",
         "description": "Explore technical support services at CanAm Imaging, including troubleshooting, consulting, and prompt assistance from qualified technicians.",
-        "url": "https://can-am-new.vercel.app/technical-support",
+        "url": "https://www.canamimaging.com/technical-support",
         "mainEntity": {
           "@type": "Organization",
           "name": "CanAm Imaging",
-          "url": "https://can-am-new.vercel.app/",
+          "url": "https://www.canamimaging.com/",
           "contactPoint": {
             "@type": "ContactPoint",
             "telephone": "+1-XXX-XXX-XXXX",
@@ -29,7 +29,7 @@ const TechnicalSupport = () => {
           "@type": "ContactAction",
           "target": {
             "@type": "EntryPoint",
-            "urlTemplate": "https://can-am-new.vercel.app/contact",
+            "urlTemplate": "https://www.canamimaging.com/contact",
           },
           "name": "Contact Us"
         },
@@ -40,13 +40,13 @@ const TechnicalSupport = () => {
               "@type": "ListItem",
               "position": 1,
               "name": "Home",
-              "item": "https://can-am-new.vercel.app/"
+              "item": "https://www.canamimaging.com/"
             },
             {
               "@type": "ListItem",
               "position": 2,
               "name": "Technical Support",
-              "item": "https://can-am-new.vercel.app/technical-support"
+              "item": "https://www.canamimaging.com/technical-support"
             }
           ]
         }
@@ -115,7 +115,7 @@ const TechnicalSupport = () => {
                               type="email"
                               name="email"
                               placeholder="Email Address"
-                              autocomplete="email"
+                              autoComplete="email"
                               required
                             />
                           </div>
@@ -133,7 +133,7 @@ const TechnicalSupport = () => {
                           </div>
                         </div>
                       </div>
-                      <input type="hidden" name="redirect" value="http://can-am-new.vercel.app/submit"></input>
+                      <input type="hidden" name="redirect" value="https://www.canamimaging.com/submit"></input>
                       <div className="row">
                         <div className="col-md-12">
                           <button className="conatct-one" type="submit">

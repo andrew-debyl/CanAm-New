@@ -11,7 +11,7 @@ const Counter = dynamic(() => import("../src/components/Counter"), {
 });
 
 const About = () => {
-  //ADD ACTUAL LINKSSSSSSSSSSSSSSSSSSSSSSSSSSS
+  
   function addAboutJsonLd() {
     return {
       __html: JSON.stringify({
@@ -19,12 +19,12 @@ const About = () => {
         "@type": "WebPage",
         "name": "About Us",
         "description": "Learn about CanAm Imaging, your trusted partner in superior print and copy solutions, with over 65 years of experience in exceptional customer service and high-quality pre-owned equipment.",
-        "url": "https://can-am-new.vercel.app/about",
+        "url": "https://www.canamimaging.com/about",
         "mainEntity": {
           "@type": "Organization",
           "name": "CanAm Imaging",
-          "url": "https://can-am-new.vercel.app/",
-          "logo": "https://can-am-new.vercel.app/assets/images/resources/logo-2.png",
+          "url": "https://www.canamimaging.com/",
+          "logo": "https://www.canamimaging.com/assets/images/resources/logo-2.png",
           "contactPoint": {
             "@type": "ContactPoint",
             "telephone": "+1-XXX-XXX-XXXX",
@@ -40,13 +40,13 @@ const About = () => {
               "@type": "ListItem",
               "position": 1,
               "name": "Home",
-              "item": "https://can-am-new.vercel.app/"
+              "item": "https://www.canamimaging.com/"
             },
             {
               "@type": "ListItem",
               "position": 2,
               "name": "About Us",
-              "item": "https://can-am-new.vercel.app/about"
+              "item": "https://www.canamimaging.com/about"
             }
           ]
         }
@@ -59,7 +59,11 @@ const About = () => {
         <title>About Us</title>
         <meta
           name="description"
-          content="Learn about CanAm Imaging, your trusted partner in superior print and copy solutions, with over 65 years of experience in exceptional customer service and high-quality pre-owned equipment."
+          content="For over 30 years of being in the printing and copying industry, CanAm offers affordable solutions for your equipment needs. Read here for more details."
+        />
+        <meta
+          name="keywords"
+          content="imaging selling renting leasing xerox parts and equipment"
         />
         <script
           type="application/ld+json"

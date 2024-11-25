@@ -3,7 +3,7 @@ import Layout from "../src/components/Layout";
 import PageBanner from "../src/components/PageBanner";
 
 const BuyingOrSelling = () => {
-  //ADD ACTUAL LINKSSSSSSSSSSSSSSSSSSSSSSSSSSS
+  
   function addBuyOrSellJsonLd() {
     return {
       __html: JSON.stringify({
@@ -11,11 +11,11 @@ const BuyingOrSelling = () => {
         "@type": "WebPage",
         "name": "Buying or Selling",
         "description": "Looking to buy or sell imaging equipment, parts, or supplies? Contact CanAm Imaging today to connect with our expert consultants and explore your options.",
-        "url": "https://can-am-new.vercel.app/buying-or-selling",
+        "url": "https://www.canamimaging.com/buying-or-selling",
         "mainEntity": {
           "@type": "Organization",
           "name": "CanAm Imaging",
-          "url": "https://can-am-new.vercel.app/",
+          "url": "https://www.canamimaging.com/",
           "contactPoint": {
             "@type": "ContactPoint",
             "telephone": "+1-XXX-XXX-XXXX",
@@ -31,13 +31,13 @@ const BuyingOrSelling = () => {
               "@type": "ListItem",
               "position": 1,
               "name": "Home",
-              "item": "https://can-am-new.vercel.app/"
+              "item": "https://www.canamimaging.com/"
             },
             {
               "@type": "ListItem",
               "position": 2,
               "name": "Buying or Selling",
-              "item": "https://can-am-new.vercel.app/buying-or-selling"
+              "item": "https://www.canamimaging.com/buying-or-selling"
             }
           ]
         }
@@ -168,7 +168,7 @@ const BuyingOrSelling = () => {
                         </div>
                       </div>
                     </div>
-                    <input type="hidden" name="redirect" value="http://can-am-new.vercel.app/submit"></input>
+                    <input type="hidden" name="redirect" value="https://www.canamimaging.com/submit"></input>
                     <div className="row">
                       <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12">
                         <div className="contact-page__input-box">

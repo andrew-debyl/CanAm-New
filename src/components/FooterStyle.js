@@ -144,7 +144,7 @@ export const FooterStyle1 = () => (
                     required
                   />
                 </div>
-                <input type="hidden" name="redirect" value="http://can-am-new.vercel.app/submit"></input>
+                <input type="hidden" name="redirect" value="https://www.canamimaging.com/submit"></input>
                 <div className="newsletter__button">
                   <button type="submit" className="footer-btn">
                     <span className="thm-btn">
@@ -360,7 +360,7 @@ export const FooterStyle2 = () => (
                     required
                   />
                 </div>
-                <input type="hidden" name="redirect" value="http://can-am-new.vercel.app/submit"></input>
+                <input type="hidden" name="redirect" value="https://www.canamimaging.com/submit"></input>
                 <div className="newsletter__button">
                   <button type="submit" className="footer-btn">
                     <span className="thm-btn">

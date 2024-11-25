@@ -5,41 +5,41 @@ import Image from "next/image";
 import Head from "next/head";
 
 const Index = () => {
-  //ADD ACTUAL LINKSSSSSSSSSSSSSSSSSSSSSSSSSSS
   function addHomeJsonLd() {
     return {
       __html: JSON.stringify({
         "@context": "https://schema.org",
         "@type": "WebPage",
-        "name": "Home",
-        "description": "Discover CanAm Imaging's premium print and copy services, dedicated customer care, and extensive range of printing solutions.",
-        "url": "https://can-am-new.vercel.app/",
-        "mainEntity": {
+        name: "Home",
+        description:
+          "Discover CanAm Imaging's premium print and copy services, dedicated customer care, and extensive range of printing solutions.",
+        url: "https://www.canamimaging.com/",
+        mainEntity: {
           "@type": "Organization",
-          "name": "CanAm Imaging",
-          "url": "https://can-am-new.vercel.app/",
-          "logo": "https://can-am-new.vercel.app/assets/images/resources/logo-2.png",
-          "contactPoint": {
+          name: "CanAm Imaging",
+          url: "https://www.canamimaging.com/",
+          logo: "https://www.canamimaging.com/assets/images/resources/logo-2.png",
+          contactPoint: {
             "@type": "ContactPoint",
-            "telephone": "+1-XXX-XXX-XXXX",
-            "contactType": "Customer Service",
-            "areaServed": "US",
-            "availableLanguage": "English"
-          }
+            telephone: "+1-XXX-XXX-XXXX",
+            contactType: "Customer Service",
+            areaServed: "US",
+            availableLanguage: "English",
+          },
         },
-        "breadcrumb": {
+        breadcrumb: {
           "@type": "BreadcrumbList",
-          "itemListElement": [
+          itemListElement: [
             {
               "@type": "ListItem",
-              "position": 1,
-              "name": "Home",
-              "item": "https://can-am-new.vercel.app/"
-            }
-          ]
-        }
-      })
-    }
+              position: 1,
+              name: "Home",
+              item: "https://www.canamimaging.com/",
+            },
+          ],
+        },
+      }),
+    };
   }
   return (
     <>
@@ -47,7 +47,11 @@ const Index = () => {
         <title>Home</title>
         <meta
           name="description"
-          content="Discover CanAm Imaging's premium print and copy services, dedicated customer care, and extensive range of printing solutions."
+          content="Are you looking for Xerox printing supplies? We are always looking for ways to help you operate more efficiently while earning greater profits. Call us now."
+        />
+        <meta
+          name="keywords"
+          content="Xerox Equipment parts suplies canon kodak NexPress docutech docucolor docuPrint document center buying or selling leasing renting high volume printers and copiers buying high-volume equipment purchasing CanAm Imaging Inc Xerox Parts Xerox Service Value Reseller Reconditioned Equipments refurbished re used re-used previously owned lease rent buy sell, company reconditioned Xerox equipment"
         />
         <script
           type="application/ld+json"
@@ -62,7 +66,10 @@ const Index = () => {
             data-wow-delay="500ms"
             data-wow-duration="3500ms"
           >
-            <img src="assets/images/shapes/banner-shape-1.png" alt="shape for background" />
+            <img
+              src="assets/images/shapes/banner-shape-1.png"
+              alt="shape for background"
+            />
           </div>
           <div className="container">
             <div className="row">

@@ -29,7 +29,6 @@ const ProductDetails = () => {
 
   const productData = getProductData(category, id);
 
-  //ADD ACTUAL LINKSSSSSSSSSSSSSSSSSSSSSSSSSSS
   function addEquiPeiceJsonLd(product) {
     return {
       __html: JSON.stringify({
@@ -47,7 +46,7 @@ const ProductDetails = () => {
           "@type": "Offer",
           "price": "0.00",
           "priceCurrency": "CAD",
-          "url": `https://can-am-new.vercel.app/equipment/${product.name}/${product.id}`
+          "url": `https://www.canamimaging.com/equipment/${product.name}/${product.id}`
         },
         "additionalType": "https://schema.org/Thing"
       })
