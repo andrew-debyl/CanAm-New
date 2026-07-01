@@ -88,8 +88,8 @@ const Contact = () => {
                     </h2>
                     <p>
                       <b>United States:</b> <br />
-                      50 Greenleaf Street <br />
-                      Rochester, New York 14609
+                      252 David Parkway, Suite 3<br />
+                      Ontario, New York 14519
                     </p>
                     <p className="contact-alining">
                       <b>Canada:</b> <br />
